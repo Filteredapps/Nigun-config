@@ -1,0 +1,48 @@
+name: Validate and refresh config
+on:
+  pull_request:
+  push:
+    branches: [main]
+    paths:
+      - allowed_artists.txt
+      - blocked_songs.txt
+      - artist_sources.json
+      - scripts/**
+      - tests/**
+      - requirements.txt
+      - .github/workflows/**
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: validate-config-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - name: Run feed regression tests
+        run: python -m unittest discover -s tests -v
+      - name: Validate lists and reconcile existing feed
+        run: |
+          python scripts/validate_config.py --reconcile
+          python scripts/validate_config.py
+      - name: Publish policy changes without waiting for external metadata
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add home_feed.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Apply current artist and song policy to home feed"
+          git push origin HEAD:main

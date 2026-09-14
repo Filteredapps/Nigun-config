@@ -2373,5 +2373,37 @@
       "The musicians' orchestra"
     ],
     "homeFeedEnabled": true
+  },
+  "UC0x-EPyzVsBm5hZiQDzM6QQ": {
+    "name": "איציק אורלב",
+    "aliases": [
+      "איציק אורלב",
+      "Itzik Orlev"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCuUcHnYY30pDCJ-wNjw20gA": {
+    "name": "איציק דדיה",
+    "aliases": [
+      "איציק דדיה",
+      "Itzik Dadia"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCz4N_ARAr1VxGzXq_Xj850g": {
+    "name": "חנן בן ארי",
+    "aliases": [
+      "חנן בן ארי",
+      "Hanan ben Ari"
+    ],
+    "homeFeedEnabled": true
+  },
+  "UCvxMTtMQVlyNJp75vhs2gVQ": {
+    "name": "קינדרלעך",
+    "aliases": [
+      "קינדרלעך",
+      "Kinderlach"
+    ],
+    "homeFeedEnabled": true
   }
 }

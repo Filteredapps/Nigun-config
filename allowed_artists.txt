@@ -62,7 +62,7 @@ Yossi Zucker | UCqkX8m2FUgEOH3H9Yxt1kww | hasidic
 איציק אורלב | UC0x-EPyzVsBm5hZiQDzM6QQ | mizrahi, pop
 איציק דדיה | UCuUcHnYY30pDCJ-wNjw20gA | pop, hasidic
 איציק וינגרטן | UCT3Ujz3093G2VRxAZBHR-lA | hasidic, pop
-איתי דוד | ECEI135WOJxuWV_IbPmDiFug | pop, mizrahi
+איתי דוד | UCEI135WOJxuWV_IbPmDiFug | pop, mizrahi
 איתן כץ | UCNBG7G28lqHgX8UGYraRrGw | hasidic
 אלחנן אלחדד | UCue8u4IxRpP9t_Gen4xvGCw | hasidic
 אלחנן ענבל | UCw4uDtNqzKpA_FyBnbgAQhw | alternative, israeli
@@ -194,7 +194,7 @@ Yossi Zucker | UCqkX8m2FUgEOH3H9Yxt1kww | hasidic
 מיילך ברונשטיין | UCj4nW4uQaMBECEBlaY21DYg | hasidic
 מיילך קאהן | UCtEK38jzXAUObe-5H8isljg | alternative, hasidic
 מיכאל אזולאי | UCIAlAMfuK1KBV7eVofe2tjA | mizrahi
-מיכאל שטרייכר | Cl80Gv3npsInBbatoVaZgTQ | hasidic
+מיכאל שטרייכר | UCl80Gv3npsInBbatoVaZgTQ | hasidic
 מיכאל שניצלר | UCHJtEeISU1FYdFGYCpQzbeg | hasidic
 מיכה גמרמן | UCXcPRe9sZYhE9dqxMnl-0fw | pop, hasidic
 מנדי ג'רופי | UCT-mEPzcpu9NA3_lcwbHq0A | hasidic
