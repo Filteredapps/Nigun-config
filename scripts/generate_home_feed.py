@@ -69,7 +69,7 @@ ENABLE_YOUTUBE_DRILLDOWN_FOR_VIDEO_ID = os.getenv(
 REFRESH_ITUNES_CACHE = os.getenv("REFRESH_ITUNES_CACHE", "false").strip().lower() == "true"
 REFRESH_YOUTUBE_CACHE = os.getenv("REFRESH_YOUTUBE_CACHE", "false").strip().lower() == "true"
 
-CHANNEL_ID_RE = re.compile(r"(UC[0-9A-Za-z_-]{20,})")
+CHANNEL_ID_RE = re.compile(r"(?<![0-9A-Za-z_-])(UC[0-9A-Za-z_-]{22})(?![0-9A-Za-z_-])")
 
 
 GENRE_TITLES = {
@@ -699,8 +699,7 @@ def parse_allowed_artists() -> list[dict[str, Any]]:
                 match = CHANNEL_ID_RE.search(line)
 
             if not match:
-                print(f"Skipping line {line_number}: missing YouTube channel id")
-                continue
+                raise ValueError(f"Invalid YouTube channel ID on line {line_number}")
 
             channel_id = match.group(1)
             if not name:
@@ -717,8 +716,7 @@ def parse_allowed_artists() -> list[dict[str, Any]]:
 
         match = CHANNEL_ID_RE.search(line)
         if not match:
-            print(f"Skipping line {line_number}: missing YouTube channel id")
-            continue
+            raise ValueError(f"Invalid YouTube channel ID on line {line_number}")
 
         channel_id = match.group(1)
         name = line[: match.start()].strip(" \t|-:,") or channel_id
@@ -737,6 +735,8 @@ def parse_allowed_artists() -> list[dict[str, Any]]:
     for artist in artists:
         unique[artist["channelId"]] = artist
 
+    if not unique:
+        raise ValueError("The allowed artist list is empty")
     return list(unique.values())
 
 def load_json_file(path: Path, default: Any) -> Any:
@@ -752,8 +752,9 @@ def load_json_file(path: Path, default: Any) -> Any:
 
 def write_json_file(path: Path, data: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
-
+    temporary = path.with_suffix(path.suffix + ".tmp")
+    temporary.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    temporary.replace(path)
 
 def load_artist_sources() -> dict[str, Any]:
     data = load_json_file(ARTIST_SOURCES_FILE, {})
@@ -971,8 +972,8 @@ def first_youtube_track_video_id(
 
     if not REFRESH_YOUTUBE_CACHE and browse_id in youtube_album_cache:
         cached = youtube_album_cache.get(browse_id)
-        if isinstance(cached, dict):
-            return cached.get("firstVideoId")
+        if isinstance(cached, dict) and re.fullmatch(r"[A-Za-z0-9_-]{11}", str(cached.get("firstVideoId") or "")):
+            return cached["firstVideoId"]
 
     try:
         album_details = ytmusic.get_album(browse_id)
@@ -984,10 +985,11 @@ def first_youtube_track_video_id(
                 video_id = track["videoId"]
                 break
 
-        youtube_album_cache[browse_id] = {
-            "firstVideoId": video_id,
-            "updatedAt": utc_now_iso(),
-        }
+        if video_id and re.fullmatch(r"[A-Za-z0-9_-]{11}", str(video_id)):
+            youtube_album_cache[browse_id] = {
+                "firstVideoId": video_id,
+                "updatedAt": utc_now_iso(),
+            }
 
         report["youtubeAlbumDrilldownReads"] += 1
         sleep_youtube()
@@ -1026,7 +1028,15 @@ def itunes_request(
     url = "https://itunes.apple.com/search"
 
     for attempt in range(ITUNES_MAX_RETRIES + 1):
-        response = requests.get(url, params=params, timeout=30)
+        try:
+            response = requests.get(url, params=params, timeout=30)
+        except requests.RequestException as exc:
+            if attempt < ITUNES_MAX_RETRIES:
+                time.sleep(2 * (attempt + 1))
+                continue
+            report["itunesRequestErrors"] += 1
+            report["warnings"].append({"type": "itunes_network_failed", "message": str(exc)[:200]})
+            return None
 
         if response.status_code == 429:
             report["itunes429Count"] += 1
@@ -1054,7 +1064,12 @@ def itunes_request(
             return None
 
         sleep_itunes()
-        return response.json()
+        try:
+            data = response.json()
+            return data if isinstance(data, dict) else None
+        except ValueError:
+            report["itunesRequestErrors"] += 1
+            return None
 
     report["itunesRequestErrors"] += 1
     return None
@@ -1068,57 +1083,52 @@ def search_itunes_by_artist_and_title(
     report: dict[str, Any],
 ) -> list[dict[str, Any]]:
     key = cache_key_for_search(aliases, title, expected_type)
-
-    if not REFRESH_ITUNES_CACHE and key in itunes_lookup_cache:
-        cached = itunes_lookup_cache.get(key)
-        report["itunesCacheHits"] += 1
-        return cached if isinstance(cached, list) else []
-
-    if MAX_ITUNES_LOOKUPS_TOTAL > 0 and report["itunesNetworkReads"] >= MAX_ITUNES_LOOKUPS_TOTAL:
-        report["itunesLookupsSkippedByLimit"] += 1
-        return []
+    cached = itunes_lookup_cache.get(key)
+    now = time.time()
+    # Useful legacy entries are migrated; old empty lists may represent outages.
+    if isinstance(cached, list) and cached:
+        cached = {"results": cached, "expiresAt": now + 7 * 86400}
+        itunes_lookup_cache[key] = cached
+    if not REFRESH_ITUNES_CACHE and isinstance(cached, dict) and cached.get("expiresAt", 0) > now:
+        results = cached.get("results")
+        if isinstance(results, list):
+            report["itunesCacheHits"] += 1
+            return results
 
     entity = "album" if expected_type == "ALBUM" else "song,album"
     all_candidates: list[dict[str, Any]] = []
-
-    search_aliases = aliases[:MAX_SEARCH_ALIASES_PER_ITEM]
-
-    for alias in search_aliases:
+    complete = True
+    for alias in aliases[:MAX_SEARCH_ALIASES_PER_ITEM]:
         if MAX_ITUNES_LOOKUPS_TOTAL > 0 and report["itunesNetworkReads"] >= MAX_ITUNES_LOOKUPS_TOTAL:
             report["itunesLookupsSkippedByLimit"] += 1
+            complete = False
             break
-
-        term = f"{alias} {title}".strip()
-
         data = itunes_request(
-            params={
-                "term": term,
-                "media": "music",
-                "entity": entity,
-                "country": ITUNES_COUNTRY,
-                "limit": "10",
-            },
+            params={"term": f"{alias} {title}".strip(), "media": "music", "entity": entity,
+                    "country": ITUNES_COUNTRY, "limit": "10"},
             report=report,
         )
         report["itunesNetworkReads"] += 1
-
-        if not data:
+        if not isinstance(data, dict) or not isinstance(data.get("results"), list):
+            complete = False
             continue
-
-        results = data.get("results") or []
-        if isinstance(results, list):
-            all_candidates.extend(results)
+        all_candidates.extend(item for item in data["results"] if isinstance(item, dict))
+        best, score, _ = select_best_itunes_candidate(title, aliases, expected_type, all_candidates)
+        if best and score >= 90:
+            break
 
     unique: dict[str, dict[str, Any]] = {}
     for candidate in all_candidates:
-        candidate_id = candidate.get("collectionId") or candidate.get("trackId")
+        candidate_id = candidate.get("trackId") or candidate.get("collectionId")
         if candidate_id:
-            unique[str(candidate_id)] = candidate
-
+            unique[f"{candidate.get('wrapperType')}:{candidate_id}"] = candidate
     candidates = list(unique.values())
-    itunes_lookup_cache[key] = candidates
+    if complete:
+        itunes_lookup_cache[key] = {
+            "results": candidates,
+            "expiresAt": now + (7 * 86400 if candidates else 6 * 3600),
+        }
     return candidates
-
 
 def select_best_itunes_candidate(
     title: str,
@@ -1167,7 +1177,8 @@ def build_feed_item(
         report["itemsSkippedMissingItunesReleaseDate"] += 1
         return None
 
-    if parse_iso_date(release_date) < cutoff_date():
+    parsed_date = parse_iso_date(release_date)
+    if not parsed_date or parsed_date < cutoff_date() or parsed_date > today_utc():
         report["itemsSkippedOldRelease"] += 1
         return None
 
@@ -1188,6 +1199,10 @@ def build_feed_item(
             youtube_album_cache=youtube_album_cache,
             report=report,
         )
+
+    if item_type == "SINGLE" and not re.fullmatch(r"[A-Za-z0-9_-]{11}", str(video_id or "")):
+        report["itemsSkippedMissingVideoId"] = report.get("itemsSkippedMissingVideoId", 0) + 1
+        return None
 
     return {
         "type": item_type,
@@ -1490,14 +1505,16 @@ def initial_report(allowed_artists_count: int) -> dict[str, Any]:
 
 def parse_blocked_song_ids() -> set[str]:
     if not BLOCKED_SONGS_FILE.exists():
-        return set()
+        raise FileNotFoundError("Missing blocked_songs.txt")
     ids: set[str] = set()
-    for raw_line in BLOCKED_SONGS_FILE.read_text(encoding="utf-8").splitlines():
+    for number, raw_line in enumerate(BLOCKED_SONGS_FILE.read_text(encoding="utf-8").splitlines(), 1):
         value = raw_line.split("#", 1)[0].strip()
-        if re.fullmatch(r"[A-Za-z0-9_-]{11}", value):
-            ids.add(value)
+        if not value or value.startswith("//"):
+            continue
+        if not re.fullmatch(r"[A-Za-z0-9_-]{11}", value):
+            raise ValueError(f"Invalid video ID in blocked_songs.txt line {number}")
+        ids.add(value)
     return ids
-
 
 def item_video_id(item: dict[str, Any]) -> str:
     for key in ("youtubeVideoId", "videoId", "youtubeId", "id"):
@@ -1505,6 +1522,80 @@ def item_video_id(item: dict[str, Any]) -> str:
         if isinstance(value, str) and value:
             return value
     return ""
+
+
+def reconcile_feed(feed: dict[str, Any], artists: list[dict[str, Any]], blocked: set[str]) -> dict[str, Any]:
+    """Reapply the current policy without network calls or loss of valid cached releases."""
+    if not isinstance(feed, dict):
+        raise ValueError("home_feed.json must contain an object")
+    result = dict(feed)
+    allowed = {artist["channelId"]: artist for artist in artists}
+
+    def channel(item: dict[str, Any]) -> str:
+        return str(item.get("artistChannelId") or item.get("channelId") or "")
+
+    def playable(item: dict[str, Any]) -> bool:
+        video = item_video_id(item)
+        return bool(re.fullmatch(r"[A-Za-z0-9_-]{11}", video)) and video not in blocked
+
+    releases = []
+    seen = set()
+    for item in feed.get("items", []):
+        if not isinstance(item, dict) or channel(item) not in allowed:
+            continue
+        released = parse_iso_date(item.get("releaseDate"))
+        if not released or not cutoff_date() <= released <= today_utc():
+            continue
+        item_type = str(item.get("type", "")).upper()
+        if item_type in {"SINGLE", "SONG"}:
+            if not playable(item):
+                continue
+            key = ("SONG", item_video_id(item))
+        elif item_type == "ALBUM":
+            browse = item.get("youtubeBrowseId") or item.get("youtubeId")
+            if not isinstance(browse, str) or not browse.startswith("MPRE"):
+                continue
+            key = ("ALBUM", browse)
+        else:
+            continue
+        if key not in seen:
+            releases.append(item)
+            seen.add(key)
+    result["items"] = sort_items(releases)
+    result["popularSongs"] = dedupe_popular_songs([
+        item for item in feed.get("popularSongs", [])
+        if isinstance(item, dict) and channel(item) in allowed and playable(item)
+    ])
+    result["popularArtists"] = dedupe_popular_artists([
+        item for item in feed.get("popularArtists", [])
+        if isinstance(item, dict) and channel(item) in allowed
+    ])
+
+    # Rebuild membership from the current genre definitions, preserving available images.
+    thumbnails = {}
+    for shelf in feed.get("artistGenreShelves", []):
+        for item in shelf.get("artists", []):
+            thumbnails[channel(item)] = item.get("thumbnailUrl")
+    for item in result["popularArtists"]:
+        thumbnails[channel(item)] = item.get("thumbnailUrl")
+    genre_items = [
+        {"name": artist["name"], "channelId": artist["channelId"],
+         "genres": artist.get("genres", []), "thumbnailUrl": thumbnails.get(artist["channelId"])}
+        for artist in artists
+    ]
+    result["artistGenreShelves"] = build_artist_genre_shelves(genre_items)
+    result.update({
+        "allowedArtistsCount": len(artists),
+        "blockedSongsCount": len(blocked),
+        "itemsCount": len(result["items"]),
+        "albumsCount": sum(item["type"] == "ALBUM" for item in result["items"]),
+        "singlesCount": sum(item["type"] in {"SINGLE", "SONG"} for item in result["items"]),
+        "popularArtistsCount": len(result["popularArtists"]),
+        "popularSongsCount": len(result["popularSongs"]),
+        "artistGenreShelvesCount": len(result["artistGenreShelves"]),
+        "artistGenreArtistsCount": sum(len(shelf["artists"]) for shelf in result["artistGenreShelves"]),
+    })
+    return result
 
 
 def main() -> None:
@@ -1535,6 +1626,13 @@ def main() -> None:
     popular_artist_items: list[dict[str, Any]] = []
     popular_song_items: list[dict[str, Any]] = []
     artist_genre_items: list[dict[str, Any]] = []
+
+    previous_feed = load_json_file(OUTPUT_FILE, {})
+    previous_report = load_json_file(REPORT_FILE, {})
+    offset = int(previous_report.get("nextArtistOffset", 0)) % len(artists)
+    artists = artists[offset:] + artists[:offset]
+    report["nextArtistOffset"] = (offset + max(1, len(artists) // 7)) % len(artists)
+    pending_releases = []
 
     for index, artist in enumerate(artists, start=1):
         config = artist_config(artist, sources)
@@ -1590,60 +1688,87 @@ def main() -> None:
             report=report,
         )
 
-        for youtube_item in youtube_items:
-            if not ENABLE_NAME_MATCH:
-                continue
+        pending_releases.append((artist, config, artist_data, youtube_items))
 
-            title = youtube_item["title"]
-            expected_type = youtube_item["expectedType"]
+    max_releases = max((len(entry[3]) for entry in pending_releases), default=0)
+    release_work = [
+        (artist, config, artist_data, items[index])
+        for index in range(max_releases)
+        for artist, config, artist_data, items in pending_releases
+        if index < len(items)
+    ]
+    for artist, config, artist_data, youtube_item in release_work:
+        aliases = config["aliases"]
+        if not ENABLE_NAME_MATCH:
+            continue
 
-            candidates = search_itunes_by_artist_and_title(
-                aliases=aliases,
-                title=title,
-                expected_type=expected_type,
-                itunes_lookup_cache=itunes_lookup_cache,
-                report=report,
+        title = youtube_item["title"]
+        expected_type = youtube_item["expectedType"]
+
+        candidates = search_itunes_by_artist_and_title(
+            aliases=aliases,
+            title=title,
+            expected_type=expected_type,
+            itunes_lookup_cache=itunes_lookup_cache,
+            report=report,
+        )
+
+        if not candidates:
+            report["itemsSkippedNoItunesCandidate"] += 1
+            continue
+
+        itunes_candidate, match_score, match_details = select_best_itunes_candidate(
+            title=title,
+            artist_aliases=aliases,
+            expected_type=expected_type,
+            candidates=candidates,
+        )
+
+        if not itunes_candidate:
+            report["itemsSkippedWeakItunesCandidate"] += 1
+            report["weakMatches"].append(
+                {
+                    "artistName": artist["name"],
+                    "artistChannelId": artist["channelId"],
+                    "aliasesUsed": aliases[:MAX_SEARCH_ALIASES_PER_ITEM],
+                    "title": title,
+                    "expectedType": expected_type,
+                    "bestScore": match_score,
+                    "details": match_details,
+                }
             )
+            continue
 
-            if not candidates:
-                report["itemsSkippedNoItunesCandidate"] += 1
-                continue
+        feed_item = build_feed_item(
+            artist=artist,
+            youtube_item=youtube_item,
+            itunes_candidate=itunes_candidate,
+            match_score=match_score,
+            ytmusic=ytmusic,
+            youtube_album_cache=youtube_album_cache,
+            report=report,
+            youtube_artist_name=youtube_artist_display_name(artist, artist_data),
+        )
 
-            itunes_candidate, match_score, match_details = select_best_itunes_candidate(
-                title=title,
-                artist_aliases=aliases,
-                expected_type=expected_type,
-                candidates=candidates,
-            )
+        if feed_item:
+            feed_items.append(feed_item)
 
-            if not itunes_candidate:
-                report["itemsSkippedWeakItunesCandidate"] += 1
-                report["weakMatches"].append(
-                    {
-                        "artistName": artist["name"],
-                        "artistChannelId": artist["channelId"],
-                        "aliasesUsed": aliases[:MAX_SEARCH_ALIASES_PER_ITEM],
-                        "title": title,
-                        "expectedType": expected_type,
-                        "bestScore": match_score,
-                        "details": match_details,
-                    }
-                )
-                continue
 
-            feed_item = build_feed_item(
-                artist=artist,
-                youtube_item=youtube_item,
-                itunes_candidate=itunes_candidate,
-                match_score=match_score,
-                ytmusic=ytmusic,
-                youtube_album_cache=youtube_album_cache,
-                report=report,
-                youtube_artist_name=youtube_artist_display_name(artist, artist_data),
-            )
+    if not pending_releases and any(artist_config(a, sources)["homeFeedEnabled"] for a in artists):
+        report["completedAt"] = utc_now_iso()
+        write_json_file(REPORT_FILE, report)
+        raise RuntimeError("No artist data was available; the last valid feed was preserved")
 
-            if feed_item:
-                feed_items.append(feed_item)
+    active_artists = [dict(a, genres=artist_config(a, sources)["genres"]) for a in artists if artist_config(a, sources)["homeFeedEnabled"]]
+    previous_feed = reconcile_feed(previous_feed, active_artists, blocked_song_ids)
+    previous_items = previous_feed.get("items", [])
+    new_keys = {item.get("youtubeBrowseId") for item in feed_items}
+    retained_items = [item for item in previous_items if item.get("youtubeBrowseId") not in new_keys]
+    report["itemsRetainedFromPreviousFeed"] = len(retained_items)
+    feed_items.extend(retained_items)
+    successful_ids = {artist["channelId"] for artist, _, _, _ in pending_releases}
+    popular_artist_items.extend(item for item in previous_feed.get("popularArtists", []) if item.get("channelId") not in successful_ids)
+    popular_song_items.extend(item for item in previous_feed.get("popularSongs", []) if item.get("artistChannelId") not in successful_ids)
 
     report["itemsGeneratedBeforeDedupe"] = len(feed_items)
     feed_items = sort_items(dedupe_items(feed_items))
@@ -1686,6 +1811,7 @@ def main() -> None:
         "artistGenreShelves": artist_genre_shelves,
     }
 
+    feed = reconcile_feed(feed, active_artists, blocked_song_ids)
     write_json_file(OUTPUT_FILE, feed)
     write_json_file(REPORT_FILE, report)
     write_json_file(ITUNES_LOOKUP_CACHE_FILE, itunes_lookup_cache)

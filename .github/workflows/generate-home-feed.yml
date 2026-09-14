@@ -126,6 +126,7 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 150
 
     env:
       ITUNES_COUNTRY: ${{ github.event.inputs.itunes_country || 'IL' }}
@@ -165,13 +166,26 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Validate input and run regression tests
+        run: |
+          python -m unittest discover -s tests -v
+          python scripts/validate_config.py --reconcile
       - name: Generate home_feed.json
         run: python scripts/generate_home_feed.py
 
+      - name: Validate generated feed
+        run: python scripts/validate_config.py
       - name: Commit updated feed
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
+
+          # Reject results computed with inputs that changed during this long job.
+          git fetch origin main
+          if ! git diff --quiet HEAD origin/main -- allowed_artists.txt blocked_songs.txt artist_sources.json scripts requirements.txt; then
+            echo "::error::Config changed during generation. Preserving the newer remote data."
+            exit 1
+          fi
 
           git add home_feed.json home_feed_report.json cache/itunes_lookup_cache.json cache/youtube_album_details_cache.json
 
