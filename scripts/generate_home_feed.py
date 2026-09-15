@@ -9,6 +9,7 @@ from typing import Any
 
 import requests
 from ytmusicapi import YTMusic
+from counts import parse_count
 
 try:
     from rapidfuzz import fuzz
@@ -205,34 +206,6 @@ def split_clean_words(text: str | None) -> list[str]:
     return [word.strip() for word in cleaned.split() if word.strip()]
 
 
-def parse_count(value: Any) -> int:
-    if value is None:
-        return 0
-
-    if isinstance(value, int):
-        return max(value, 0)
-
-    if isinstance(value, float):
-        return max(int(value), 0)
-
-    text = str(value).strip().lower()
-    if not text:
-        return 0
-
-    multiplier = 1
-    if re.search(r"\b(k|thousand)\b", text):
-        multiplier = 1_000
-    elif re.search(r"\b(m|million)\b", text):
-        multiplier = 1_000_000
-    elif re.search(r"\b(b|billion)\b", text):
-        multiplier = 1_000_000_000
-
-    match = re.search(r"(\d+(?:[.,]\d+)?)", text.replace(",", "."))
-    if not match:
-        digits = re.sub(r"\D+", "", text)
-        return int(digits) if digits else 0
-
-    return int(float(match.group(1)) * multiplier)
 
 
 def best_thumbnail_url(value: Any) -> str | None:
@@ -277,20 +250,40 @@ def youtube_artist_display_name(artist: dict[str, Any], artist_data: dict[str, A
     return str(data.get("name") or data.get("artist") or artist.get("youtubeName") or "").strip()
 
 def extract_artist_stats_text(artist_data: dict[str, Any]) -> str | None:
-    candidates = [
-        artist_data.get("subscribers"),
-        artist_data.get("views"),
-        artist_data.get("monthlyListeners"),
-        artist_data.get("monthlyListenerCount"),
-        artist_data.get("monthlyListenersText"),
-        artist_data.get("description"),
-    ]
-
-    for candidate in candidates:
-        if isinstance(candidate, str) and parse_count(candidate) > 0:
-            return candidate
-
+    for key in ("subscribers", "subscriberCountText", "subscriberCount"):
+        value = artist_data.get(key)
+        if isinstance(value, (str, int, float)) and not isinstance(value, bool):
+            text = str(value).strip()
+            if re.search(r"[0-9]", text):
+                return text
     return None
+
+
+def subscriber_fields(artist_data: dict[str, Any]) -> dict[str, Any]:
+    text = extract_artist_stats_text(artist_data)
+    count = parse_count(text) if text is not None else None
+    return {
+        "subscriberCount": count, "subscriberCountText": text,
+        # Keep existing Nigun 1.0 clients compatible with the corrected metric.
+        "monthlyListeners": count, "monthlyListenersText": text,
+    }
+
+
+def subscriber_count(item: dict[str, Any]) -> int:
+    if item.get("subscriberCount") is not None:
+        return parse_count(item["subscriberCount"])
+    text = item.get("subscriberCountText") or item.get("monthlyListenersText")
+    return parse_count(text if text else item.get("monthlyListeners"))
+
+
+def normalize_subscriber_fields(item: dict[str, Any]) -> dict[str, Any]:
+    result = dict(item)
+    text = item.get("subscriberCountText") or item.get("monthlyListenersText")
+    if text or item.get("subscriberCount") is not None or item.get("monthlyListeners") is not None:
+        count = subscriber_count(item)
+        result.update(subscriberCount=count, subscriberCountText=text,
+                      monthlyListeners=count, monthlyListenersText=text)
+    return result
 
 
 def add_likely_latin_vowels(value: str) -> list[str]:
@@ -1235,17 +1228,13 @@ def build_feed_item(
 
 
 def build_popular_artist_item(artist: dict[str, str], artist_data: dict[str, Any]) -> dict[str, Any]:
-    stats_text = extract_artist_stats_text(artist_data)
-    monthly_listeners = parse_count(stats_text)
-
     return {
         "name": youtube_artist_display_name(artist, artist_data),
         "youtubeName": youtube_artist_display_name(artist, artist_data),
         "originalName": youtube_artist_display_name(artist, artist_data),
         "channelId": artist["channelId"],
         "thumbnailUrl": best_thumbnail_url(artist_data.get("thumbnails")),
-        "monthlyListenersText": stats_text,
-        "monthlyListeners": monthly_listeners,
+        **subscriber_fields(artist_data),
         "source": "youtube_music_artist_page",
     }
 
@@ -1317,6 +1306,7 @@ def build_artist_genre_item(
         "channelId": artist["channelId"],
         "thumbnailUrl": best_thumbnail_url(artist_data.get("thumbnails")),
         "genres": genres,
+        **subscriber_fields(artist_data),
         "source": "allowed_artists_genres",
     }
 
@@ -1335,14 +1325,15 @@ def build_artist_genre_shelves(items: list[dict[str, Any]]) -> list[dict[str, An
             if not channel_id or channel_id in unique_artists:
                 continue
 
-            unique_artists[channel_id] = {
+            unique_artists[channel_id] = normalize_subscriber_fields({
+                **{key: item[key] for key in ("subscriberCount", "subscriberCountText", "monthlyListeners", "monthlyListenersText") if key in item},
                 "name": item.get("name") or channel_id,
                 "channelId": channel_id,
                 "thumbnailUrl": item.get("thumbnailUrl"),
                 "source": item.get("source") or "allowed_artists_genres",
-            }
+            })
 
-        artists = list(unique_artists.values())
+        artists = sorted(unique_artists.values(), key=lambda item: (-subscriber_count(item), item.get("name", ""), item["channelId"]))
         if not artists:
             continue
 
@@ -1383,25 +1374,17 @@ def dedupe_items(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
 def dedupe_popular_artists(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
     unique: dict[str, dict[str, Any]] = {}
-
-    for item in items:
+    for raw_item in items:
+        item = normalize_subscriber_fields(raw_item)
         channel_id = item.get("channelId")
         if not channel_id:
             continue
-
         existing = unique.get(channel_id)
-        if not existing or item.get("monthlyListeners", 0) > existing.get("monthlyListeners", 0):
+        if not existing or subscriber_count(item) > subscriber_count(existing):
             unique[channel_id] = item
-
-    return sorted(
-        unique.values(),
-        key=lambda item: (
-            item.get("monthlyListeners", 0),
-            item.get("name", ""),
-        ),
-        reverse=True,
-    )[:MAX_POPULAR_ARTISTS]
-
+    return sorted(unique.values(), key=lambda item: (
+        -subscriber_count(item), item.get("name", ""), item["channelId"],
+    ))[:MAX_POPULAR_ARTISTS]
 
 def dedupe_popular_songs(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
     unique: dict[str, dict[str, Any]] = {}
@@ -1572,15 +1555,16 @@ def reconcile_feed(feed: dict[str, Any], artists: list[dict[str, Any]], blocked:
     ])
 
     # Rebuild membership from the current genre definitions, preserving available images.
-    thumbnails = {}
+    metadata = {}
     for shelf in feed.get("artistGenreShelves", []):
         for item in shelf.get("artists", []):
-            thumbnails[channel(item)] = item.get("thumbnailUrl")
+            metadata[channel(item)] = normalize_subscriber_fields(item)
     for item in result["popularArtists"]:
-        thumbnails[channel(item)] = item.get("thumbnailUrl")
+        metadata[channel(item)] = normalize_subscriber_fields(item)
     genre_items = [
-        {"name": artist["name"], "channelId": artist["channelId"],
-         "genres": artist.get("genres", []), "thumbnailUrl": thumbnails.get(artist["channelId"])}
+        {**metadata.get(artist["channelId"], {}),
+         "name": artist["name"], "channelId": artist["channelId"],
+         "genres": artist.get("genres", [])}
         for artist in artists
     ]
     result["artistGenreShelves"] = build_artist_genre_shelves(genre_items)
@@ -1769,6 +1753,10 @@ def main() -> None:
     successful_ids = {artist["channelId"] for artist, _, _, _ in pending_releases}
     popular_artist_items.extend(item for item in previous_feed.get("popularArtists", []) if item.get("channelId") not in successful_ids)
     popular_song_items.extend(item for item in previous_feed.get("popularSongs", []) if item.get("artistChannelId") not in successful_ids)
+
+    for shelf in previous_feed.get("artistGenreShelves", []):
+        artist_genre_items.extend(dict(item, genres=[shelf["id"]]) for item in shelf.get("artists", [])
+                                  if item.get("channelId") not in successful_ids)
 
     report["itemsGeneratedBeforeDedupe"] = len(feed_items)
     feed_items = sort_items(dedupe_items(feed_items))
