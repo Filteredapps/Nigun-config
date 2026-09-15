@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-14T07:23:23.854897+00:00",
+  "generatedAt": "2026-09-15T06:59:50.199141+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_and_hebrew_transliteration",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v4_popular",
-  "allowedArtistsCount": 287,
+  "allowedArtistsCount": 288,
   "itunesCountry": "IL",
   "maxItemsPerArtistCategory": 4,
   "artistAlbumsLimit": 50,
@@ -24,16 +24,16 @@
   "itunes429SleepSeconds": 90,
   "itunesMaxRetries": 2,
   "maxItunesLookupsTotal": 1000,
-  "artistNetworkReads": 282,
-  "artistReadErrors": 5,
+  "artistNetworkReads": 284,
+  "artistReadErrors": 4,
   "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 512,
-  "youtubeSingleSourceItems": 872,
-  "youtubePopularSongSourceItems": 1217,
+  "youtubeAlbumSourceItems": 519,
+  "youtubeSingleSourceItems": 879,
+  "youtubePopularSongSourceItems": 1216,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 5,
-  "artistGenreArtistsGenerated": 386,
+  "artistGenreArtistsGenerated": 389,
   "supportedGenres": [
     "hasidic",
     "israeli",
@@ -41,22 +41,22 @@
     "pop",
     "alternative"
   ],
-  "youtubeAlbumDrilldownReads": 23,
+  "youtubeAlbumDrilldownReads": 24,
   "youtubeAlbumDrilldownErrors": 0,
   "itunesNetworkReads": 1000,
-  "itunesCacheHits": 0,
+  "itunesCacheHits": 277,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
-  "itunesLookupsSkippedByLimit": 1067,
+  "itunesLookupsSkippedByLimit": 733,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 1086,
-  "itemsSkippedWeakItunesCandidate": 7,
+  "itemsSkippedNoItunesCandidate": 829,
+  "itemsSkippedWeakItunesCandidate": 22,
   "itemsSkippedMissingItunesReleaseDate": 0,
-  "itemsSkippedOldRelease": 232,
-  "itemsGeneratedBeforeDedupe": 59,
-  "itemsGeneratedAfterDedupe": 56,
-  "albumsGeneratedAfterDedupe": 9,
-  "singlesGeneratedAfterDedupe": 47,
+  "itemsSkippedOldRelease": 438,
+  "itemsGeneratedBeforeDedupe": 110,
+  "itemsGeneratedAfterDedupe": 106,
+  "albumsGeneratedAfterDedupe": 22,
+  "singlesGeneratedAfterDedupe": 84,
   "artistsWithAutoAliases": [
     {
       "artistName": "אבי אילסון",
@@ -410,6 +410,14 @@
         "oingrtn",
         "uyngrtn",
         "uingrtn"
+      ]
+    },
+    {
+      "artistName": "איתי דוד",
+      "youtubeChannelId": "UCEI135WOJxuWV_IbPmDiFug",
+      "autoAliases": [
+        "david",
+        "dovid"
       ]
     },
     {
@@ -2021,6 +2029,18 @@
       ]
     },
     {
+      "artistName": "מיכאל שטרייכר",
+      "youtubeChannelId": "UCl80Gv3npsInBbatoVaZgTQ",
+      "autoAliases": [
+        "michael shtreichr",
+        "michael shtreikr",
+        "michael shtreikhr",
+        "michael shtreychr",
+        "michael shtreykr",
+        "michael shtreykhr"
+      ]
+    },
+    {
       "artistName": "מיכאל שניצלר",
       "youtubeChannelId": "UCHJtEeISU1FYdFGYCpQzbeg",
       "autoAliases": [
@@ -3432,23 +3452,205 @@
   ],
   "weakMatches": [
     {
-      "artistName": "Alex Clare",
-      "artistChannelId": "UCZa7crFd_TP-vDn4fUdzqTw",
+      "artistName": "Dov Levine",
+      "artistChannelId": "UCZc121O8NJKWS3cVCMLuPEQ",
       "aliasesUsed": [
-        "Alex Clare"
+        "Dov Levine"
       ],
-      "title": "Flying Carpet (feat. Afiko.man)",
-      "expectedType": "SINGLE",
-      "bestScore": 34,
+      "title": "The Greatest Wedding Album, Vol. 3 - starring Dov Levine",
+      "expectedType": "ALBUM",
+      "bestScore": 66,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "The Greatest Wedding Album - Volume 3 - starring Dov Levine",
+        "candidateArtist": "Various Artists",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "אלי שוובל",
+      "artistChannelId": "UCE2CVHIJgSAEjN5bCzsE6kA",
+      "aliasesUsed": [
+        "אלי שוובל",
+        "Eli Shovel",
+        "eli shoobl",
+        "eli shoovl",
+        "eli shoubl",
+        "eli shouvl"
+      ],
+      "title": "Hearts Mind",
+      "expectedType": "ALBUM",
+      "bestScore": 6,
       "details": {
         "titleScore": 0,
-        "artistScore": 28,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "I Told You So: The Ultimate Hits of Randy Travis",
+        "candidateArtist": "Randy Travis",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "בריו חקשור",
+      "artistChannelId": "UCbNw7jFjyhP7OY0IT2OUnIQ",
+      "aliasesUsed": [
+        "בריו חקשור",
+        "Rio Hekchor",
+        "brio chkshor",
+        "brio chkshur",
+        "brio chkshvr",
+        "brio chkshwr"
+      ],
+      "title": "בריו 2",
+      "expectedType": "ALBUM",
+      "bestScore": 68,
+      "details": {
+        "titleScore": 38,
+        "artistScore": 24,
+        "artistGatePassed": true,
+        "titleGatePassed": true,
+        "candidateTitle": "Baryo, Vol. 2",
+        "candidateArtist": "Baryo Hakshur",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "יחיאל ליכטיגר",
+      "artistChannelId": "UCH4C0PxbBCg8UvVesbalhBg",
+      "aliasesUsed": [
+        "יחיאל ליכטיגר",
+        "Yehiel Lichtiger",
+        "ichil lichtigr",
+        "ichil lichtygr",
+        "ichil liktigr",
+        "ichil liktygr"
+      ],
+      "title": "כך נבראתי (feat. ישראל גולדרייך)",
+      "expectedType": "SINGLE",
+      "bestScore": 66,
+      "details": {
+        "titleScore": 28,
+        "artistScore": 32,
         "artistGatePassed": true,
         "titleGatePassed": false,
-        "candidateTitle": "Back of the Wagon (feat. Matisyahu) - Single",
-        "candidateArtist": "Thank You Hashem, Alex Clare & Afiko.man",
+        "candidateTitle": "כך נבראתי - Single",
+        "candidateArtist": "Yechiel Lichtiger & ישראל גולדרייך",
         "wrapperType": "track",
         "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "לייזר לויד",
+      "artistChannelId": "UC5KW-xg23asJAA5PTezyzzQ",
+      "aliasesUsed": [
+        "לייזר לויד",
+        "Laser Lloyd",
+        "leizr loyd",
+        "leizr loid",
+        "leizr luyd",
+        "leizr luid"
+      ],
+      "title": "Tomorrow Never Comes",
+      "expectedType": "ALBUM",
+      "bestScore": 6,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "PARTYNEXTDOOR",
+        "candidateArtist": "PARTYNEXTDOOR",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "מיכאל שטרייכר",
+      "artistChannelId": "UCl80Gv3npsInBbatoVaZgTQ",
+      "aliasesUsed": [
+        "מיכאל שטרייכר",
+        "Michael Streicher",
+        "michael shtreichr",
+        "michael shtreikr",
+        "michael shtreikhr",
+        "michael shtreychr"
+      ],
+      "title": "Nusach Shabbos",
+      "expectedType": "ALBUM",
+      "bestScore": 66,
+      "details": {
+        "titleScore": 28,
+        "artistScore": 32,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "נוסח שבת",
+        "candidateArtist": "Michoel Streicher",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "מקהלת שירה",
+      "artistChannelId": "UCT6JlUQFuSe_4zQ_9cQpJWA",
+      "aliasesUsed": [
+        "מקהלת שירה",
+        "A singing choir",
+        "mkhlt shirh",
+        "mkhlt shir",
+        "mkhlt shyrh",
+        "mkhlt shyr"
+      ],
+      "title": "MBD with Shirah - Kisufim - כיסופים",
+      "expectedType": "ALBUM",
+      "bestScore": 75,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 20,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "MBD with Shirah - Kisufim - כיסופים",
+        "candidateArtist": "Mordechai Ben David & The Shira Choir",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "נפתלי קמפה",
+      "artistChannelId": "UCJMSsbz2JigH3Gd-ODmjEMw",
+      "aliasesUsed": [
+        "נפתלי קמפה",
+        "Naftali Kempe",
+        "naftali kmph",
+        "naftali kmp",
+        "naftali kmfh",
+        "naftali kmf"
+      ],
+      "title": "Ad Sheyavo Mashiach",
+      "expectedType": "ALBUM",
+      "bestScore": 72,
+      "details": {
+        "titleScore": 38,
+        "artistScore": 28,
+        "artistGatePassed": true,
+        "titleGatePassed": true,
+        "candidateTitle": "עד שיבוא משיח",
+        "candidateArtist": "Naftali Kempeh‎",
+        "wrapperType": "collection",
+        "kind": null,
         "rapidfuzzEnabled": true
       }
     },
@@ -3468,6 +3670,235 @@
         "titleGatePassed": true,
         "candidateTitle": "L'Shem Yichud (Chuppah Niggun) - Single",
         "candidateArtist": "Thank You Hashem & Seekers",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "MUNCH",
+      "artistChannelId": "UCionG5jvTEAeh8l_H3ldlgw",
+      "aliasesUsed": [
+        "MUNCH"
+      ],
+      "title": "Run It Up (feat. Sly Vincent)",
+      "expectedType": "SINGLE",
+      "bestScore": 6,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "The Essential Earth, Wind & Fire",
+        "candidateArtist": "Earth, Wind & Fire",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "יהודה גרין",
+      "artistChannelId": "UC6s2xUPyMS4ZbPBALr9MmcQ",
+      "aliasesUsed": [
+        "יהודה גרין",
+        "Yehuda Green",
+        "yehuda grin",
+        "yehuda gryn",
+        "judah grin",
+        "judah gryn"
+      ],
+      "title": "Land of Your Soul",
+      "expectedType": "ALBUM",
+      "bestScore": 41,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 35,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "והשב כהנים",
+        "candidateArtist": "Yehuda Green",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "יוני זי",
+      "artistChannelId": "UCkZ8Hbvfbzax0r-t7tQ9YLg",
+      "aliasesUsed": [
+        "יוני זי",
+        "Yoni Z",
+        "ioni zi",
+        "ioni zy",
+        "iony zi",
+        "iony zy"
+      ],
+      "title": "Within Your Walls 2.0",
+      "expectedType": "SINGLE",
+      "bestScore": 66,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "Within Your Walls 2.0 (feat. Yoni Z) - Single",
+        "candidateArtist": "Aryeh Kunstler",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "לייזר לויד",
+      "artistChannelId": "UC5KW-xg23asJAA5PTezyzzQ",
+      "aliasesUsed": [
+        "לייזר לויד",
+        "Laser Lloyd",
+        "leizr loyd",
+        "leizr loid",
+        "leizr luyd",
+        "leizr luid"
+      ],
+      "title": "Lazer Lloyd",
+      "expectedType": "ALBUM",
+      "bestScore": 6,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "More Life",
+        "candidateArtist": "Drake",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "מנדי וולד",
+      "artistChannelId": "UCqYGK7-bY_nvTHfJsjFggOQ",
+      "aliasesUsed": [
+        "מנדי וולד",
+        "Mandy Wald",
+        "mndi oold",
+        "mndi ould",
+        "mndi ovld",
+        "mndi owld"
+      ],
+      "title": "L'chaim!",
+      "expectedType": "ALBUM",
+      "bestScore": 34,
+      "details": {
+        "titleScore": 28,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "The Fate of Ophelia (The Chainsmokers Remix) - Single",
+        "candidateArtist": "Taylor Swift & The Chainsmokers",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "מקהלת פרחי לונדון",
+      "artistChannelId": "UCpZAxl_lfqzZ56ortfjCQbg",
+      "aliasesUsed": [
+        "מקהלת פרחי לונדון",
+        "London Flower Choir",
+        "mkhlt prchi london",
+        "mkhlt prchi londun",
+        "mkhlt prchi londvn",
+        "mkhlt prchi londwn"
+      ],
+      "title": "The London School Of Jewish Song - אנעים זמירות",
+      "expectedType": "ALBUM",
+      "bestScore": 16,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 10,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "אנעים זמירות (feat. Shimon Craimer, Lionel Rosenfeld & Jonnny Turgel) [The Commemorative 25th Anniversary Album]",
+        "candidateArtist": "Shabbaton Choir",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "מקהלת שירה",
+      "artistChannelId": "UCT6JlUQFuSe_4zQ_9cQpJWA",
+      "aliasesUsed": [
+        "מקהלת שירה",
+        "A singing choir",
+        "mkhlt shirh",
+        "mkhlt shir",
+        "mkhlt shyrh",
+        "mkhlt shyr"
+      ],
+      "title": "א חתונה און שטעטעל",
+      "expectedType": "SINGLE",
+      "bestScore": 75,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 20,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "א חתונה און שטעטעל - Single",
+        "candidateArtist": "Mendy Hershkowitz Band, The Shira Choir & Yisroel Adler",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "משה דוד וייסמנדל",
+      "artistChannelId": "UCE-RbJjvCNlszw1qzfraqAg",
+      "aliasesUsed": [
+        "משה דוד וייסמנדל",
+        "Moshe David Weissmandel",
+        "moshe david oyismndl",
+        "moshe david oyysmndl",
+        "moshe david oiismndl",
+        "moshe david oeismndl"
+      ],
+      "title": "L'Chaim Mit Moshe David",
+      "expectedType": "ALBUM",
+      "bestScore": 34,
+      "details": {
+        "titleScore": 28,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "רזא דשבת משה דוד וייסמנדל & אבי ריימי - Single",
+        "candidateArtist": "Mamtak L'eshabat",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "נפתלי קמפה",
+      "artistChannelId": "UCJMSsbz2JigH3Gd-ODmjEMw",
+      "aliasesUsed": [
+        "נפתלי קמפה",
+        "Naftali Kempe",
+        "naftali kmph",
+        "naftali kmp",
+        "naftali kmfh",
+        "naftali kmf"
+      ],
+      "title": "Naftali Kempeh (Acapella)",
+      "expectedType": "ALBUM",
+      "bestScore": 72,
+      "details": {
+        "titleScore": 38,
+        "artistScore": 28,
+        "artistGatePassed": true,
+        "titleGatePassed": true,
+        "candidateTitle": "נפתלי קמפה (ווקאלי)",
+        "candidateArtist": "Naftali Kempeh‎",
         "wrapperType": "collection",
         "kind": null,
         "rapidfuzzEnabled": true
@@ -3516,48 +3947,6 @@
       }
     },
     {
-      "artistName": "Dov Levine",
-      "artistChannelId": "UCZc121O8NJKWS3cVCMLuPEQ",
-      "aliasesUsed": [
-        "Dov Levine"
-      ],
-      "title": "The Greatest Wedding Album, Vol. 3 - starring Dov Levine",
-      "expectedType": "ALBUM",
-      "bestScore": 66,
-      "details": {
-        "titleScore": 60,
-        "artistScore": 0,
-        "artistGatePassed": false,
-        "titleGatePassed": true,
-        "candidateTitle": "The Greatest Wedding Album - Volume 3 - starring Dov Levine",
-        "candidateArtist": "Various Artists",
-        "wrapperType": "collection",
-        "kind": null,
-        "rapidfuzzEnabled": true
-      }
-    },
-    {
-      "artistName": "MUNCH",
-      "artistChannelId": "UCionG5jvTEAeh8l_H3ldlgw",
-      "aliasesUsed": [
-        "MUNCH"
-      ],
-      "title": "Run It Up (feat. Sly Vincent)",
-      "expectedType": "SINGLE",
-      "bestScore": 6,
-      "details": {
-        "titleScore": 0,
-        "artistScore": 0,
-        "artistGatePassed": false,
-        "titleGatePassed": false,
-        "candidateTitle": "The Essential Earth, Wind & Fire",
-        "candidateArtist": "Earth, Wind & Fire",
-        "wrapperType": "track",
-        "kind": "song",
-        "rapidfuzzEnabled": true
-      }
-    },
-    {
       "artistName": "אודי דוידי",
       "artistChannelId": "UC5nGBtwsSVracGWgrLanPLg",
       "aliasesUsed": [
@@ -3582,20 +3971,35 @@
         "kind": null,
         "rapidfuzzEnabled": true
       }
+    },
+    {
+      "artistName": "Alex Clare",
+      "artistChannelId": "UCZa7crFd_TP-vDn4fUdzqTw",
+      "aliasesUsed": [
+        "Alex Clare"
+      ],
+      "title": "Flying Carpet (feat. Afiko.man)",
+      "expectedType": "SINGLE",
+      "bestScore": 34,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 28,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "Back of the Wagon (feat. Matisyahu) - Single",
+        "candidateArtist": "Thank You Hashem, Alex Clare & Afiko.man",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
     }
   ],
   "warnings": [
     {
       "type": "artist_read_failed",
-      "artistName": "אהרון רזאל",
-      "artistChannelId": "UCWXcFgarUdHuJtYOX_rVKAw",
-      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CA0Q8JMBGAEiEwiC"
-    },
-    {
-      "type": "artist_read_failed",
       "artistName": "אהרן רזאל",
       "artistChannelId": "UCzqLcYn4fpf48sZI8G64t9g",
-      "message": "'musicImmersiveHeaderRenderer'"
+      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CA0Q8JMBGAEiEwiI"
     },
     {
       "type": "artist_read_failed",
@@ -3616,5 +4020,7 @@
       "message": "'musicImmersiveHeaderRenderer'"
     }
   ],
-  "completedAt": "2026-09-14T08:40:00.184320+00:00"
+  "nextArtistOffset": 41,
+  "itemsRetainedFromPreviousFeed": 1,
+  "completedAt": "2026-09-15T08:16:20.397299+00:00"
 }
