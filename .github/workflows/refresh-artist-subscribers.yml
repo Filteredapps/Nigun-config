@@ -1,0 +1,54 @@
+name: Refresh artist subscribers
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - allowed_artists.txt
+      - artist_sources.json
+      - scripts/counts.py
+      - scripts/generate_home_feed.py
+      - scripts/refresh_artist_subscribers.py
+      - .github/workflows/refresh-artist-subscribers.yml
+permissions:
+  contents: write
+concurrency:
+  group: generate-home-feed-main
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - run: python -m unittest discover -s tests -v
+      - name: Read current subscriber counts
+        env:
+          COUNTS_FILE: ${{ runner.temp }}/nigun-subscribers.json
+        run: python scripts/refresh_artist_subscribers.py --collect "$COUNTS_FILE"
+      - name: Apply counts to latest feed and validate
+        env:
+          COUNTS_FILE: ${{ runner.temp }}/nigun-subscribers.json
+        run: |
+          git fetch origin main
+          if ! git diff --quiet HEAD origin/main -- allowed_artists.txt blocked_songs.txt artist_sources.json scripts requirements.txt; then
+            echo "::error::Inputs changed during the refresh. Preserving newer data."
+            exit 1
+          fi
+          git merge --ff-only origin/main
+          python scripts/refresh_artist_subscribers.py --apply "$COUNTS_FILE"
+          python scripts/validate_config.py
+      - name: Publish subscriber rankings
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add home_feed.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "fix(feed): refresh subscriber counts in all artist shelves"
+          git push origin HEAD:main
