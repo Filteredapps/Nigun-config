@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T06:59:50.199141+00:00",
+  "generatedAt": "2026-09-16T07:00:59.769639+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_and_hebrew_transliteration",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v4_popular",
   "allowedArtistsCount": 288,
@@ -29,11 +29,11 @@
   "youtubeExpandErrors": 0,
   "youtubeAlbumSourceItems": 519,
   "youtubeSingleSourceItems": 879,
-  "youtubePopularSongSourceItems": 1216,
+  "youtubePopularSongSourceItems": 1214,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 5,
-  "artistGenreArtistsGenerated": 389,
+  "artistGenreArtistsGenerated": 394,
   "supportedGenres": [
     "hasidic",
     "israeli",
@@ -41,111 +41,23 @@
     "pop",
     "alternative"
   ],
-  "youtubeAlbumDrilldownReads": 24,
+  "youtubeAlbumDrilldownReads": 11,
   "youtubeAlbumDrilldownErrors": 0,
   "itunesNetworkReads": 1000,
-  "itunesCacheHits": 277,
+  "itunesCacheHits": 570,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
-  "itunesLookupsSkippedByLimit": 733,
+  "itunesLookupsSkippedByLimit": 555,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 829,
-  "itemsSkippedWeakItunesCandidate": 22,
+  "itemsSkippedNoItunesCandidate": 692,
+  "itemsSkippedWeakItunesCandidate": 27,
   "itemsSkippedMissingItunesReleaseDate": 0,
-  "itemsSkippedOldRelease": 438,
-  "itemsGeneratedBeforeDedupe": 110,
-  "itemsGeneratedAfterDedupe": 106,
-  "albumsGeneratedAfterDedupe": 22,
-  "singlesGeneratedAfterDedupe": 84,
+  "itemsSkippedOldRelease": 553,
+  "itemsGeneratedBeforeDedupe": 127,
+  "itemsGeneratedAfterDedupe": 122,
+  "albumsGeneratedAfterDedupe": 23,
+  "singlesGeneratedAfterDedupe": 99,
   "artistsWithAutoAliases": [
-    {
-      "artistName": "אבי אילסון",
-      "youtubeChannelId": "UClhlH-uzEKhMTlJQWbD2nrA",
-      "autoAliases": [
-        "avi",
-        "avy"
-      ]
-    },
-    {
-      "artistName": "אבי בן ישראל",
-      "youtubeChannelId": "UCDE5VulSKvYf4oyZl_odzXg",
-      "autoAliases": [
-        "avi bn yisrael",
-        "avi bn israel",
-        "avi vn yisrael",
-        "avi vn israel",
-        "avy bn yisrael",
-        "avy bn israel",
-        "avy vn yisrael",
-        "avy vn israel"
-      ]
-    },
-    {
-      "artistName": "אבי מילר",
-      "youtubeChannelId": "UChtZuciZLgHyRQ7hinLDqhg",
-      "autoAliases": [
-        "avi milr",
-        "avi mylr",
-        "avy milr",
-        "avy mylr"
-      ]
-    },
-    {
-      "artistName": "אבי מן",
-      "youtubeChannelId": "UCa_eksRjzpr-SUzynZKuysA",
-      "autoAliases": [
-        "avi mn",
-        "avy mn"
-      ]
-    },
-    {
-      "artistName": "אבי פודולינסקי",
-      "youtubeChannelId": "UCiurymv3ZRWTqvASSou40wg",
-      "autoAliases": [
-        "avi podolinski",
-        "avi podolinsky",
-        "avi podolinsci",
-        "avi podolinscy",
-        "avi podolynski",
-        "avi podolynsky",
-        "avy podolinski",
-        "avy podolinsky"
-      ]
-    },
-    {
-      "artistName": "אבי פיאמנטה",
-      "youtubeChannelId": "UCh4NY2jeS945E_Rsco1F1_A",
-      "autoAliases": [
-        "avi pimnth",
-        "avi pimnt",
-        "avi pymnth",
-        "avi pymnt",
-        "avi fimnth",
-        "avi fimnt",
-        "avy pimnth",
-        "avy pimnt"
-      ]
-    },
-    {
-      "artistName": "אביש בראדט",
-      "youtubeChannelId": "UCqwl-80S19l8BWlrtfJZ3BA",
-      "autoAliases": [
-        "brdt",
-        "vrdt"
-      ]
-    },
-    {
-      "artistName": "אביש ברודט",
-      "youtubeChannelId": "UC0-foS39p84VAaTwngP4W4w",
-      "autoAliases": [
-        "brodt",
-        "brudt",
-        "brvdt",
-        "brwdt",
-        "vrodt",
-        "vrudt"
-      ]
-    },
     {
       "artistName": "אבישי אשל",
       "youtubeChannelId": "UCLljg9gBVW8HYjF6sbAC2HA",
@@ -3240,34 +3152,33 @@
         "tzmurs hmngnim",
         "tzmurs hmngnym"
       ]
-    }
-  ],
-  "autoAliasExamples": [
+    },
     {
       "artistName": "אבי אילסון",
-      "aliasesUsed": [
-        "אבי אילסון",
-        "Avi Ilson",
+      "youtubeChannelId": "UClhlH-uzEKhMTlJQWbD2nrA",
+      "autoAliases": [
         "avi",
         "avy"
       ]
     },
     {
       "artistName": "אבי בן ישראל",
-      "aliasesUsed": [
-        "אבי בן ישראל",
-        "Abi Ben Yisrael",
+      "youtubeChannelId": "UCDE5VulSKvYf4oyZl_odzXg",
+      "autoAliases": [
         "avi bn yisrael",
         "avi bn israel",
         "avi vn yisrael",
-        "avi vn israel"
+        "avi vn israel",
+        "avy bn yisrael",
+        "avy bn israel",
+        "avy vn yisrael",
+        "avy vn israel"
       ]
     },
     {
       "artistName": "אבי מילר",
-      "aliasesUsed": [
-        "אבי מילר",
-        "Abby Miller",
+      "youtubeChannelId": "UChtZuciZLgHyRQ7hinLDqhg",
+      "autoAliases": [
         "avi milr",
         "avi mylr",
         "avy milr",
@@ -3276,55 +3187,62 @@
     },
     {
       "artistName": "אבי מן",
-      "aliasesUsed": [
-        "אבי מן",
-        "Avi Man",
+      "youtubeChannelId": "UCa_eksRjzpr-SUzynZKuysA",
+      "autoAliases": [
         "avi mn",
         "avy mn"
       ]
     },
     {
       "artistName": "אבי פודולינסקי",
-      "aliasesUsed": [
-        "אבי פודולינסקי",
-        "Avi Podolinsky",
+      "youtubeChannelId": "UCiurymv3ZRWTqvASSou40wg",
+      "autoAliases": [
         "avi podolinski",
         "avi podolinsky",
         "avi podolinsci",
-        "avi podolinscy"
+        "avi podolinscy",
+        "avi podolynski",
+        "avi podolynsky",
+        "avy podolinski",
+        "avy podolinsky"
       ]
     },
     {
       "artistName": "אבי פיאמנטה",
-      "aliasesUsed": [
-        "אבי פיאמנטה",
-        "Father Piamante",
+      "youtubeChannelId": "UCh4NY2jeS945E_Rsco1F1_A",
+      "autoAliases": [
         "avi pimnth",
         "avi pimnt",
         "avi pymnth",
-        "avi pymnt"
+        "avi pymnt",
+        "avi fimnth",
+        "avi fimnt",
+        "avy pimnth",
+        "avy pimnt"
       ]
     },
     {
       "artistName": "אביש בראדט",
-      "aliasesUsed": [
-        "אביש בראדט",
-        "Avish Bradt",
+      "youtubeChannelId": "UCqwl-80S19l8BWlrtfJZ3BA",
+      "autoAliases": [
         "brdt",
         "vrdt"
       ]
     },
     {
       "artistName": "אביש ברודט",
-      "aliasesUsed": [
-        "אביש ברודט",
-        "Avish Brodt",
+      "youtubeChannelId": "UC0-foS39p84VAaTwngP4W4w",
+      "autoAliases": [
         "brodt",
         "brudt",
         "brvdt",
-        "brwdt"
+        "brwdt",
+        "vrodt",
+        "vrudt"
       ]
-    },
+    }
+  ],
+  "autoAliasExamples": [
     {
       "artistName": "אבישי אשל",
       "aliasesUsed": [
@@ -3448,30 +3366,95 @@
         "odi doidi",
         "odi doidy"
       ]
+    },
+    {
+      "artistName": "אודי דמארי",
+      "aliasesUsed": [
+        "אודי דמארי",
+        "Udi Damari",
+        "odi dmri",
+        "odi dmry",
+        "ody dmri",
+        "ody dmry"
+      ]
+    },
+    {
+      "artistName": "אוהד מושקוביץ",
+      "aliasesUsed": [
+        "אוהד מושקוביץ",
+        "Moskovitz fan",
+        "ohd moshkobitz",
+        "ohd moshkobiz",
+        "ohd moshkobytz",
+        "ohd moshkobyz"
+      ]
+    },
+    {
+      "artistName": "אורי דוידי",
+      "aliasesUsed": [
+        "אורי דוידי",
+        "Uri Davidi",
+        "ori doydi",
+        "ori doydy",
+        "ori doidi",
+        "ori doidy"
+      ]
+    },
+    {
+      "artistName": "אורי כהן",
+      "aliasesUsed": [
+        "אורי כהן",
+        "Uri Cohen",
+        "ori chhn",
+        "ori chn",
+        "ori khn",
+        "ori kn"
+      ]
+    },
+    {
+      "artistName": "אייבי רוטנברג",
+      "aliasesUsed": [
+        "אייבי רוטנברג",
+        "Ivy Rotenberg",
+        "rotnbrg",
+        "rotnvrg",
+        "rutnbrg",
+        "rutnvrg"
+      ]
+    },
+    {
+      "artistName": "אייזיק האניג",
+      "aliasesUsed": [
+        "אייזיק האניג",
+        "Isaac Hannig",
+        "hnig",
+        "hnyg"
+      ]
+    },
+    {
+      "artistName": "אייל טויטו",
+      "aliasesUsed": [
+        "אייל טויטו",
+        "Eyal Toito",
+        "toyto",
+        "toytu",
+        "toytv",
+        "toytw"
+      ]
+    },
+    {
+      "artistName": "איצי וולדנר",
+      "aliasesUsed": [
+        "איצי וולדנר",
+        "Itzi Waldner",
+        "ooldnr",
+        "ouldnr",
+        "ovldnr",
+        "owldnr"
+      ]
     }
   ],
   "weakMatches": [
-    {
-      "artistName": "Dov Levine",
-      "artistChannelId": "UCZc121O8NJKWS3cVCMLuPEQ",
-      "aliasesUsed": [
-        "Dov Levine"
-      ],
-      "title": "The Greatest Wedding Album, Vol. 3 - starring Dov Levine",
-      "expectedType": "ALBUM",
-      "bestScore": 66,
-      "details": {
-        "titleScore": 60,
-        "artistScore": 0,
-        "artistGatePassed": false,
-        "titleGatePassed": true,
-        "candidateTitle": "The Greatest Wedding Album - Volume 3 - starring Dov Levine",
-        "candidateArtist": "Various Artists",
-        "wrapperType": "collection",
-        "kind": null,
-        "rapidfuzzEnabled": true
-      }
-    },
     {
       "artistName": "אלי שוובל",
       "artistChannelId": "UCE2CVHIJgSAEjN5bCzsE6kA",
@@ -3655,44 +3638,23 @@
       }
     },
     {
-      "artistName": "Chaim Ghoori",
-      "artistChannelId": "UCpVWl-kIG3gxILLJKiztyeg",
+      "artistName": "Dov Levine",
+      "artistChannelId": "UCZc121O8NJKWS3cVCMLuPEQ",
       "aliasesUsed": [
-        "Chaim Ghoori"
+        "Dov Levine"
       ],
-      "title": "L'Shem Yichud (Chuppah Niggun)",
-      "expectedType": "SINGLE",
-      "bestScore": 60,
+      "title": "The Greatest Wedding Album, Vol. 3 - starring Dov Levine",
+      "expectedType": "ALBUM",
+      "bestScore": 66,
       "details": {
         "titleScore": 60,
         "artistScore": 0,
         "artistGatePassed": false,
         "titleGatePassed": true,
-        "candidateTitle": "L'Shem Yichud (Chuppah Niggun) - Single",
-        "candidateArtist": "Thank You Hashem & Seekers",
+        "candidateTitle": "The Greatest Wedding Album - Volume 3 - starring Dov Levine",
+        "candidateArtist": "Various Artists",
         "wrapperType": "collection",
         "kind": null,
-        "rapidfuzzEnabled": true
-      }
-    },
-    {
-      "artistName": "MUNCH",
-      "artistChannelId": "UCionG5jvTEAeh8l_H3ldlgw",
-      "aliasesUsed": [
-        "MUNCH"
-      ],
-      "title": "Run It Up (feat. Sly Vincent)",
-      "expectedType": "SINGLE",
-      "bestScore": 6,
-      "details": {
-        "titleScore": 0,
-        "artistScore": 0,
-        "artistGatePassed": false,
-        "titleGatePassed": false,
-        "candidateTitle": "The Essential Earth, Wind & Fire",
-        "candidateArtist": "Earth, Wind & Fire",
-        "wrapperType": "track",
-        "kind": "song",
         "rapidfuzzEnabled": true
       }
     },
@@ -3905,6 +3867,178 @@
       }
     },
     {
+      "artistName": "צליל וזמר",
+      "artistChannelId": "UCAPjT-v_5MLUUFra6tb-Pkg",
+      "aliasesUsed": [
+        "צליל וזמר",
+        "Sound and singer",
+        "tzlil ozmr",
+        "tzlil ozmer",
+        "tzlil uzmr",
+        "tzlil uzmer"
+      ],
+      "title": "Volume 3",
+      "expectedType": "ALBUM",
+      "bestScore": 22,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 16,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "Nothing But the Best (Remastered)",
+        "candidateArtist": "Frank Sinatra",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "שמחה אברמצ'יק",
+      "artistChannelId": "UCgtdHqiyuZcFR5yB4bziwdQ",
+      "aliasesUsed": [
+        "שמחה אברמצ'יק",
+        "Simcha Abramchik",
+        "shmchh ik",
+        "shmchh ic",
+        "shmchh yk",
+        "shmchh yc"
+      ],
+      "title": "הלילה הזה (רמיקס)",
+      "expectedType": "SINGLE",
+      "bestScore": 68,
+      "details": {
+        "titleScore": 38,
+        "artistScore": 24,
+        "artistGatePassed": true,
+        "titleGatePassed": true,
+        "candidateTitle": "הלילה הזה (Remix) - Single",
+        "candidateArtist": "Simcha Abramczik & Beri Weber",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "Chaim Ghoori",
+      "artistChannelId": "UCpVWl-kIG3gxILLJKiztyeg",
+      "aliasesUsed": [
+        "Chaim Ghoori"
+      ],
+      "title": "L'Shem Yichud (Chuppah Niggun)",
+      "expectedType": "SINGLE",
+      "bestScore": 60,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "L'Shem Yichud (Chuppah Niggun) - Single",
+        "candidateArtist": "Thank You Hashem & Seekers",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "MUNCH",
+      "artistChannelId": "UCionG5jvTEAeh8l_H3ldlgw",
+      "aliasesUsed": [
+        "MUNCH"
+      ],
+      "title": "Run It Up (feat. Sly Vincent)",
+      "expectedType": "SINGLE",
+      "bestScore": 6,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "The Essential Earth, Wind & Fire",
+        "candidateArtist": "Earth, Wind & Fire",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "טל ועקנין",
+      "artistChannelId": "UCGgyx4Qm9_UB8URmvU6Ynfg",
+      "aliasesUsed": [
+        "טל ועקנין",
+        "Tal and Aknin",
+        "tl oknin",
+        "tl oknyn",
+        "tl ocnin",
+        "tl ocnyn"
+      ],
+      "title": "פאפאוטה - Papaoutai",
+      "expectedType": "SINGLE",
+      "bestScore": 58,
+      "details": {
+        "titleScore": 28,
+        "artistScore": 24,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "פאפאוטה - Single",
+        "candidateArtist": "Tal Vaknin",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "מיכאל שטרייכר",
+      "artistChannelId": "UCl80Gv3npsInBbatoVaZgTQ",
+      "aliasesUsed": [
+        "מיכאל שטרייכר",
+        "Michael Streicher",
+        "michael shtreichr",
+        "michael shtreikr",
+        "michael shtreikhr",
+        "michael shtreychr"
+      ],
+      "title": "Shehecheyanu: Chanukah Songs",
+      "expectedType": "ALBUM",
+      "bestScore": 62,
+      "details": {
+        "titleScore": 24,
+        "artistScore": 32,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "שהחיינו - שירי חנוכה",
+        "candidateArtist": "Michoel Streicher",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "מקהלת שירה",
+      "artistChannelId": "UCT6JlUQFuSe_4zQ_9cQpJWA",
+      "aliasesUsed": [
+        "מקהלת שירה",
+        "A singing choir",
+        "mkhlt shirh",
+        "mkhlt shir",
+        "mkhlt shyrh",
+        "mkhlt shyr"
+      ],
+      "title": "Far Dir (פאר דיר)",
+      "expectedType": "SINGLE",
+      "bestScore": 75,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 20,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "Far Dir (פאר דיר) - Single",
+        "candidateArtist": "Dovy Meisels, Mendy Weiss & The Shira Choir",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
       "artistName": "Chaim Ghoori",
       "artistChannelId": "UCpVWl-kIG3gxILLJKiztyeg",
       "aliasesUsed": [
@@ -3920,27 +4054,6 @@
         "titleGatePassed": true,
         "candidateTitle": "Shomer Yisrael - שומר ישראל - Single",
         "candidateArtist": "Thank You Hashem, Avshi Weingot & Seekers",
-        "wrapperType": "collection",
-        "kind": null,
-        "rapidfuzzEnabled": true
-      }
-    },
-    {
-      "artistName": "Chaim Ghoori",
-      "artistChannelId": "UCpVWl-kIG3gxILLJKiztyeg",
-      "aliasesUsed": [
-        "Chaim Ghoori"
-      ],
-      "title": "Neshama on Fire (UPMIX)",
-      "expectedType": "SINGLE",
-      "bestScore": 60,
-      "details": {
-        "titleScore": 60,
-        "artistScore": 0,
-        "artistGatePassed": false,
-        "titleGatePassed": true,
-        "candidateTitle": "Neshama on Fire (UPMIX) - Single",
-        "candidateArtist": "Thank You Hashem, DJ Farbreng & Seekers",
         "wrapperType": "collection",
         "kind": null,
         "rapidfuzzEnabled": true
@@ -3973,6 +4086,27 @@
       }
     },
     {
+      "artistName": "Chaim Ghoori",
+      "artistChannelId": "UCpVWl-kIG3gxILLJKiztyeg",
+      "aliasesUsed": [
+        "Chaim Ghoori"
+      ],
+      "title": "Neshama on Fire (UPMIX)",
+      "expectedType": "SINGLE",
+      "bestScore": 60,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "Neshama on Fire (UPMIX) - Single",
+        "candidateArtist": "Thank You Hashem, DJ Farbreng & Seekers",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
       "artistName": "Alex Clare",
       "artistChannelId": "UCZa7crFd_TP-vDn4fUdzqTw",
       "aliasesUsed": [
@@ -3999,7 +4133,7 @@
       "type": "artist_read_failed",
       "artistName": "אהרן רזאל",
       "artistChannelId": "UCzqLcYn4fpf48sZI8G64t9g",
-      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CA0Q8JMBGAEiEwiI"
+      "message": "'musicImmersiveHeaderRenderer'"
     },
     {
       "type": "artist_read_failed",
@@ -4020,7 +4154,7 @@
       "message": "'musicImmersiveHeaderRenderer'"
     }
   ],
-  "nextArtistOffset": 41,
+  "nextArtistOffset": 82,
   "itemsRetainedFromPreviousFeed": 1,
-  "completedAt": "2026-09-15T08:16:20.397299+00:00"
+  "completedAt": "2026-09-16T08:17:27.742236+00:00"
 }
