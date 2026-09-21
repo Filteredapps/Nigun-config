@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T07:17:20.218320+00:00",
+  "generatedAt": "2026-09-21T07:27:05.710099+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_and_hebrew_transliteration",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v4_popular",
   "allowedArtistsCount": 288,
@@ -24,11 +24,11 @@
   "itunes429SleepSeconds": 90,
   "itunesMaxRetries": 2,
   "maxItunesLookupsTotal": 1000,
-  "artistNetworkReads": 282,
-  "artistReadErrors": 6,
+  "artistNetworkReads": 286,
+  "artistReadErrors": 2,
   "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 512,
-  "youtubeSingleSourceItems": 872,
+  "youtubeAlbumSourceItems": 526,
+  "youtubeSingleSourceItems": 887,
   "youtubePopularSongSourceItems": 1213,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
@@ -41,547 +41,23 @@
     "pop",
     "alternative"
   ],
-  "youtubeAlbumDrilldownReads": 4,
+  "youtubeAlbumDrilldownReads": 2,
   "youtubeAlbumDrilldownErrors": 0,
   "itunesNetworkReads": 1000,
-  "itunesCacheHits": 839,
+  "itunesCacheHits": 891,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
-  "itunesLookupsSkippedByLimit": 346,
+  "itunesLookupsSkippedByLimit": 344,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 507,
-  "itemsSkippedWeakItunesCandidate": 34,
+  "itemsSkippedNoItunesCandidate": 512,
+  "itemsSkippedWeakItunesCandidate": 35,
   "itemsSkippedMissingItunesReleaseDate": 0,
-  "itemsSkippedOldRelease": 701,
-  "itemsGeneratedBeforeDedupe": 143,
-  "itemsGeneratedAfterDedupe": 136,
+  "itemsSkippedOldRelease": 723,
+  "itemsGeneratedBeforeDedupe": 144,
+  "itemsGeneratedAfterDedupe": 137,
   "albumsGeneratedAfterDedupe": 22,
-  "singlesGeneratedAfterDedupe": 114,
+  "singlesGeneratedAfterDedupe": 115,
   "artistsWithAutoAliases": [
-    {
-      "artistName": "מנחם לוי",
-      "youtubeChannelId": "UCmH_Atbuf4ddHRimwF3zL6w",
-      "autoAliases": [
-        "mnchm loy",
-        "mnchm loi",
-        "mnchm luy",
-        "mnchm lui",
-        "mnhm loy",
-        "mnhm loi",
-        "mnhm luy",
-        "mnhm lui"
-      ]
-    },
-    {
-      "artistName": "מנשה ליכטנשטיין",
-      "youtubeChannelId": "UCzikvLesYafncBqcYWzdFEg",
-      "autoAliases": [
-        "mnshh lichtnshtein",
-        "mnshh lichtnshteyn",
-        "mnshh lichtnshtain",
-        "mnshh lichtnshtayn",
-        "mnshh lichtnshtyn",
-        "mnshh lichtnshtin",
-        "mnsh lichtnshtein",
-        "mnsh lichtnshteyn"
-      ]
-    },
-    {
-      "artistName": "מענדל ראטה",
-      "youtubeChannelId": "UCumudJlU9YoVkQxxaLIBehQ",
-      "autoAliases": [
-        "mndl rth",
-        "mndl rt",
-        "mandl rth",
-        "mandl rt"
-      ]
-    },
-    {
-      "artistName": "מקהלת יחד",
-      "youtubeChannelId": "UC3-HZFjyiGVdlL9LUNJSWcw",
-      "autoAliases": [
-        "mkhlt ichd",
-        "mkhlt ihd",
-        "mkhlt ychd",
-        "mkhlt yhd",
-        "mkhls ichd",
-        "mkhls ihd",
-        "mkhls ychd",
-        "mkhls yhd"
-      ]
-    },
-    {
-      "artistName": "מקהלת מלכות",
-      "youtubeChannelId": "UCTKCxKIKaTwEZ3p-zezdP9g",
-      "autoAliases": [
-        "mkhlt mlchot",
-        "mkhlt mlchos",
-        "mkhlt mlchut",
-        "mkhlt mlchus",
-        "mkhlt mlchvt",
-        "mkhlt mlchvs",
-        "mkhls mlchot",
-        "mkhls mlchos"
-      ]
-    },
-    {
-      "artistName": "מקהלת נשמה",
-      "youtubeChannelId": "UC88l4ZpEMhc9Q-xytqV0F-g",
-      "autoAliases": [
-        "mkhlt nshmh",
-        "mkhlt nshm",
-        "mkhlt nsmh",
-        "mkhlt nsm",
-        "mkhls nshmh",
-        "mkhls nshm",
-        "mkhls nsmh",
-        "mkhls nsm"
-      ]
-    },
-    {
-      "artistName": "מקהלת פרחי לונדון",
-      "youtubeChannelId": "UCpZAxl_lfqzZ56ortfjCQbg",
-      "autoAliases": [
-        "mkhlt prchi london",
-        "mkhlt prchi londun",
-        "mkhlt prchi londvn",
-        "mkhlt prchi londwn",
-        "mkhlt prchi lundon",
-        "mkhlt prchi lundun",
-        "mkhlt prchy london",
-        "mkhlt prchy londun"
-      ]
-    },
-    {
-      "artistName": "מקהלת פרחי מיאמי",
-      "youtubeChannelId": "UCqvfq2DsYvlpbE3NluT_Ieg",
-      "autoAliases": [
-        "mkhlt prchi mimi",
-        "mkhlt prchi mimy",
-        "mkhlt prchi mymi",
-        "mkhlt prchi mymy",
-        "mkhlt prchy mimi",
-        "mkhlt prchy mimy",
-        "mkhlt prchy mymi",
-        "mkhlt prchy mymy"
-      ]
-    },
-    {
-      "artistName": "מקהלת צבאות השם",
-      "youtubeChannelId": "UCAXAP-u8qCWKXJMHcpstBJw",
-      "autoAliases": [
-        "mkhlt tzbot hshm",
-        "mkhlt tzbot hsm",
-        "mkhlt tzbos hshm",
-        "mkhlt tzbos hsm",
-        "mkhlt tzbut hshm",
-        "mkhlt tzbut hsm",
-        "mkhlt tzbus hshm",
-        "mkhlt tzbus hsm"
-      ]
-    },
-    {
-      "artistName": "מקהלת שירה",
-      "youtubeChannelId": "UCT6JlUQFuSe_4zQ_9cQpJWA",
-      "autoAliases": [
-        "mkhlt shirh",
-        "mkhlt shir",
-        "mkhlt shyrh",
-        "mkhlt shyr",
-        "mkhlt sirh",
-        "mkhlt sir",
-        "mkhls shirh",
-        "mkhls shir"
-      ]
-    },
-    {
-      "artistName": "מרדכי בן דוד",
-      "youtubeChannelId": "UCJnj4pkUeIRCIrpRXoIv15g",
-      "autoAliases": [
-        "mordechai bn david",
-        "mordechai bn dovid",
-        "mordechai vn david",
-        "mordechai vn dovid",
-        "mordechay bn david",
-        "mordechay bn dovid",
-        "mordechay vn david",
-        "mordechay vn dovid"
-      ]
-    },
-    {
-      "artistName": "מרדכי גרנביץ'",
-      "youtubeChannelId": "UCBOoV_Ej9o8R4qb78NNS60g",
-      "autoAliases": [
-        "mordechai grnbitz",
-        "mordechai grnbiz",
-        "mordechai grnbytz",
-        "mordechai grnbyz",
-        "mordechai grnvitz",
-        "mordechai grnviz",
-        "mordechay grnbitz",
-        "mordechay grnbiz"
-      ]
-    },
-    {
-      "artistName": "מרדכי שפירא",
-      "youtubeChannelId": "UCm5x_womXL5E7TAYca5JkZQ",
-      "autoAliases": [
-        "mordechai shpir",
-        "mordechai shpyr",
-        "mordechai shfir",
-        "mordechai shfyr",
-        "mordechai spir",
-        "mordechai spyr",
-        "mordechay shpir",
-        "mordechay shpyr"
-      ]
-    },
-    {
-      "artistName": "משה גולדמן",
-      "youtubeChannelId": "UCH5TWA46szWeEpZchukaYEg",
-      "autoAliases": [
-        "moshe goldmn",
-        "moshe guldmn",
-        "moshe gvldmn",
-        "moshe gwldmn"
-      ]
-    },
-    {
-      "artistName": "משה דוד וייסמנדל",
-      "youtubeChannelId": "UCE-RbJjvCNlszw1qzfraqAg",
-      "autoAliases": [
-        "moshe david oyismndl",
-        "moshe david oyysmndl",
-        "moshe david oiismndl",
-        "moshe david oeismndl",
-        "moshe david oeysmndl",
-        "moshe david oaismndl",
-        "moshe dovid oyismndl",
-        "moshe dovid oyysmndl"
-      ]
-    },
-    {
-      "artistName": "משה דוויק",
-      "youtubeChannelId": "UCvKf28K13nV9lPtReC9k-tg",
-      "autoAliases": [
-        "moshe dooyk",
-        "moshe dooyc",
-        "moshe dooik",
-        "moshe dooic",
-        "moshe douyk",
-        "moshe douyc"
-      ]
-    },
-    {
-      "artistName": "משה הכט",
-      "youtubeChannelId": "UCa41WxvKAQ4_brFrT1Kb8aQ",
-      "autoAliases": [
-        "moshe hcht",
-        "moshe hkt",
-        "moshe hkht"
-      ]
-    },
-    {
-      "artistName": "משה חבושה",
-      "youtubeChannelId": "UClXm891clnumcw0vbkHdSpA",
-      "autoAliases": [
-        "moshe chboshh",
-        "moshe chbosh",
-        "moshe chbos",
-        "moshe chbushh",
-        "moshe chbush",
-        "moshe chbus"
-      ]
-    },
-    {
-      "artistName": "משה לוק",
-      "youtubeChannelId": "UCckAvhL9rStbAvTo8T3mM0A",
-      "autoAliases": [
-        "moshe lok",
-        "moshe loc",
-        "moshe luk",
-        "moshe luc",
-        "moshe lvk",
-        "moshe lvc"
-      ]
-    },
-    {
-      "artistName": "משה מנדלוביץ",
-      "youtubeChannelId": "UC-rPxFHSMKoQ8MP5rOqQJ8Q",
-      "autoAliases": [
-        "moshe mndlobitz",
-        "moshe mndlobiz",
-        "moshe mndlobytz",
-        "moshe mndlobyz",
-        "moshe mndlovitz",
-        "moshe mndloviz"
-      ]
-    },
-    {
-      "artistName": "משה פלד",
-      "youtubeChannelId": "UC4xhDvLjoxYL1s8CRgwAy6Q",
-      "autoAliases": [
-        "moshe pld",
-        "moshe fld"
-      ]
-    },
-    {
-      "artistName": "משה קליין",
-      "youtubeChannelId": "UCpHeJBXBqnyvxF_eK-BiwnQ",
-      "autoAliases": [
-        "moshe klein",
-        "moshe kleyn",
-        "moshe klain",
-        "moshe klayn",
-        "moshe klyn",
-        "moshe klin"
-      ]
-    },
-    {
-      "artistName": "נאור כרמי",
-      "youtubeChannelId": "UCOcJT7w0SKEeFlXq8S0JBSg",
-      "autoAliases": [
-        "nor chrmi",
-        "nor chrmy",
-        "nor krmi",
-        "nor krmy",
-        "nor khrmi",
-        "nor khrmy",
-        "nur chrmi",
-        "nur chrmy"
-      ]
-    },
-    {
-      "artistName": "נדב בכר",
-      "youtubeChannelId": "UCAPOMohu2PzaaMdK2DD6vXQ",
-      "autoAliases": [
-        "ndb bchr",
-        "ndb bkr",
-        "ndb bkhr",
-        "ndb vchr",
-        "ndb vkr",
-        "ndb vkhr",
-        "ndv bchr",
-        "ndv bkr"
-      ]
-    },
-    {
-      "artistName": "נהוראי אריאלי",
-      "youtubeChannelId": "UCdryVfjbE-stNJ1FBCkJWVQ",
-      "autoAliases": [
-        "nhori",
-        "nhory",
-        "nhuri",
-        "nhury",
-        "nhvri",
-        "nhvry"
-      ]
-    },
-    {
-      "artistName": "נותי ליברמן",
-      "youtubeChannelId": "UCY0Zc19KijcluOiBoHWUz1Q",
-      "autoAliases": [
-        "noti librmn",
-        "noti livrmn",
-        "noti lybrmn",
-        "noti lyvrmn",
-        "noty librmn",
-        "noty livrmn",
-        "noty lybrmn",
-        "noty lyvrmn"
-      ]
-    },
-    {
-      "artistName": "נחמן בוימל",
-      "youtubeChannelId": "UCeReGuCFmtdQBbV0yha11JA",
-      "autoAliases": [
-        "nchmn boyml",
-        "nchmn boiml",
-        "nchmn buyml",
-        "nchmn buiml",
-        "nchmn voyml",
-        "nchmn voiml",
-        "nhmn boyml",
-        "nhmn boiml"
-      ]
-    },
-    {
-      "artistName": "נמואל הרוש",
-      "youtubeChannelId": "UCCxmSp4ySkfbNjVkA6pRhgw",
-      "autoAliases": [
-        "nmol hrosh",
-        "nmol hros",
-        "nmol hrush",
-        "nmol hrus",
-        "nmol hrvsh",
-        "nmol hrvs",
-        "nmul hrosh",
-        "nmul hros"
-      ]
-    },
-    {
-      "artistName": "נפתלי בלומנטל",
-      "youtubeChannelId": "UCiYY3LCuBdTI0ufmdzmAXiQ",
-      "autoAliases": [
-        "naftali blomntl",
-        "naftali blumntl",
-        "naftali blvmntl",
-        "naftali blwmntl",
-        "naftali vlomntl",
-        "naftali vlumntl",
-        "naftuly blomntl",
-        "naftuly blumntl"
-      ]
-    },
-    {
-      "artistName": "נפתלי הרשטיק",
-      "youtubeChannelId": "UCd6QidYVi8ua-_k5GD7nS7Q",
-      "autoAliases": [
-        "naftali hrshtik",
-        "naftali hrshtic",
-        "naftali hrshtyk",
-        "naftali hrshtyc",
-        "naftali hrstik",
-        "naftali hrstic",
-        "naftuly hrshtik",
-        "naftuly hrshtic"
-      ]
-    },
-    {
-      "artistName": "נפתלי קמפה",
-      "youtubeChannelId": "UCJMSsbz2JigH3Gd-ODmjEMw",
-      "autoAliases": [
-        "naftali kmph",
-        "naftali kmp",
-        "naftali kmfh",
-        "naftali kmf",
-        "naftali cmph",
-        "naftali cmp",
-        "naftuly kmph",
-        "naftuly kmp"
-      ]
-    },
-    {
-      "artistName": "נתנאל ישראל",
-      "youtubeChannelId": "UCwWJXU9qJ62yQ9pLlATo2_A",
-      "autoAliases": [
-        "ntnl yisrael",
-        "ntnl israel",
-        "nsnl yisrael",
-        "nsnl israel"
-      ]
-    },
-    {
-      "artistName": "סיני תור",
-      "youtubeChannelId": "UCHWFdyhD6XpZHC5nSTeTqFg",
-      "autoAliases": [
-        "sini tor",
-        "sini tur",
-        "sini tvr",
-        "sini twr",
-        "sini sor",
-        "sini sur",
-        "siny tor",
-        "siny tur"
-      ]
-    },
-    {
-      "artistName": "עדי רן",
-      "youtubeChannelId": "UCENpFg4g22Ore8X3TQNkU7Q",
-      "autoAliases": [
-        "adi rn",
-        "ady rn"
-      ]
-    },
-    {
-      "artistName": "עוזיה צדוק",
-      "youtubeChannelId": "UC8X43eu20eZXzHoc6IC_fzw",
-      "autoAliases": [
-        "aozih tzdok",
-        "aozih tzdoc",
-        "aozih tzduk",
-        "aozih tzduc",
-        "aozih tzdvk",
-        "aozih tzdvc",
-        "aozi tzdok",
-        "aozi tzdoc"
-      ]
-    },
-    {
-      "artistName": "עמירן דביר",
-      "youtubeChannelId": "UCL5sL2wnxCI4l-O_zaxUFhw",
-      "autoAliases": [
-        "amirn dbir",
-        "amirn dbyr",
-        "amirn dvir",
-        "amirn dvyr",
-        "amyrn dbir",
-        "amyrn dbyr",
-        "amyrn dvir",
-        "amyrn dvyr"
-      ]
-    },
-    {
-      "artistName": "עמרם אדר",
-      "youtubeChannelId": "UCqE4OZAwQj9vzNsva5mo3Wg",
-      "autoAliases": [
-        "amrm"
-      ]
-    },
-    {
-      "artistName": "פורת נוב",
-      "youtubeChannelId": "UCRRUJV-iGXfyaaK2WOuFunA",
-      "autoAliases": [
-        "port nob",
-        "port nov",
-        "port nub",
-        "port nuv",
-        "port nvb",
-        "port nvv",
-        "pors nob",
-        "pors nov"
-      ]
-    },
-    {
-      "artistName": "פינחס ביכלר",
-      "youtubeChannelId": "UCt2AKtO242jh31CiLfGgI6Q",
-      "autoAliases": [
-        "pinchs bichlr",
-        "pinchs biklr",
-        "pinchs bikhlr",
-        "pinchs bychlr",
-        "pinchs byklr",
-        "pinchs bykhlr",
-        "pinhs bichlr",
-        "pinhs biklr"
-      ]
-    },
-    {
-      "artistName": "פיני איינהורן",
-      "youtubeChannelId": "UCx9iVefPf-yjAkgecQXjV-g",
-      "autoAliases": [
-        "pini",
-        "piny",
-        "pyni",
-        "pyny",
-        "fini",
-        "finy"
-      ]
-    },
-    {
-      "artistName": "פיני שכטר",
-      "youtubeChannelId": "UCtxP1E-IPYIV3DtJJtj-vTw",
-      "autoAliases": [
-        "pini shchtr",
-        "pini shktr",
-        "pini shkhtr",
-        "pini schtr",
-        "pini sktr",
-        "pini skhtr",
-        "piny shchtr",
-        "piny shktr"
-      ]
-    },
     {
       "artistName": "צליל וזמר",
       "youtubeChannelId": "UCAPjT-v_5MLUUFra6tb-Pkg",
@@ -3240,36 +2716,39 @@
         "mndy rvt",
         "mndy rwt"
       ]
-    }
-  ],
-  "autoAliasExamples": [
+    },
     {
       "artistName": "מנחם לוי",
-      "aliasesUsed": [
-        "מנחם לוי",
-        "Menachem Levy",
+      "youtubeChannelId": "UCmH_Atbuf4ddHRimwF3zL6w",
+      "autoAliases": [
         "mnchm loy",
         "mnchm loi",
         "mnchm luy",
-        "mnchm lui"
+        "mnchm lui",
+        "mnhm loy",
+        "mnhm loi",
+        "mnhm luy",
+        "mnhm lui"
       ]
     },
     {
       "artistName": "מנשה ליכטנשטיין",
-      "aliasesUsed": [
-        "מנשה ליכטנשטיין",
-        "Menashe Lichtenstein",
+      "youtubeChannelId": "UCzikvLesYafncBqcYWzdFEg",
+      "autoAliases": [
         "mnshh lichtnshtein",
         "mnshh lichtnshteyn",
         "mnshh lichtnshtain",
-        "mnshh lichtnshtayn"
+        "mnshh lichtnshtayn",
+        "mnshh lichtnshtyn",
+        "mnshh lichtnshtin",
+        "mnsh lichtnshtein",
+        "mnsh lichtnshteyn"
       ]
     },
     {
       "artistName": "מענדל ראטה",
-      "aliasesUsed": [
-        "מענדל ראטה",
-        "Mandal Rata",
+      "youtubeChannelId": "UCumudJlU9YoVkQxxaLIBehQ",
+      "autoAliases": [
         "mndl rth",
         "mndl rt",
         "mandl rth",
@@ -3278,119 +2757,148 @@
     },
     {
       "artistName": "מקהלת יחד",
-      "aliasesUsed": [
-        "מקהלת יחד",
-        "Choir together",
+      "youtubeChannelId": "UC3-HZFjyiGVdlL9LUNJSWcw",
+      "autoAliases": [
         "mkhlt ichd",
         "mkhlt ihd",
         "mkhlt ychd",
-        "mkhlt yhd"
+        "mkhlt yhd",
+        "mkhls ichd",
+        "mkhls ihd",
+        "mkhls ychd",
+        "mkhls yhd"
       ]
     },
     {
       "artistName": "מקהלת מלכות",
-      "aliasesUsed": [
-        "מקהלת מלכות",
-        "royal choir",
+      "youtubeChannelId": "UCTKCxKIKaTwEZ3p-zezdP9g",
+      "autoAliases": [
         "mkhlt mlchot",
         "mkhlt mlchos",
         "mkhlt mlchut",
-        "mkhlt mlchus"
+        "mkhlt mlchus",
+        "mkhlt mlchvt",
+        "mkhlt mlchvs",
+        "mkhls mlchot",
+        "mkhls mlchos"
       ]
     },
     {
       "artistName": "מקהלת נשמה",
-      "aliasesUsed": [
-        "מקהלת נשמה",
-        "soul choir",
+      "youtubeChannelId": "UC88l4ZpEMhc9Q-xytqV0F-g",
+      "autoAliases": [
         "mkhlt nshmh",
         "mkhlt nshm",
         "mkhlt nsmh",
-        "mkhlt nsm"
+        "mkhlt nsm",
+        "mkhls nshmh",
+        "mkhls nshm",
+        "mkhls nsmh",
+        "mkhls nsm"
       ]
     },
     {
       "artistName": "מקהלת פרחי לונדון",
-      "aliasesUsed": [
-        "מקהלת פרחי לונדון",
-        "London Flower Choir",
+      "youtubeChannelId": "UCpZAxl_lfqzZ56ortfjCQbg",
+      "autoAliases": [
         "mkhlt prchi london",
         "mkhlt prchi londun",
         "mkhlt prchi londvn",
-        "mkhlt prchi londwn"
+        "mkhlt prchi londwn",
+        "mkhlt prchi lundon",
+        "mkhlt prchi lundun",
+        "mkhlt prchy london",
+        "mkhlt prchy londun"
       ]
     },
     {
       "artistName": "מקהלת פרחי מיאמי",
-      "aliasesUsed": [
-        "מקהלת פרחי מיאמי",
-        "Miami Flower Choir",
+      "youtubeChannelId": "UCqvfq2DsYvlpbE3NluT_Ieg",
+      "autoAliases": [
         "mkhlt prchi mimi",
         "mkhlt prchi mimy",
         "mkhlt prchi mymi",
-        "mkhlt prchi mymy"
+        "mkhlt prchi mymy",
+        "mkhlt prchy mimi",
+        "mkhlt prchy mimy",
+        "mkhlt prchy mymi",
+        "mkhlt prchy mymy"
       ]
     },
     {
       "artistName": "מקהלת צבאות השם",
-      "aliasesUsed": [
-        "מקהלת צבאות השם",
-        "Choir of the Armies of the Lord",
+      "youtubeChannelId": "UCAXAP-u8qCWKXJMHcpstBJw",
+      "autoAliases": [
         "mkhlt tzbot hshm",
         "mkhlt tzbot hsm",
         "mkhlt tzbos hshm",
-        "mkhlt tzbos hsm"
+        "mkhlt tzbos hsm",
+        "mkhlt tzbut hshm",
+        "mkhlt tzbut hsm",
+        "mkhlt tzbus hshm",
+        "mkhlt tzbus hsm"
       ]
     },
     {
       "artistName": "מקהלת שירה",
-      "aliasesUsed": [
-        "מקהלת שירה",
-        "A singing choir",
+      "youtubeChannelId": "UCT6JlUQFuSe_4zQ_9cQpJWA",
+      "autoAliases": [
         "mkhlt shirh",
         "mkhlt shir",
         "mkhlt shyrh",
-        "mkhlt shyr"
+        "mkhlt shyr",
+        "mkhlt sirh",
+        "mkhlt sir",
+        "mkhls shirh",
+        "mkhls shir"
       ]
     },
     {
       "artistName": "מרדכי בן דוד",
-      "aliasesUsed": [
-        "מרדכי בן דוד",
-        "Mordechai ben David",
+      "youtubeChannelId": "UCJnj4pkUeIRCIrpRXoIv15g",
+      "autoAliases": [
         "mordechai bn david",
         "mordechai bn dovid",
         "mordechai vn david",
-        "mordechai vn dovid"
+        "mordechai vn dovid",
+        "mordechay bn david",
+        "mordechay bn dovid",
+        "mordechay vn david",
+        "mordechay vn dovid"
       ]
     },
     {
       "artistName": "מרדכי גרנביץ'",
-      "aliasesUsed": [
-        "מרדכי גרנביץ'",
-        "Mordechai Granevich",
+      "youtubeChannelId": "UCBOoV_Ej9o8R4qb78NNS60g",
+      "autoAliases": [
         "mordechai grnbitz",
         "mordechai grnbiz",
         "mordechai grnbytz",
-        "mordechai grnbyz"
+        "mordechai grnbyz",
+        "mordechai grnvitz",
+        "mordechai grnviz",
+        "mordechay grnbitz",
+        "mordechay grnbiz"
       ]
     },
     {
       "artistName": "מרדכי שפירא",
-      "aliasesUsed": [
-        "מרדכי שפירא",
-        "Mordechai Shapira",
+      "youtubeChannelId": "UCm5x_womXL5E7TAYca5JkZQ",
+      "autoAliases": [
         "mordechai shpir",
         "mordechai shpyr",
         "mordechai shfir",
-        "mordechai shfyr"
+        "mordechai shfyr",
+        "mordechai spir",
+        "mordechai spyr",
+        "mordechay shpir",
+        "mordechay shpyr"
       ]
     },
     {
       "artistName": "משה גולדמן",
-      "aliasesUsed": [
-        "משה גולדמן",
-        "Moshe Goldman",
+      "youtubeChannelId": "UCH5TWA46szWeEpZchukaYEg",
+      "autoAliases": [
         "moshe goldmn",
         "moshe guldmn",
         "moshe gvldmn",
@@ -3399,31 +2907,34 @@
     },
     {
       "artistName": "משה דוד וייסמנדל",
-      "aliasesUsed": [
-        "משה דוד וייסמנדל",
-        "Moshe David Weissmandel",
+      "youtubeChannelId": "UCE-RbJjvCNlszw1qzfraqAg",
+      "autoAliases": [
         "moshe david oyismndl",
         "moshe david oyysmndl",
         "moshe david oiismndl",
-        "moshe david oeismndl"
+        "moshe david oeismndl",
+        "moshe david oeysmndl",
+        "moshe david oaismndl",
+        "moshe dovid oyismndl",
+        "moshe dovid oyysmndl"
       ]
     },
     {
       "artistName": "משה דוויק",
-      "aliasesUsed": [
-        "משה דוויק",
-        "Moshe Devik",
+      "youtubeChannelId": "UCvKf28K13nV9lPtReC9k-tg",
+      "autoAliases": [
         "moshe dooyk",
         "moshe dooyc",
         "moshe dooik",
-        "moshe dooic"
+        "moshe dooic",
+        "moshe douyk",
+        "moshe douyc"
       ]
     },
     {
       "artistName": "משה הכט",
-      "aliasesUsed": [
-        "משה הכט",
-        "Moshe Hecht",
+      "youtubeChannelId": "UCa41WxvKAQ4_brFrT1Kb8aQ",
+      "autoAliases": [
         "moshe hcht",
         "moshe hkt",
         "moshe hkht"
@@ -3431,91 +2942,529 @@
     },
     {
       "artistName": "משה חבושה",
-      "aliasesUsed": [
-        "משה חבושה",
-        "Moshe is bandaged",
+      "youtubeChannelId": "UClXm891clnumcw0vbkHdSpA",
+      "autoAliases": [
         "moshe chboshh",
         "moshe chbosh",
         "moshe chbos",
-        "moshe chbushh"
+        "moshe chbushh",
+        "moshe chbush",
+        "moshe chbus"
       ]
     },
     {
       "artistName": "משה לוק",
-      "aliasesUsed": [
-        "משה לוק",
-        "Moshe Luke",
+      "youtubeChannelId": "UCckAvhL9rStbAvTo8T3mM0A",
+      "autoAliases": [
         "moshe lok",
         "moshe loc",
         "moshe luk",
-        "moshe luc"
+        "moshe luc",
+        "moshe lvk",
+        "moshe lvc"
       ]
     },
     {
       "artistName": "משה מנדלוביץ",
-      "aliasesUsed": [
-        "משה מנדלוביץ",
-        "Moshe Mandelovich",
+      "youtubeChannelId": "UC-rPxFHSMKoQ8MP5rOqQJ8Q",
+      "autoAliases": [
         "moshe mndlobitz",
         "moshe mndlobiz",
         "moshe mndlobytz",
-        "moshe mndlobyz"
+        "moshe mndlobyz",
+        "moshe mndlovitz",
+        "moshe mndloviz"
+      ]
+    },
+    {
+      "artistName": "משה פלד",
+      "youtubeChannelId": "UC4xhDvLjoxYL1s8CRgwAy6Q",
+      "autoAliases": [
+        "moshe pld",
+        "moshe fld"
+      ]
+    },
+    {
+      "artistName": "משה קליין",
+      "youtubeChannelId": "UCpHeJBXBqnyvxF_eK-BiwnQ",
+      "autoAliases": [
+        "moshe klein",
+        "moshe kleyn",
+        "moshe klain",
+        "moshe klayn",
+        "moshe klyn",
+        "moshe klin"
+      ]
+    },
+    {
+      "artistName": "נאור כרמי",
+      "youtubeChannelId": "UCOcJT7w0SKEeFlXq8S0JBSg",
+      "autoAliases": [
+        "nor chrmi",
+        "nor chrmy",
+        "nor krmi",
+        "nor krmy",
+        "nor khrmi",
+        "nor khrmy",
+        "nur chrmi",
+        "nur chrmy"
+      ]
+    },
+    {
+      "artistName": "נדב בכר",
+      "youtubeChannelId": "UCAPOMohu2PzaaMdK2DD6vXQ",
+      "autoAliases": [
+        "ndb bchr",
+        "ndb bkr",
+        "ndb bkhr",
+        "ndb vchr",
+        "ndb vkr",
+        "ndb vkhr",
+        "ndv bchr",
+        "ndv bkr"
+      ]
+    },
+    {
+      "artistName": "נהוראי אריאלי",
+      "youtubeChannelId": "UCdryVfjbE-stNJ1FBCkJWVQ",
+      "autoAliases": [
+        "nhori",
+        "nhory",
+        "nhuri",
+        "nhury",
+        "nhvri",
+        "nhvry"
+      ]
+    },
+    {
+      "artistName": "נותי ליברמן",
+      "youtubeChannelId": "UCY0Zc19KijcluOiBoHWUz1Q",
+      "autoAliases": [
+        "noti librmn",
+        "noti livrmn",
+        "noti lybrmn",
+        "noti lyvrmn",
+        "noty librmn",
+        "noty livrmn",
+        "noty lybrmn",
+        "noty lyvrmn"
+      ]
+    },
+    {
+      "artistName": "נחמן בוימל",
+      "youtubeChannelId": "UCeReGuCFmtdQBbV0yha11JA",
+      "autoAliases": [
+        "nchmn boyml",
+        "nchmn boiml",
+        "nchmn buyml",
+        "nchmn buiml",
+        "nchmn voyml",
+        "nchmn voiml",
+        "nhmn boyml",
+        "nhmn boiml"
+      ]
+    },
+    {
+      "artistName": "נמואל הרוש",
+      "youtubeChannelId": "UCCxmSp4ySkfbNjVkA6pRhgw",
+      "autoAliases": [
+        "nmol hrosh",
+        "nmol hros",
+        "nmol hrush",
+        "nmol hrus",
+        "nmol hrvsh",
+        "nmol hrvs",
+        "nmul hrosh",
+        "nmul hros"
+      ]
+    },
+    {
+      "artistName": "נפתלי בלומנטל",
+      "youtubeChannelId": "UCiYY3LCuBdTI0ufmdzmAXiQ",
+      "autoAliases": [
+        "naftali blomntl",
+        "naftali blumntl",
+        "naftali blvmntl",
+        "naftali blwmntl",
+        "naftali vlomntl",
+        "naftali vlumntl",
+        "naftuly blomntl",
+        "naftuly blumntl"
+      ]
+    },
+    {
+      "artistName": "נפתלי הרשטיק",
+      "youtubeChannelId": "UCd6QidYVi8ua-_k5GD7nS7Q",
+      "autoAliases": [
+        "naftali hrshtik",
+        "naftali hrshtic",
+        "naftali hrshtyk",
+        "naftali hrshtyc",
+        "naftali hrstik",
+        "naftali hrstic",
+        "naftuly hrshtik",
+        "naftuly hrshtic"
+      ]
+    },
+    {
+      "artistName": "נפתלי קמפה",
+      "youtubeChannelId": "UCJMSsbz2JigH3Gd-ODmjEMw",
+      "autoAliases": [
+        "naftali kmph",
+        "naftali kmp",
+        "naftali kmfh",
+        "naftali kmf",
+        "naftali cmph",
+        "naftali cmp",
+        "naftuly kmph",
+        "naftuly kmp"
+      ]
+    },
+    {
+      "artistName": "נתנאל ישראל",
+      "youtubeChannelId": "UCwWJXU9qJ62yQ9pLlATo2_A",
+      "autoAliases": [
+        "ntnl yisrael",
+        "ntnl israel",
+        "nsnl yisrael",
+        "nsnl israel"
+      ]
+    },
+    {
+      "artistName": "סיני תור",
+      "youtubeChannelId": "UCHWFdyhD6XpZHC5nSTeTqFg",
+      "autoAliases": [
+        "sini tor",
+        "sini tur",
+        "sini tvr",
+        "sini twr",
+        "sini sor",
+        "sini sur",
+        "siny tor",
+        "siny tur"
+      ]
+    },
+    {
+      "artistName": "עדי רן",
+      "youtubeChannelId": "UCENpFg4g22Ore8X3TQNkU7Q",
+      "autoAliases": [
+        "adi rn",
+        "ady rn"
+      ]
+    },
+    {
+      "artistName": "עוזיה צדוק",
+      "youtubeChannelId": "UC8X43eu20eZXzHoc6IC_fzw",
+      "autoAliases": [
+        "aozih tzdok",
+        "aozih tzdoc",
+        "aozih tzduk",
+        "aozih tzduc",
+        "aozih tzdvk",
+        "aozih tzdvc",
+        "aozi tzdok",
+        "aozi tzdoc"
+      ]
+    },
+    {
+      "artistName": "עמירן דביר",
+      "youtubeChannelId": "UCL5sL2wnxCI4l-O_zaxUFhw",
+      "autoAliases": [
+        "amirn dbir",
+        "amirn dbyr",
+        "amirn dvir",
+        "amirn dvyr",
+        "amyrn dbir",
+        "amyrn dbyr",
+        "amyrn dvir",
+        "amyrn dvyr"
+      ]
+    },
+    {
+      "artistName": "עמרם אדר",
+      "youtubeChannelId": "UCqE4OZAwQj9vzNsva5mo3Wg",
+      "autoAliases": [
+        "amrm"
+      ]
+    },
+    {
+      "artistName": "פורת נוב",
+      "youtubeChannelId": "UCRRUJV-iGXfyaaK2WOuFunA",
+      "autoAliases": [
+        "port nob",
+        "port nov",
+        "port nub",
+        "port nuv",
+        "port nvb",
+        "port nvv",
+        "pors nob",
+        "pors nov"
+      ]
+    },
+    {
+      "artistName": "פינחס ביכלר",
+      "youtubeChannelId": "UCt2AKtO242jh31CiLfGgI6Q",
+      "autoAliases": [
+        "pinchs bichlr",
+        "pinchs biklr",
+        "pinchs bikhlr",
+        "pinchs bychlr",
+        "pinchs byklr",
+        "pinchs bykhlr",
+        "pinhs bichlr",
+        "pinhs biklr"
+      ]
+    },
+    {
+      "artistName": "פיני איינהורן",
+      "youtubeChannelId": "UCx9iVefPf-yjAkgecQXjV-g",
+      "autoAliases": [
+        "pini",
+        "piny",
+        "pyni",
+        "pyny",
+        "fini",
+        "finy"
+      ]
+    },
+    {
+      "artistName": "פיני שכטר",
+      "youtubeChannelId": "UCtxP1E-IPYIV3DtJJtj-vTw",
+      "autoAliases": [
+        "pini shchtr",
+        "pini shktr",
+        "pini shkhtr",
+        "pini schtr",
+        "pini sktr",
+        "pini skhtr",
+        "piny shchtr",
+        "piny shktr"
+      ]
+    }
+  ],
+  "autoAliasExamples": [
+    {
+      "artistName": "צליל וזמר",
+      "aliasesUsed": [
+        "צליל וזמר",
+        "Sound and singer",
+        "tzlil ozmr",
+        "tzlil ozmer",
+        "tzlil uzmr",
+        "tzlil uzmer"
+      ]
+    },
+    {
+      "artistName": "צמד רעים",
+      "aliasesUsed": [
+        "צמד רעים",
+        "A bad pair",
+        "tzmd rim",
+        "tzmd rym",
+        "tzmd raim",
+        "tzmd raym"
+      ]
+    },
+    {
+      "artistName": "קובי ברומר",
+      "aliasesUsed": [
+        "קובי ברומר",
+        "Kobe Brummer",
+        "kobi bromr",
+        "kobi bromer",
+        "kobi brumr",
+        "kobi brumer"
+      ]
+    },
+    {
+      "artistName": "קובי גרינבוים",
+      "aliasesUsed": [
+        "קובי גרינבוים",
+        "Kobi Greenbaum",
+        "kobi grinboym",
+        "kobi grinboim",
+        "kobi grinbuym",
+        "kobi grinbuim"
+      ]
+    },
+    {
+      "artistName": "קינדרלעך",
+      "aliasesUsed": [
+        "קינדרלעך",
+        "Kinderlach",
+        "kindrlch",
+        "kindrlk",
+        "kindrlkh",
+        "kindrlach"
+      ]
+    },
+    {
+      "artistName": "רולי דיקמן",
+      "aliasesUsed": [
+        "רולי דיקמן",
+        "Rolly Dickman",
+        "roli dikmn",
+        "roli dicmn",
+        "roli dykmn",
+        "roli dycmn"
+      ]
+    },
+    {
+      "artistName": "רועי ידיד",
+      "aliasesUsed": [
+        "רועי ידיד",
+        "Roy friend",
+        "roi idid",
+        "roi idyd",
+        "roi ydid",
+        "roi ydyd"
+      ]
+    },
+    {
+      "artistName": "רפאל אוזן",
+      "aliasesUsed": [
+        "רפאל אוזן",
+        "Raphael Ozan",
+        "rpl ozn",
+        "rpl uzn",
+        "rpl auzn",
+        "rfl ozn"
+      ]
+    },
+    {
+      "artistName": "רפאל מלול",
+      "aliasesUsed": [
+        "רפאל מלול",
+        "Raphael Malol",
+        "rpl mlol",
+        "rpl mlul",
+        "rpl mlvl",
+        "rpl mlwl"
+      ]
+    },
+    {
+      "artistName": "שולי רנד",
+      "aliasesUsed": [
+        "שולי רנד",
+        "Shuli Rand",
+        "sholi rnd",
+        "sholy rnd",
+        "shuli rnd",
+        "shuly rnd"
+      ]
+    },
+    {
+      "artistName": "שוקי סלומון",
+      "aliasesUsed": [
+        "שוקי סלומון",
+        "Salomon Markets",
+        "shoki slomon",
+        "shoki slomun",
+        "shoki slomvn",
+        "shoki slomwn"
+      ]
+    },
+    {
+      "artistName": "שימי אנגל",
+      "aliasesUsed": [
+        "שימי אנגל",
+        "Shimi Engel",
+        "shimi",
+        "shimy",
+        "shymi",
+        "shymy"
+      ]
+    },
+    {
+      "artistName": "שירה Choir",
+      "aliasesUsed": [
+        "שירה Choir",
+        "Choir singing",
+        "shirh choir",
+        "shir choir",
+        "shyrh choir",
+        "shyr choir"
+      ]
+    },
+    {
+      "artistName": "שלום ברנהולץ",
+      "aliasesUsed": [
+        "שלום ברנהולץ",
+        "Hello Bernholz",
+        "shlom brnholtz",
+        "shlom brnholz",
+        "shlom brnhultz",
+        "shlom brnhulz"
+      ]
+    },
+    {
+      "artistName": "שלומי דאקס",
+      "aliasesUsed": [
+        "שלומי דאקס",
+        "Hello Dax",
+        "shlomi dks",
+        "shlomi dcs",
+        "shlomy dks",
+        "shlomy dcs"
+      ]
+    },
+    {
+      "artistName": "שלומי דסקל",
+      "aliasesUsed": [
+        "שלומי דסקל",
+        "Shlomi Daskel",
+        "shlomi dskl",
+        "shlomi dscl",
+        "shlomy dskl",
+        "shlomy dscl"
+      ]
+    },
+    {
+      "artistName": "שלומי קאופמן",
+      "aliasesUsed": [
+        "שלומי קאופמן",
+        "Shlomi Kaufman",
+        "shlomi kopmn",
+        "shlomi kofmn",
+        "shlomi kupmn",
+        "shlomi kufmn"
+      ]
+    },
+    {
+      "artistName": "שלמה ברונר",
+      "aliasesUsed": [
+        "שלמה ברונר",
+        "Shlomo Bruner",
+        "shlomo bronr",
+        "shlomo brunr",
+        "shlomo brvnr",
+        "shlomo brwnr"
+      ]
+    },
+    {
+      "artistName": "שלמה טויסיג",
+      "aliasesUsed": [
+        "שלמה טויסיג",
+        "Shlomo Tuisig",
+        "shlomo toysig",
+        "shlomo toysyg",
+        "shlomo toisig",
+        "shlomo toisyg"
+      ]
+    },
+    {
+      "artistName": "שלמה כהן",
+      "aliasesUsed": [
+        "שלמה כהן",
+        "Shlomo Cohen",
+        "shlomo chhn",
+        "shlomo chn",
+        "shlomo khn",
+        "shlomo kn"
       ]
     }
   ],
   "weakMatches": [
-    {
-      "artistName": "מקהלת שירה",
-      "artistChannelId": "UCT6JlUQFuSe_4zQ_9cQpJWA",
-      "aliasesUsed": [
-        "מקהלת שירה",
-        "A singing choir",
-        "mkhlt shirh",
-        "mkhlt shir",
-        "mkhlt shyrh",
-        "mkhlt shyr"
-      ],
-      "title": "MBD with Shirah - Kisufim - כיסופים",
-      "expectedType": "ALBUM",
-      "bestScore": 75,
-      "details": {
-        "titleScore": 60,
-        "artistScore": 20,
-        "artistGatePassed": false,
-        "titleGatePassed": true,
-        "candidateTitle": "MBD with Shirah - Kisufim - כיסופים",
-        "candidateArtist": "Mordechai Ben David & The Shira Choir",
-        "wrapperType": "collection",
-        "kind": null,
-        "rapidfuzzEnabled": true
-      }
-    },
-    {
-      "artistName": "נפתלי קמפה",
-      "artistChannelId": "UCJMSsbz2JigH3Gd-ODmjEMw",
-      "aliasesUsed": [
-        "נפתלי קמפה",
-        "Naftali Kempe",
-        "naftali kmph",
-        "naftali kmp",
-        "naftali kmfh",
-        "naftali kmf"
-      ],
-      "title": "Ad Sheyavo Mashiach",
-      "expectedType": "ALBUM",
-      "bestScore": 72,
-      "details": {
-        "titleScore": 38,
-        "artistScore": 28,
-        "artistGatePassed": true,
-        "titleGatePassed": true,
-        "candidateTitle": "עד שיבוא משיח",
-        "candidateArtist": "Naftali Kempeh‎",
-        "wrapperType": "collection",
-        "kind": null,
-        "rapidfuzzEnabled": true
-      }
-    },
     {
       "artistName": "Dov Levine",
       "artistChannelId": "UCZc121O8NJKWS3cVCMLuPEQ",
@@ -3558,6 +3507,32 @@
         "titleGatePassed": false,
         "candidateTitle": "I Told You So: The Ultimate Hits of Randy Travis",
         "candidateArtist": "Randy Travis",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "בריו חקשור",
+      "artistChannelId": "UCbNw7jFjyhP7OY0IT2OUnIQ",
+      "aliasesUsed": [
+        "בריו חקשור",
+        "Rio Hekchor",
+        "brio chkshor",
+        "brio chkshur",
+        "brio chkshvr",
+        "brio chkshwr"
+      ],
+      "title": "בריו 2",
+      "expectedType": "ALBUM",
+      "bestScore": 68,
+      "details": {
+        "titleScore": 38,
+        "artistScore": 24,
+        "artistGatePassed": true,
+        "titleGatePassed": true,
+        "candidateTitle": "Baryo, Vol. 2",
+        "candidateArtist": "Baryo Hakshur",
         "wrapperType": "collection",
         "kind": null,
         "rapidfuzzEnabled": true
@@ -3642,32 +3617,6 @@
       }
     },
     {
-      "artistName": "מקהלת פרחי לונדון",
-      "artistChannelId": "UCpZAxl_lfqzZ56ortfjCQbg",
-      "aliasesUsed": [
-        "מקהלת פרחי לונדון",
-        "London Flower Choir",
-        "mkhlt prchi london",
-        "mkhlt prchi londun",
-        "mkhlt prchi londvn",
-        "mkhlt prchi londwn"
-      ],
-      "title": "The London School Of Jewish Song - אנעים זמירות",
-      "expectedType": "ALBUM",
-      "bestScore": 16,
-      "details": {
-        "titleScore": 0,
-        "artistScore": 10,
-        "artistGatePassed": false,
-        "titleGatePassed": false,
-        "candidateTitle": "אנעים זמירות (feat. Shimon Craimer, Lionel Rosenfeld & Jonnny Turgel) [The Commemorative 25th Anniversary Album]",
-        "candidateArtist": "Shabbaton Choir",
-        "wrapperType": "collection",
-        "kind": null,
-        "rapidfuzzEnabled": true
-      }
-    },
-    {
       "artistName": "מקהלת שירה",
       "artistChannelId": "UCT6JlUQFuSe_4zQ_9cQpJWA",
       "aliasesUsed": [
@@ -3678,42 +3627,16 @@
         "mkhlt shyrh",
         "mkhlt shyr"
       ],
-      "title": "א חתונה און שטעטעל",
-      "expectedType": "SINGLE",
+      "title": "MBD with Shirah - Kisufim - כיסופים",
+      "expectedType": "ALBUM",
       "bestScore": 75,
       "details": {
         "titleScore": 60,
         "artistScore": 20,
         "artistGatePassed": false,
         "titleGatePassed": true,
-        "candidateTitle": "א חתונה און שטעטעל - Single",
-        "candidateArtist": "Mendy Hershkowitz Band, The Shira Choir & Yisroel Adler",
-        "wrapperType": "collection",
-        "kind": null,
-        "rapidfuzzEnabled": true
-      }
-    },
-    {
-      "artistName": "משה דוד וייסמנדל",
-      "artistChannelId": "UCE-RbJjvCNlszw1qzfraqAg",
-      "aliasesUsed": [
-        "משה דוד וייסמנדל",
-        "Moshe David Weissmandel",
-        "moshe david oyismndl",
-        "moshe david oyysmndl",
-        "moshe david oiismndl",
-        "moshe david oeismndl"
-      ],
-      "title": "L'Chaim Mit Moshe David",
-      "expectedType": "ALBUM",
-      "bestScore": 34,
-      "details": {
-        "titleScore": 28,
-        "artistScore": 0,
-        "artistGatePassed": false,
-        "titleGatePassed": false,
-        "candidateTitle": "רזא דשבת משה דוד וייסמנדל & אבי ריימי - Single",
-        "candidateArtist": "Mamtak L'eshabat",
+        "candidateTitle": "MBD with Shirah - Kisufim - כיסופים",
+        "candidateArtist": "Mordechai Ben David & The Shira Choir",
         "wrapperType": "collection",
         "kind": null,
         "rapidfuzzEnabled": true
@@ -3730,7 +3653,7 @@
         "naftali kmfh",
         "naftali kmf"
       ],
-      "title": "Naftali Kempeh (Acapella)",
+      "title": "Ad Sheyavo Mashiach",
       "expectedType": "ALBUM",
       "bestScore": 72,
       "details": {
@@ -3738,7 +3661,7 @@
         "artistScore": 28,
         "artistGatePassed": true,
         "titleGatePassed": true,
-        "candidateTitle": "נפתלי קמפה (ווקאלי)",
+        "candidateTitle": "עד שיבוא משיח",
         "candidateArtist": "Naftali Kempeh‎",
         "wrapperType": "collection",
         "kind": null,
@@ -3944,6 +3867,32 @@
       }
     },
     {
+      "artistName": "מקהלת פרחי לונדון",
+      "artistChannelId": "UCpZAxl_lfqzZ56ortfjCQbg",
+      "aliasesUsed": [
+        "מקהלת פרחי לונדון",
+        "London Flower Choir",
+        "mkhlt prchi london",
+        "mkhlt prchi londun",
+        "mkhlt prchi londvn",
+        "mkhlt prchi londwn"
+      ],
+      "title": "The London School Of Jewish Song - אנעים זמירות",
+      "expectedType": "ALBUM",
+      "bestScore": 16,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 10,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "אנעים זמירות (feat. Shimon Craimer, Lionel Rosenfeld & Jonnny Turgel) [The Commemorative 25th Anniversary Album]",
+        "candidateArtist": "Shabbaton Choir",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
       "artistName": "מקהלת שירה",
       "artistChannelId": "UCT6JlUQFuSe_4zQ_9cQpJWA",
       "aliasesUsed": [
@@ -3954,7 +3903,7 @@
         "mkhlt shyrh",
         "mkhlt shyr"
       ],
-      "title": "Far Dir (פאר דיר)",
+      "title": "א חתונה און שטעטעל",
       "expectedType": "SINGLE",
       "bestScore": 75,
       "details": {
@@ -3962,10 +3911,36 @@
         "artistScore": 20,
         "artistGatePassed": false,
         "titleGatePassed": true,
-        "candidateTitle": "Far Dir (פאר דיר) - Single",
-        "candidateArtist": "Dovy Meisels, Mendy Weiss & The Shira Choir",
-        "wrapperType": "track",
-        "kind": "song",
+        "candidateTitle": "א חתונה און שטעטעל - Single",
+        "candidateArtist": "Mendy Hershkowitz Band, The Shira Choir & Yisroel Adler",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "משה דוד וייסמנדל",
+      "artistChannelId": "UCE-RbJjvCNlszw1qzfraqAg",
+      "aliasesUsed": [
+        "משה דוד וייסמנדל",
+        "Moshe David Weissmandel",
+        "moshe david oyismndl",
+        "moshe david oyysmndl",
+        "moshe david oiismndl",
+        "moshe david oeismndl"
+      ],
+      "title": "L'Chaim Mit Moshe David",
+      "expectedType": "ALBUM",
+      "bestScore": 34,
+      "details": {
+        "titleScore": 28,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "רזא דשבת משה דוד וייסמנדל & אבי ריימי - Single",
+        "candidateArtist": "Mamtak L'eshabat",
+        "wrapperType": "collection",
+        "kind": null,
         "rapidfuzzEnabled": true
       }
     },
@@ -3980,15 +3955,15 @@
         "naftali kmfh",
         "naftali kmf"
       ],
-      "title": "Shabbat Yeshiva",
+      "title": "Naftali Kempeh (Acapella)",
       "expectedType": "ALBUM",
-      "bestScore": 62,
+      "bestScore": 72,
       "details": {
-        "titleScore": 28,
+        "titleScore": 38,
         "artistScore": 28,
         "artistGatePassed": true,
-        "titleGatePassed": false,
-        "candidateTitle": "שבת ישיבה",
+        "titleGatePassed": true,
+        "candidateTitle": "נפתלי קמפה (ווקאלי)",
         "candidateArtist": "Naftali Kempeh‎",
         "wrapperType": "collection",
         "kind": null,
@@ -4069,32 +4044,6 @@
       }
     },
     {
-      "artistName": "להקת מושב",
-      "artistChannelId": "UCtyTfjzwYYxjvQgVX7ZPgkA",
-      "aliasesUsed": [
-        "להקת מושב",
-        "Moshav band",
-        "lhkt moshb",
-        "lhkt moshv",
-        "lhkt mosb",
-        "lhkt mosv"
-      ],
-      "title": "Malachim",
-      "expectedType": "ALBUM",
-      "bestScore": 34,
-      "details": {
-        "titleScore": 0,
-        "artistScore": 28,
-        "artistGatePassed": true,
-        "titleGatePassed": false,
-        "candidateTitle": "המיטב 1998-2006",
-        "candidateArtist": "Moshav",
-        "wrapperType": "collection",
-        "kind": null,
-        "rapidfuzzEnabled": true
-      }
-    },
-    {
       "artistName": "מיכאל שטרייכר",
       "artistChannelId": "UCl80Gv3npsInBbatoVaZgTQ",
       "aliasesUsed": [
@@ -4131,18 +4080,44 @@
         "mkhlt shyrh",
         "mkhlt shyr"
       ],
-      "title": "א יידישע מאמע (feat. שלום בראדט)",
+      "title": "Far Dir (פאר דיר)",
       "expectedType": "SINGLE",
-      "bestScore": 66,
+      "bestScore": 75,
       "details": {
         "titleScore": 60,
-        "artistScore": 0,
+        "artistScore": 20,
         "artistGatePassed": false,
         "titleGatePassed": true,
-        "candidateTitle": "א יידישע מאמע (feat. שלום בראדט, אברהם מרדכי שווארץ & שירה) - Single",
-        "candidateArtist": "Sababa Band",
+        "candidateTitle": "Far Dir (פאר דיר) - Single",
+        "candidateArtist": "Dovy Meisels, Mendy Weiss & The Shira Choir",
         "wrapperType": "track",
         "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "נפתלי קמפה",
+      "artistChannelId": "UCJMSsbz2JigH3Gd-ODmjEMw",
+      "aliasesUsed": [
+        "נפתלי קמפה",
+        "Naftali Kempe",
+        "naftali kmph",
+        "naftali kmp",
+        "naftali kmfh",
+        "naftali kmf"
+      ],
+      "title": "Shabbat Yeshiva",
+      "expectedType": "ALBUM",
+      "bestScore": 62,
+      "details": {
+        "titleScore": 28,
+        "artistScore": 28,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "שבת ישיבה",
+        "candidateArtist": "Naftali Kempeh‎",
+        "wrapperType": "collection",
+        "kind": null,
         "rapidfuzzEnabled": true
       }
     },
@@ -4298,6 +4273,58 @@
       }
     },
     {
+      "artistName": "להקת מושב",
+      "artistChannelId": "UCtyTfjzwYYxjvQgVX7ZPgkA",
+      "aliasesUsed": [
+        "להקת מושב",
+        "Moshav band",
+        "lhkt moshb",
+        "lhkt moshv",
+        "lhkt mosb",
+        "lhkt mosv"
+      ],
+      "title": "Malachim",
+      "expectedType": "ALBUM",
+      "bestScore": 34,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 28,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "המיטב 1998-2006",
+        "candidateArtist": "Moshav",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "מקהלת שירה",
+      "artistChannelId": "UCT6JlUQFuSe_4zQ_9cQpJWA",
+      "aliasesUsed": [
+        "מקהלת שירה",
+        "A singing choir",
+        "mkhlt shirh",
+        "mkhlt shir",
+        "mkhlt shyrh",
+        "mkhlt shyr"
+      ],
+      "title": "א יידישע מאמע (feat. שלום בראדט)",
+      "expectedType": "SINGLE",
+      "bestScore": 66,
+      "details": {
+        "titleScore": 60,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "א יידישע מאמע (feat. שלום בראדט, אברהם מרדכי שווארץ & שירה) - Single",
+        "candidateArtist": "Sababa Band",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
       "artistName": "Alex Clare",
       "artistChannelId": "UCZa7crFd_TP-vDn4fUdzqTw",
       "aliasesUsed": [
@@ -4322,30 +4349,6 @@
   "warnings": [
     {
       "type": "artist_read_failed",
-      "artistName": "סיני תור",
-      "artistChannelId": "UCHWFdyhD6XpZHC5nSTeTqFg",
-      "message": "'musicImmersiveHeaderRenderer'"
-    },
-    {
-      "type": "artist_read_failed",
-      "artistName": "אהרון רזאל",
-      "artistChannelId": "UCWXcFgarUdHuJtYOX_rVKAw",
-      "message": "'musicImmersiveHeaderRenderer'"
-    },
-    {
-      "type": "artist_read_failed",
-      "artistName": "אהרן רזאל",
-      "artistChannelId": "UCzqLcYn4fpf48sZI8G64t9g",
-      "message": "'musicImmersiveHeaderRenderer'"
-    },
-    {
-      "type": "artist_read_failed",
-      "artistName": "בריו חקשור",
-      "artistChannelId": "UCbNw7jFjyhP7OY0IT2OUnIQ",
-      "message": "'musicImmersiveHeaderRenderer'"
-    },
-    {
-      "type": "artist_read_failed",
       "artistName": "גלעד פוטולסקי",
       "artistChannelId": "UCeki_KBPssr3gz3Zl53DDCQ",
       "message": "'musicImmersiveHeaderRenderer'"
@@ -4357,7 +4360,7 @@
       "message": "\"Unable to find 'contents' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'responseContext': {'serviceTrackingParams': [{'service': 'GFEEDBACK', 'params': [{'key': 'browse_id', 'value': 'UCnjvomNC0hBYdspNrimD3eA'}"
     }
   ],
-  "nextArtistOffset": 246,
+  "nextArtistOffset": 287,
   "itemsRetainedFromPreviousFeed": 1,
-  "completedAt": "2026-09-20T08:35:20.690270+00:00"
+  "completedAt": "2026-09-21T08:43:34.242252+00:00"
 }
