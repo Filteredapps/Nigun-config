@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T06:53:18.881380+00:00",
+  "generatedAt": "2026-09-26T06:53:57.651461+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_and_hebrew_transliteration",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v4_popular",
   "allowedArtistsCount": 288,
@@ -24,12 +24,12 @@
   "itunes429SleepSeconds": 90,
   "itunesMaxRetries": 2,
   "maxItunesLookupsTotal": 1000,
-  "artistNetworkReads": 286,
-  "artistReadErrors": 2,
+  "artistNetworkReads": 284,
+  "artistReadErrors": 4,
   "youtubeExpandErrors": 0,
-  "youtubeAlbumSourceItems": 530,
-  "youtubeSingleSourceItems": 889,
-  "youtubePopularSongSourceItems": 1213,
+  "youtubeAlbumSourceItems": 523,
+  "youtubeSingleSourceItems": 882,
+  "youtubePopularSongSourceItems": 1217,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 5,
@@ -44,560 +44,20 @@
   "youtubeAlbumDrilldownReads": 0,
   "youtubeAlbumDrilldownErrors": 0,
   "itunesNetworkReads": 1000,
-  "itunesCacheHits": 728,
+  "itunesCacheHits": 722,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
-  "itunesLookupsSkippedByLimit": 493,
+  "itunesLookupsSkippedByLimit": 492,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 651,
+  "itemsSkippedNoItunesCandidate": 654,
   "itemsSkippedWeakItunesCandidate": 29,
   "itemsSkippedMissingItunesReleaseDate": 0,
-  "itemsSkippedOldRelease": 620,
+  "itemsSkippedOldRelease": 607,
   "itemsGeneratedBeforeDedupe": 142,
   "itemsGeneratedAfterDedupe": 136,
   "albumsGeneratedAfterDedupe": 22,
   "singlesGeneratedAfterDedupe": 114,
   "artistsWithAutoAliases": [
-    {
-      "artistName": "הרשי אייזנבך",
-      "youtubeChannelId": "UCfSY83HaEOa0n_K8-6NpbcQ",
-      "autoAliases": [
-        "hrshi",
-        "hrshy",
-        "hrsi",
-        "hrsy"
-      ]
-    },
-    {
-      "artistName": "הרשי וינברגר",
-      "youtubeChannelId": "UCLQylHgxsIaMasCFKhL7A1g",
-      "autoAliases": [
-        "hrshi oynbrgr",
-        "hrshi oynvrgr",
-        "hrshi oinbrgr",
-        "hrshi oinvrgr",
-        "hrshi uynbrgr",
-        "hrshi uynvrgr",
-        "hrshy oynbrgr",
-        "hrshy oynvrgr"
-      ]
-    },
-    {
-      "artistName": "הרשי רוטנברג",
-      "youtubeChannelId": "UCOgaMO0hlvuCA8nnACAHriQ",
-      "autoAliases": [
-        "hrshi rotnbrg",
-        "hrshi rotnvrg",
-        "hrshi rutnbrg",
-        "hrshi rutnvrg",
-        "hrshi rvtnbrg",
-        "hrshi rvtnvrg",
-        "hrshy rotnbrg",
-        "hrshy rotnvrg"
-      ]
-    },
-    {
-      "artistName": "זאנוויל ויינברגר",
-      "youtubeChannelId": "UCdFDa1uKSVtD4w27Jo0E1gA",
-      "autoAliases": [
-        "znooyl oyinbrgr",
-        "znooyl oyinvrgr",
-        "znooyl oyynbrgr",
-        "znooyl oyynvrgr",
-        "znooyl oiinbrgr",
-        "znooyl oiinvrgr",
-        "znooil oyinbrgr",
-        "znooil oyinvrgr"
-      ]
-    },
-    {
-      "artistName": "זיו יחזקאל",
-      "youtubeChannelId": "UCyoi4F5uufOxh9IByNDuo5g",
-      "autoAliases": [
-        "zio ichzkl",
-        "zio ichzcl",
-        "zio ihzkl",
-        "zio ihzcl",
-        "zio ychzkl",
-        "zio ychzcl",
-        "ziu ichzkl",
-        "ziu ichzcl"
-      ]
-    },
-    {
-      "artistName": "חיים דוד ברסון",
-      "youtubeChannelId": "UCDFgB4GepvQXWyUg0TMJEaw",
-      "autoAliases": [
-        "chaim david brson",
-        "chaim david brsun",
-        "chaim david brsvn",
-        "chaim david brswn",
-        "chaim david vrson",
-        "chaim david vrsun",
-        "chaim dovid brson",
-        "chaim dovid brsun"
-      ]
-    },
-    {
-      "artistName": "חיים דוד סרצ'יק",
-      "youtubeChannelId": "UCn68TyMJCASbKN8j1uBszwA",
-      "autoAliases": [
-        "chaim david srtz ik",
-        "chaim david srtz ic",
-        "chaim david srtz yk",
-        "chaim david srtz yc",
-        "chaim david srz ik",
-        "chaim david srz ic",
-        "chaim david srz yk",
-        "chaim david srz yc"
-      ]
-    },
-    {
-      "artistName": "חיים ישראל",
-      "youtubeChannelId": "UCpFrrj714aCUQ-Pfr9E5vtA",
-      "autoAliases": [
-        "chaim yisrael",
-        "chaim israel",
-        "haim yisrael",
-        "haim israel"
-      ]
-    },
-    {
-      "artistName": "חיים פורטל",
-      "youtubeChannelId": "UCP3G80JEWp5vAEKDm1zRywA",
-      "autoAliases": [
-        "chaim portl",
-        "chaim purtl",
-        "chaim pvrtl",
-        "chaim pwrtl",
-        "chaim fortl",
-        "chaim furtl",
-        "haim portl",
-        "haim purtl"
-      ]
-    },
-    {
-      "artistName": "חיים צדיק",
-      "youtubeChannelId": "UCOAEiya14ORLB09TUMYEJzA",
-      "autoAliases": [
-        "chaim tzdik",
-        "chaim tzdic",
-        "chaim tzdyk",
-        "chaim tzdyc",
-        "chaim zdik",
-        "chaim zdic",
-        "haim tzdik",
-        "haim tzdic"
-      ]
-    },
-    {
-      "artistName": "חיים שלמה מאיעס",
-      "youtubeChannelId": "UCqZEueqIcgzbBlaOMR2xTdw",
-      "autoAliases": [
-        "chaim shlomo mis",
-        "chaim shlomo mias",
-        "chaim shlomo mys",
-        "chaim shlomo myas",
-        "chaim shloime mis",
-        "chaim shloime mias",
-        "chaim shloime mys",
-        "chaim shloime myas"
-      ]
-    },
-    {
-      "artistName": "חיליק פרנק",
-      "youtubeChannelId": "UCEMOZ4wvQARIbprCByf-ykw",
-      "autoAliases": [
-        "chilik prnk",
-        "chilik prnc",
-        "chilik frnk",
-        "chilik frnc",
-        "chilic prnk",
-        "chilic prnc",
-        "chilic frnk",
-        "chilic frnc"
-      ]
-    },
-    {
-      "artistName": "חנוך בן משה",
-      "youtubeChannelId": "UCvLb6ju7Dps00WXlD36OZFw",
-      "autoAliases": [
-        "chnoch bn moshe",
-        "chnoch vn moshe",
-        "chnok bn moshe",
-        "chnok vn moshe",
-        "chnokh bn moshe",
-        "chnokh vn moshe",
-        "chnuch bn moshe",
-        "chnuch vn moshe"
-      ]
-    },
-    {
-      "artistName": "חנן בן ארי",
-      "youtubeChannelId": "UCz4N_ARAr1VxGzXq_Xj850g",
-      "autoAliases": [
-        "chnn bn ari",
-        "chnn vn ari",
-        "hnn bn ari",
-        "hnn vn ari"
-      ]
-    },
-    {
-      "artistName": "טל ועקנין",
-      "youtubeChannelId": "UCGgyx4Qm9_UB8URmvU6Ynfg",
-      "autoAliases": [
-        "tl oknin",
-        "tl oknyn",
-        "tl ocnin",
-        "tl ocnyn",
-        "tl oaknin",
-        "tl oaknyn"
-      ]
-    },
-    {
-      "artistName": "יאיר אלייצור",
-      "youtubeChannelId": "UC23eX6d6juE2YT0aa7nL97A",
-      "autoAliases": [
-        "iir",
-        "iyr",
-        "yir",
-        "yyr"
-      ]
-    },
-    {
-      "artistName": "יאיר כלב",
-      "youtubeChannelId": "UCV8IIInfAH2Vkfm4gdDYlEQ",
-      "autoAliases": [
-        "iir chlb",
-        "iir chlv",
-        "iir klb",
-        "iir klv",
-        "iir khlb",
-        "iir khlv",
-        "iyr chlb",
-        "iyr chlv"
-      ]
-    },
-    {
-      "artistName": "יהודה גלאנץ",
-      "youtubeChannelId": "UCOaMeJT5ftPBFLF1S9PMeJw",
-      "autoAliases": [
-        "yehuda glntz",
-        "yehuda glnz",
-        "judah glntz",
-        "judah glnz"
-      ]
-    },
-    {
-      "artistName": "יהודה גרין",
-      "youtubeChannelId": "UC6s2xUPyMS4ZbPBALr9MmcQ",
-      "autoAliases": [
-        "yehuda grin",
-        "yehuda gryn",
-        "judah grin",
-        "judah gryn"
-      ]
-    },
-    {
-      "artistName": "יהודה פליישמן",
-      "youtubeChannelId": "UCl9LqAGv2Jwwih-1Ry5CTsg",
-      "autoAliases": [
-        "yehuda pleishmn",
-        "yehuda pleismn",
-        "yehuda pleyshmn",
-        "yehuda pleysmn",
-        "yehuda plaishmn",
-        "yehuda plaismn",
-        "judah pleishmn",
-        "judah pleismn"
-      ]
-    },
-    {
-      "artistName": "יואלי גרינפלד",
-      "youtubeChannelId": "UCSL3dOfqU4_o7mtH6GdfxkA",
-      "autoAliases": [
-        "ioli grinpld",
-        "ioli grinfld",
-        "ioli grynpld",
-        "ioli grynfld",
-        "ioly grinpld",
-        "ioly grinfld",
-        "ioly grynpld",
-        "ioly grynfld"
-      ]
-    },
-    {
-      "artistName": "יואלי דיקמן",
-      "youtubeChannelId": "UCzfJYCFmO-B4VYzCGRU6e9Q",
-      "autoAliases": [
-        "ioli dikmn",
-        "ioli dicmn",
-        "ioli dykmn",
-        "ioli dycmn",
-        "ioly dikmn",
-        "ioly dicmn",
-        "ioly dykmn",
-        "ioly dycmn"
-      ]
-    },
-    {
-      "artistName": "יואלי קליין",
-      "youtubeChannelId": "UCXjUzmNpXKsKZtfDgyHc-_w",
-      "autoAliases": [
-        "ioli klein",
-        "ioli kleyn",
-        "ioli klain",
-        "ioli klayn",
-        "ioli klyn",
-        "ioli klin",
-        "ioly klein",
-        "ioly kleyn"
-      ]
-    },
-    {
-      "artistName": "יואלי שטיינברג",
-      "youtubeChannelId": "UCb9ed8F9w8AWxS96mfUKb5g",
-      "autoAliases": [
-        "ioli shteinbrg",
-        "ioli shteinvrg",
-        "ioli shteynbrg",
-        "ioli shteynvrg",
-        "ioli shtainbrg",
-        "ioli shtainvrg",
-        "ioly shteinbrg",
-        "ioly shteinvrg"
-      ]
-    },
-    {
-      "artistName": "יובל טייב",
-      "youtubeChannelId": "UCJ9MOj5CuA0gaehrxG5usMw",
-      "autoAliases": [
-        "iobl teib",
-        "iobl teiv",
-        "iobl teyb",
-        "iobl teyv",
-        "iobl taib",
-        "iobl taiv",
-        "iovl teib",
-        "iovl teiv"
-      ]
-    },
-    {
-      "artistName": "יוחנן אורי",
-      "youtubeChannelId": "UC8YSUssuDsfn0ABjB9Iv_yA",
-      "autoAliases": [
-        "iochnn ori",
-        "iochnn ory",
-        "iochnn uri",
-        "iochnn ury",
-        "iochnn auri",
-        "iochnn aury",
-        "iohnn ori",
-        "iohnn ory"
-      ]
-    },
-    {
-      "artistName": "יומי לואי",
-      "youtubeChannelId": "UCJpfmMsU99sd21Z1ff7WJFw",
-      "autoAliases": [
-        "iomi loi",
-        "iomi loy",
-        "iomi lui",
-        "iomi luy",
-        "iomi lvi",
-        "iomi lvy",
-        "iomy loi",
-        "iomy loy"
-      ]
-    },
-    {
-      "artistName": "יוני אליאב",
-      "youtubeChannelId": "UC-GfYOy3knA_Lz-k_kidrOA",
-      "autoAliases": [
-        "ioni",
-        "iony",
-        "iuni",
-        "iuny",
-        "ivni",
-        "ivny"
-      ]
-    },
-    {
-      "artistName": "יוני זי",
-      "youtubeChannelId": "UCkZ8Hbvfbzax0r-t7tQ9YLg",
-      "autoAliases": [
-        "ioni zi",
-        "ioni zy",
-        "iony zi",
-        "iony zy",
-        "iuni zi",
-        "iuni zy",
-        "iuny zi",
-        "iuny zy"
-      ]
-    },
-    {
-      "artistName": "יוני שלמה",
-      "youtubeChannelId": "UC3Nan6zDpzLpKRSQ3KkcjzQ",
-      "autoAliases": [
-        "ioni shlomo",
-        "ioni shloime",
-        "ioni solomon",
-        "iony shlomo",
-        "iony shloime",
-        "iony solomon",
-        "iuni shlomo",
-        "iuni shloime"
-      ]
-    },
-    {
-      "artistName": "יונתן רזאל",
-      "youtubeChannelId": "UCIs-s_nxV5WKupy0gEGZiXw",
-      "autoAliases": [
-        "iontn rzl",
-        "ionsn rzl",
-        "iuntn rzl",
-        "iunsn rzl",
-        "ivntn rzl",
-        "ivnsn rzl"
-      ]
-    },
-    {
-      "artistName": "יונתן שוורץ",
-      "youtubeChannelId": "UC8QdnhyXXB8Y6FHQTvtDuRQ",
-      "autoAliases": [
-        "iontn shoortz",
-        "iontn shoorz",
-        "iontn shourtz",
-        "iontn shourz",
-        "iontn shovrtz",
-        "iontn shovrz",
-        "ionsn shoortz",
-        "ionsn shoorz"
-      ]
-    },
-    {
-      "artistName": "יונתן שינפלד",
-      "youtubeChannelId": "UCxBkd0HGpsMSxBDMTPHINdQ",
-      "autoAliases": [
-        "iontn shinpld",
-        "iontn shinfld",
-        "iontn shynpld",
-        "iontn shynfld",
-        "iontn sinpld",
-        "iontn sinfld",
-        "ionsn shinpld",
-        "ionsn shinfld"
-      ]
-    },
-    {
-      "artistName": "יוסי גרין",
-      "youtubeChannelId": "UCtzGTGyCz_k0ZXMCZ1u_tkQ",
-      "autoAliases": [
-        "yossi grin",
-        "yossi gryn",
-        "yosef grin",
-        "yosef gryn"
-      ]
-    },
-    {
-      "artistName": "יוסי פיאמנטה",
-      "youtubeChannelId": "UC5HUxQuTpa3JdJlftkU-rWg",
-      "autoAliases": [
-        "yossi pimnth",
-        "yossi pimnt",
-        "yossi pymnth",
-        "yossi pymnt",
-        "yossi fimnth",
-        "yossi fimnt",
-        "yosef pimnth",
-        "yosef pimnt"
-      ]
-    },
-    {
-      "artistName": "יוסי קוגלר",
-      "youtubeChannelId": "UCKNpYaDVAtsOWq4gP8DKHJA",
-      "autoAliases": [
-        "yossi koglr",
-        "yossi kuglr",
-        "yossi kvglr",
-        "yossi kwglr",
-        "yossi coglr",
-        "yossi cuglr",
-        "yosef koglr",
-        "yosef kuglr"
-      ]
-    },
-    {
-      "artistName": "יוסף חיים שוואקי",
-      "youtubeChannelId": "UCdnR2ba9ft8_UoTiNFzTuPw",
-      "autoAliases": [
-        "yosef chaim shooki",
-        "yosef chaim shooky",
-        "yosef chaim shooci",
-        "yosef chaim shoocy",
-        "yosef chaim shouki",
-        "yosef chaim shouky",
-        "yosef haim shooki",
-        "yosef haim shooky"
-      ]
-    },
-    {
-      "artistName": "יוסף משה כהנא",
-      "youtubeChannelId": "UCTohDUl7uvE9tRJFMTHK9Lg",
-      "autoAliases": [
-        "yosef moshe chhn",
-        "yosef moshe chn",
-        "yosef moshe khn",
-        "yosef moshe kn",
-        "yosef moshe khhn",
-        "yossi moshe chhn",
-        "yossi moshe chn",
-        "yossi moshe khn"
-      ]
-    },
-    {
-      "artistName": "יוסף נטיב",
-      "youtubeChannelId": "UC9mCcrTMWEMm5TRHvlXiWtg",
-      "autoAliases": [
-        "yosef ntib",
-        "yosef ntiv",
-        "yosef ntyb",
-        "yosef ntyv",
-        "yossi ntib",
-        "yossi ntiv",
-        "yossi ntyb",
-        "yossi ntyv"
-      ]
-    },
-    {
-      "artistName": "יוסף קרדונר",
-      "youtubeChannelId": "UC9u5RkvuFKEHljFrCD4hEPA",
-      "autoAliases": [
-        "yosef krdonr",
-        "yosef krdunr",
-        "yosef krdvnr",
-        "yosef krdwnr",
-        "yosef crdonr",
-        "yosef crdunr",
-        "yossi krdonr",
-        "yossi krdunr"
-      ]
-    },
-    {
-      "artistName": "יוסף רוזנבלט",
-      "youtubeChannelId": "UCqK5e4RV-N9S7x5qoJC9gkQ",
-      "autoAliases": [
-        "yosef roznblt",
-        "yosef roznvlt",
-        "yosef ruznblt",
-        "yosef ruznvlt",
-        "yosef rvznblt",
-        "yosef rvznvlt",
-        "yossi roznblt",
-        "yossi roznvlt"
-      ]
-    },
     {
       "artistName": "יחיאל ליכטיגר",
       "youtubeChannelId": "UCH4C0PxbBCg8UvVesbalhBg",
@@ -3240,14 +2700,11 @@
       "autoAliases": [
         "hrl tl"
       ]
-    }
-  ],
-  "autoAliasExamples": [
+    },
     {
       "artistName": "הרשי אייזנבך",
-      "aliasesUsed": [
-        "הרשי אייזנבך",
-        "Hershey Eisenbach",
+      "youtubeChannelId": "UCfSY83HaEOa0n_K8-6NpbcQ",
+      "autoAliases": [
         "hrshi",
         "hrshy",
         "hrsi",
@@ -3256,75 +2713,92 @@
     },
     {
       "artistName": "הרשי וינברגר",
-      "aliasesUsed": [
-        "הרשי וינברגר",
-        "Hershey Weinberger",
+      "youtubeChannelId": "UCLQylHgxsIaMasCFKhL7A1g",
+      "autoAliases": [
         "hrshi oynbrgr",
         "hrshi oynvrgr",
         "hrshi oinbrgr",
-        "hrshi oinvrgr"
+        "hrshi oinvrgr",
+        "hrshi uynbrgr",
+        "hrshi uynvrgr",
+        "hrshy oynbrgr",
+        "hrshy oynvrgr"
       ]
     },
     {
       "artistName": "הרשי רוטנברג",
-      "aliasesUsed": [
-        "הרשי רוטנברג",
-        "Hershey Rotenberg",
+      "youtubeChannelId": "UCOgaMO0hlvuCA8nnACAHriQ",
+      "autoAliases": [
         "hrshi rotnbrg",
         "hrshi rotnvrg",
         "hrshi rutnbrg",
-        "hrshi rutnvrg"
+        "hrshi rutnvrg",
+        "hrshi rvtnbrg",
+        "hrshi rvtnvrg",
+        "hrshy rotnbrg",
+        "hrshy rotnvrg"
       ]
     },
     {
       "artistName": "זאנוויל ויינברגר",
-      "aliasesUsed": [
-        "זאנוויל ויינברגר",
-        "Zanville Weinberger",
+      "youtubeChannelId": "UCdFDa1uKSVtD4w27Jo0E1gA",
+      "autoAliases": [
         "znooyl oyinbrgr",
         "znooyl oyinvrgr",
         "znooyl oyynbrgr",
-        "znooyl oyynvrgr"
+        "znooyl oyynvrgr",
+        "znooyl oiinbrgr",
+        "znooyl oiinvrgr",
+        "znooil oyinbrgr",
+        "znooil oyinvrgr"
       ]
     },
     {
       "artistName": "זיו יחזקאל",
-      "aliasesUsed": [
-        "זיו יחזקאל",
-        "Ziv Yehezkel",
+      "youtubeChannelId": "UCyoi4F5uufOxh9IByNDuo5g",
+      "autoAliases": [
         "zio ichzkl",
         "zio ichzcl",
         "zio ihzkl",
-        "zio ihzcl"
+        "zio ihzcl",
+        "zio ychzkl",
+        "zio ychzcl",
+        "ziu ichzkl",
+        "ziu ichzcl"
       ]
     },
     {
       "artistName": "חיים דוד ברסון",
-      "aliasesUsed": [
-        "חיים דוד ברסון",
-        "Haim David Barson",
+      "youtubeChannelId": "UCDFgB4GepvQXWyUg0TMJEaw",
+      "autoAliases": [
         "chaim david brson",
         "chaim david brsun",
         "chaim david brsvn",
-        "chaim david brswn"
+        "chaim david brswn",
+        "chaim david vrson",
+        "chaim david vrsun",
+        "chaim dovid brson",
+        "chaim dovid brsun"
       ]
     },
     {
       "artistName": "חיים דוד סרצ'יק",
-      "aliasesUsed": [
-        "חיים דוד סרצ'יק",
-        "Haim David Sarachik",
+      "youtubeChannelId": "UCn68TyMJCASbKN8j1uBszwA",
+      "autoAliases": [
         "chaim david srtz ik",
         "chaim david srtz ic",
         "chaim david srtz yk",
-        "chaim david srtz yc"
+        "chaim david srtz yc",
+        "chaim david srz ik",
+        "chaim david srz ic",
+        "chaim david srz yk",
+        "chaim david srz yc"
       ]
     },
     {
       "artistName": "חיים ישראל",
-      "aliasesUsed": [
-        "חיים ישראל",
-        "Haim Israel",
+      "youtubeChannelId": "UCpFrrj714aCUQ-Pfr9E5vtA",
+      "autoAliases": [
         "chaim yisrael",
         "chaim israel",
         "haim yisrael",
@@ -3333,64 +2807,78 @@
     },
     {
       "artistName": "חיים פורטל",
-      "aliasesUsed": [
-        "חיים פורטל",
-        "Haim Portal",
+      "youtubeChannelId": "UCP3G80JEWp5vAEKDm1zRywA",
+      "autoAliases": [
         "chaim portl",
         "chaim purtl",
         "chaim pvrtl",
-        "chaim pwrtl"
+        "chaim pwrtl",
+        "chaim fortl",
+        "chaim furtl",
+        "haim portl",
+        "haim purtl"
       ]
     },
     {
       "artistName": "חיים צדיק",
-      "aliasesUsed": [
-        "חיים צדיק",
-        "Chaim Tsaddik",
+      "youtubeChannelId": "UCOAEiya14ORLB09TUMYEJzA",
+      "autoAliases": [
         "chaim tzdik",
         "chaim tzdic",
         "chaim tzdyk",
-        "chaim tzdyc"
+        "chaim tzdyc",
+        "chaim zdik",
+        "chaim zdic",
+        "haim tzdik",
+        "haim tzdic"
       ]
     },
     {
       "artistName": "חיים שלמה מאיעס",
-      "aliasesUsed": [
-        "חיים שלמה מאיעס",
-        "Haim Shlomo is boring",
+      "youtubeChannelId": "UCqZEueqIcgzbBlaOMR2xTdw",
+      "autoAliases": [
         "chaim shlomo mis",
         "chaim shlomo mias",
         "chaim shlomo mys",
-        "chaim shlomo myas"
+        "chaim shlomo myas",
+        "chaim shloime mis",
+        "chaim shloime mias",
+        "chaim shloime mys",
+        "chaim shloime myas"
       ]
     },
     {
       "artistName": "חיליק פרנק",
-      "aliasesUsed": [
-        "חיליק פרנק",
-        "Frank slipped",
+      "youtubeChannelId": "UCEMOZ4wvQARIbprCByf-ykw",
+      "autoAliases": [
         "chilik prnk",
         "chilik prnc",
         "chilik frnk",
-        "chilik frnc"
+        "chilik frnc",
+        "chilic prnk",
+        "chilic prnc",
+        "chilic frnk",
+        "chilic frnc"
       ]
     },
     {
       "artistName": "חנוך בן משה",
-      "aliasesUsed": [
-        "חנוך בן משה",
-        "Enoch ben Moshe",
+      "youtubeChannelId": "UCvLb6ju7Dps00WXlD36OZFw",
+      "autoAliases": [
         "chnoch bn moshe",
         "chnoch vn moshe",
         "chnok bn moshe",
-        "chnok vn moshe"
+        "chnok vn moshe",
+        "chnokh bn moshe",
+        "chnokh vn moshe",
+        "chnuch bn moshe",
+        "chnuch vn moshe"
       ]
     },
     {
       "artistName": "חנן בן ארי",
-      "aliasesUsed": [
-        "חנן בן ארי",
-        "Hanan ben Ari",
+      "youtubeChannelId": "UCz4N_ARAr1VxGzXq_Xj850g",
+      "autoAliases": [
         "chnn bn ari",
         "chnn vn ari",
         "hnn bn ari",
@@ -3399,20 +2887,20 @@
     },
     {
       "artistName": "טל ועקנין",
-      "aliasesUsed": [
-        "טל ועקנין",
-        "Tal and Aknin",
+      "youtubeChannelId": "UCGgyx4Qm9_UB8URmvU6Ynfg",
+      "autoAliases": [
         "tl oknin",
         "tl oknyn",
         "tl ocnin",
-        "tl ocnyn"
+        "tl ocnyn",
+        "tl oaknin",
+        "tl oaknyn"
       ]
     },
     {
       "artistName": "יאיר אלייצור",
-      "aliasesUsed": [
-        "יאיר אלייצור",
-        "Yair Elizur",
+      "youtubeChannelId": "UC23eX6d6juE2YT0aa7nL97A",
+      "autoAliases": [
         "iir",
         "iyr",
         "yir",
@@ -3421,20 +2909,22 @@
     },
     {
       "artistName": "יאיר כלב",
-      "aliasesUsed": [
-        "יאיר כלב",
-        "Yair Kalev",
+      "youtubeChannelId": "UCV8IIInfAH2Vkfm4gdDYlEQ",
+      "autoAliases": [
         "iir chlb",
         "iir chlv",
         "iir klb",
-        "iir klv"
+        "iir klv",
+        "iir khlb",
+        "iir khlv",
+        "iyr chlb",
+        "iyr chlv"
       ]
     },
     {
       "artistName": "יהודה גלאנץ",
-      "aliasesUsed": [
-        "יהודה גלאנץ",
-        "Yehuda Glanz",
+      "youtubeChannelId": "UCOaMeJT5ftPBFLF1S9PMeJw",
+      "autoAliases": [
         "yehuda glntz",
         "yehuda glnz",
         "judah glntz",
@@ -3443,9 +2933,8 @@
     },
     {
       "artistName": "יהודה גרין",
-      "aliasesUsed": [
-        "יהודה גרין",
-        "Yehuda Green",
+      "youtubeChannelId": "UC6s2xUPyMS4ZbPBALr9MmcQ",
+      "autoAliases": [
         "yehuda grin",
         "yehuda gryn",
         "judah grin",
@@ -3454,13 +2943,520 @@
     },
     {
       "artistName": "יהודה פליישמן",
-      "aliasesUsed": [
-        "יהודה פליישמן",
-        "Yehuda Fleishman",
+      "youtubeChannelId": "UCl9LqAGv2Jwwih-1Ry5CTsg",
+      "autoAliases": [
         "yehuda pleishmn",
         "yehuda pleismn",
         "yehuda pleyshmn",
-        "yehuda pleysmn"
+        "yehuda pleysmn",
+        "yehuda plaishmn",
+        "yehuda plaismn",
+        "judah pleishmn",
+        "judah pleismn"
+      ]
+    },
+    {
+      "artistName": "יואלי גרינפלד",
+      "youtubeChannelId": "UCSL3dOfqU4_o7mtH6GdfxkA",
+      "autoAliases": [
+        "ioli grinpld",
+        "ioli grinfld",
+        "ioli grynpld",
+        "ioli grynfld",
+        "ioly grinpld",
+        "ioly grinfld",
+        "ioly grynpld",
+        "ioly grynfld"
+      ]
+    },
+    {
+      "artistName": "יואלי דיקמן",
+      "youtubeChannelId": "UCzfJYCFmO-B4VYzCGRU6e9Q",
+      "autoAliases": [
+        "ioli dikmn",
+        "ioli dicmn",
+        "ioli dykmn",
+        "ioli dycmn",
+        "ioly dikmn",
+        "ioly dicmn",
+        "ioly dykmn",
+        "ioly dycmn"
+      ]
+    },
+    {
+      "artistName": "יואלי קליין",
+      "youtubeChannelId": "UCXjUzmNpXKsKZtfDgyHc-_w",
+      "autoAliases": [
+        "ioli klein",
+        "ioli kleyn",
+        "ioli klain",
+        "ioli klayn",
+        "ioli klyn",
+        "ioli klin",
+        "ioly klein",
+        "ioly kleyn"
+      ]
+    },
+    {
+      "artistName": "יואלי שטיינברג",
+      "youtubeChannelId": "UCb9ed8F9w8AWxS96mfUKb5g",
+      "autoAliases": [
+        "ioli shteinbrg",
+        "ioli shteinvrg",
+        "ioli shteynbrg",
+        "ioli shteynvrg",
+        "ioli shtainbrg",
+        "ioli shtainvrg",
+        "ioly shteinbrg",
+        "ioly shteinvrg"
+      ]
+    },
+    {
+      "artistName": "יובל טייב",
+      "youtubeChannelId": "UCJ9MOj5CuA0gaehrxG5usMw",
+      "autoAliases": [
+        "iobl teib",
+        "iobl teiv",
+        "iobl teyb",
+        "iobl teyv",
+        "iobl taib",
+        "iobl taiv",
+        "iovl teib",
+        "iovl teiv"
+      ]
+    },
+    {
+      "artistName": "יוחנן אורי",
+      "youtubeChannelId": "UC8YSUssuDsfn0ABjB9Iv_yA",
+      "autoAliases": [
+        "iochnn ori",
+        "iochnn ory",
+        "iochnn uri",
+        "iochnn ury",
+        "iochnn auri",
+        "iochnn aury",
+        "iohnn ori",
+        "iohnn ory"
+      ]
+    },
+    {
+      "artistName": "יומי לואי",
+      "youtubeChannelId": "UCJpfmMsU99sd21Z1ff7WJFw",
+      "autoAliases": [
+        "iomi loi",
+        "iomi loy",
+        "iomi lui",
+        "iomi luy",
+        "iomi lvi",
+        "iomi lvy",
+        "iomy loi",
+        "iomy loy"
+      ]
+    },
+    {
+      "artistName": "יוני אליאב",
+      "youtubeChannelId": "UC-GfYOy3knA_Lz-k_kidrOA",
+      "autoAliases": [
+        "ioni",
+        "iony",
+        "iuni",
+        "iuny",
+        "ivni",
+        "ivny"
+      ]
+    },
+    {
+      "artistName": "יוני זי",
+      "youtubeChannelId": "UCkZ8Hbvfbzax0r-t7tQ9YLg",
+      "autoAliases": [
+        "ioni zi",
+        "ioni zy",
+        "iony zi",
+        "iony zy",
+        "iuni zi",
+        "iuni zy",
+        "iuny zi",
+        "iuny zy"
+      ]
+    },
+    {
+      "artistName": "יוני שלמה",
+      "youtubeChannelId": "UC3Nan6zDpzLpKRSQ3KkcjzQ",
+      "autoAliases": [
+        "ioni shlomo",
+        "ioni shloime",
+        "ioni solomon",
+        "iony shlomo",
+        "iony shloime",
+        "iony solomon",
+        "iuni shlomo",
+        "iuni shloime"
+      ]
+    },
+    {
+      "artistName": "יונתן רזאל",
+      "youtubeChannelId": "UCIs-s_nxV5WKupy0gEGZiXw",
+      "autoAliases": [
+        "iontn rzl",
+        "ionsn rzl",
+        "iuntn rzl",
+        "iunsn rzl",
+        "ivntn rzl",
+        "ivnsn rzl"
+      ]
+    },
+    {
+      "artistName": "יונתן שוורץ",
+      "youtubeChannelId": "UC8QdnhyXXB8Y6FHQTvtDuRQ",
+      "autoAliases": [
+        "iontn shoortz",
+        "iontn shoorz",
+        "iontn shourtz",
+        "iontn shourz",
+        "iontn shovrtz",
+        "iontn shovrz",
+        "ionsn shoortz",
+        "ionsn shoorz"
+      ]
+    },
+    {
+      "artistName": "יונתן שינפלד",
+      "youtubeChannelId": "UCxBkd0HGpsMSxBDMTPHINdQ",
+      "autoAliases": [
+        "iontn shinpld",
+        "iontn shinfld",
+        "iontn shynpld",
+        "iontn shynfld",
+        "iontn sinpld",
+        "iontn sinfld",
+        "ionsn shinpld",
+        "ionsn shinfld"
+      ]
+    },
+    {
+      "artistName": "יוסי גרין",
+      "youtubeChannelId": "UCtzGTGyCz_k0ZXMCZ1u_tkQ",
+      "autoAliases": [
+        "yossi grin",
+        "yossi gryn",
+        "yosef grin",
+        "yosef gryn"
+      ]
+    },
+    {
+      "artistName": "יוסי פיאמנטה",
+      "youtubeChannelId": "UC5HUxQuTpa3JdJlftkU-rWg",
+      "autoAliases": [
+        "yossi pimnth",
+        "yossi pimnt",
+        "yossi pymnth",
+        "yossi pymnt",
+        "yossi fimnth",
+        "yossi fimnt",
+        "yosef pimnth",
+        "yosef pimnt"
+      ]
+    },
+    {
+      "artistName": "יוסי קוגלר",
+      "youtubeChannelId": "UCKNpYaDVAtsOWq4gP8DKHJA",
+      "autoAliases": [
+        "yossi koglr",
+        "yossi kuglr",
+        "yossi kvglr",
+        "yossi kwglr",
+        "yossi coglr",
+        "yossi cuglr",
+        "yosef koglr",
+        "yosef kuglr"
+      ]
+    },
+    {
+      "artistName": "יוסף חיים שוואקי",
+      "youtubeChannelId": "UCdnR2ba9ft8_UoTiNFzTuPw",
+      "autoAliases": [
+        "yosef chaim shooki",
+        "yosef chaim shooky",
+        "yosef chaim shooci",
+        "yosef chaim shoocy",
+        "yosef chaim shouki",
+        "yosef chaim shouky",
+        "yosef haim shooki",
+        "yosef haim shooky"
+      ]
+    },
+    {
+      "artistName": "יוסף משה כהנא",
+      "youtubeChannelId": "UCTohDUl7uvE9tRJFMTHK9Lg",
+      "autoAliases": [
+        "yosef moshe chhn",
+        "yosef moshe chn",
+        "yosef moshe khn",
+        "yosef moshe kn",
+        "yosef moshe khhn",
+        "yossi moshe chhn",
+        "yossi moshe chn",
+        "yossi moshe khn"
+      ]
+    },
+    {
+      "artistName": "יוסף נטיב",
+      "youtubeChannelId": "UC9mCcrTMWEMm5TRHvlXiWtg",
+      "autoAliases": [
+        "yosef ntib",
+        "yosef ntiv",
+        "yosef ntyb",
+        "yosef ntyv",
+        "yossi ntib",
+        "yossi ntiv",
+        "yossi ntyb",
+        "yossi ntyv"
+      ]
+    },
+    {
+      "artistName": "יוסף קרדונר",
+      "youtubeChannelId": "UC9u5RkvuFKEHljFrCD4hEPA",
+      "autoAliases": [
+        "yosef krdonr",
+        "yosef krdunr",
+        "yosef krdvnr",
+        "yosef krdwnr",
+        "yosef crdonr",
+        "yosef crdunr",
+        "yossi krdonr",
+        "yossi krdunr"
+      ]
+    },
+    {
+      "artistName": "יוסף רוזנבלט",
+      "youtubeChannelId": "UCqK5e4RV-N9S7x5qoJC9gkQ",
+      "autoAliases": [
+        "yosef roznblt",
+        "yosef roznvlt",
+        "yosef ruznblt",
+        "yosef ruznvlt",
+        "yosef rvznblt",
+        "yosef rvznvlt",
+        "yossi roznblt",
+        "yossi roznvlt"
+      ]
+    }
+  ],
+  "autoAliasExamples": [
+    {
+      "artistName": "יחיאל ליכטיגר",
+      "aliasesUsed": [
+        "יחיאל ליכטיגר",
+        "Yehiel Lichtiger",
+        "ichil lichtigr",
+        "ichil lichtygr",
+        "ichil liktigr",
+        "ichil liktygr"
+      ]
+    },
+    {
+      "artistName": "יחיאל נהרי",
+      "aliasesUsed": [
+        "יחיאל נהרי",
+        "Yehiel Nahari",
+        "ichil nhri",
+        "ichil nhry",
+        "ichil nri",
+        "ichil nry"
+      ]
+    },
+    {
+      "artistName": "יידל ורדיגר",
+      "aliasesUsed": [
+        "יידל ורדיגר",
+        "Idle and Verdiger",
+        "eidl ordigr",
+        "eidl ordygr",
+        "eidl urdigr",
+        "eidl urdygr"
+      ]
+    },
+    {
+      "artistName": "ייטב דאלי",
+      "aliasesUsed": [
+        "ייטב דאלי",
+        "eitb dli",
+        "eitb dly",
+        "eitv dli",
+        "eitv dly",
+        "eytb dli"
+      ]
+    },
+    {
+      "artistName": "יענקי היל",
+      "aliasesUsed": [
+        "יענקי היל",
+        "Yankee Hill",
+        "inki hil",
+        "inki hyl",
+        "inky hil",
+        "inky hyl"
+      ]
+    },
+    {
+      "artistName": "יצחק מאיר",
+      "aliasesUsed": [
+        "יצחק מאיר",
+        "Yitzhak Meir",
+        "yitzchak meir",
+        "yitzchak meyer",
+        "itzhak meir",
+        "itzhak meyer"
+      ]
+    },
+    {
+      "artistName": "יצחק מאיר הלפגוט",
+      "aliasesUsed": [
+        "יצחק מאיר הלפגוט",
+        "Yitzhak Meir Halfagot",
+        "yitzchak meir hlpgot",
+        "yitzchak meir hlpgut",
+        "yitzchak meir hlpgvt",
+        "yitzchak meir hlpgwt"
+      ]
+    },
+    {
+      "artistName": "יצי ספינר",
+      "aliasesUsed": [
+        "יצי ספינר",
+        "Yitzy Spinner",
+        "itzi spinr",
+        "itzi spynr",
+        "itzi sfinr",
+        "itzi sfynr"
+      ]
+    },
+    {
+      "artistName": "ישי לפידות",
+      "aliasesUsed": [
+        "ישי לפידות",
+        "Yeshi torches",
+        "ishay lpidot",
+        "ishay lpidos",
+        "ishay lpidut",
+        "ishay lpidus"
+      ]
+    },
+    {
+      "artistName": "ישי ריבו",
+      "aliasesUsed": [
+        "ישי ריבו",
+        "Hashi Rivo",
+        "ishay ribo",
+        "ishay ribu",
+        "ishay ribv",
+        "ishay ribw"
+      ]
+    },
+    {
+      "artistName": "ישראל אדלסון",
+      "aliasesUsed": [
+        "ישראל אדלסון",
+        "Israel Adelson",
+        "yisrael",
+        "israel"
+      ]
+    },
+    {
+      "artistName": "ישראל אדלר",
+      "aliasesUsed": [
+        "ישראל אדלר",
+        "Israel Adler",
+        "yisrael",
+        "israel"
+      ]
+    },
+    {
+      "artistName": "ישראל ג'רופי",
+      "aliasesUsed": [
+        "ישראל ג'רופי",
+        "Israel Jarofi",
+        "yisrael g ropi",
+        "yisrael g ropy",
+        "yisrael g rofi",
+        "yisrael g rofy"
+      ]
+    },
+    {
+      "artistName": "ישראל ורדיגר",
+      "aliasesUsed": [
+        "ישראל ורדיגר",
+        "Israel Werdiger",
+        "yisrael ordigr",
+        "yisrael ordygr",
+        "yisrael urdigr",
+        "yisrael urdygr"
+      ]
+    },
+    {
+      "artistName": "להקת ישיבה בויס",
+      "aliasesUsed": [
+        "להקת ישיבה בויס",
+        "Yeshiva Boys band",
+        "lhkt ishibh boys",
+        "lhkt ishibh bois",
+        "lhkt ishibh buys",
+        "lhkt ishibh buis"
+      ]
+    },
+    {
+      "artistName": "להקת מושב",
+      "aliasesUsed": [
+        "להקת מושב",
+        "Moshav band",
+        "lhkt moshb",
+        "lhkt moshv",
+        "lhkt mosb",
+        "lhkt mosv"
+      ]
+    },
+    {
+      "artistName": "להקת תזמורת פריילך",
+      "aliasesUsed": [
+        "להקת תזמורת פריילך",
+        "Frailech Orchestra Band",
+        "lhkt tzmort preilch",
+        "lhkt tzmort preilk",
+        "lhkt tzmort preilkh",
+        "lhkt tzmort preylch"
+      ]
+    },
+    {
+      "artistName": "לוי פולקוביץ",
+      "aliasesUsed": [
+        "לוי פולקוביץ",
+        "Levy Polkovitz",
+        "loy polkobitz",
+        "loy polkobiz",
+        "loy polkobytz",
+        "loy polkobyz"
+      ]
+    },
+    {
+      "artistName": "לייבי וידר",
+      "aliasesUsed": [
+        "לייבי וידר",
+        "Lively Vader",
+        "leibi oydr",
+        "leibi oidr",
+        "leibi uydr",
+        "leibi uidr"
+      ]
+    },
+    {
+      "artistName": "לייזר לויד",
+      "aliasesUsed": [
+        "לייזר לויד",
+        "Laser Lloyd",
+        "leizr loyd",
+        "leizr loid",
+        "leizr luyd",
+        "leizr luid"
       ]
     }
   ],
@@ -3639,58 +3635,6 @@
         "candidateArtist": "KIDZ BOP Kids",
         "wrapperType": "collection",
         "kind": null,
-        "rapidfuzzEnabled": true
-      }
-    },
-    {
-      "artistName": "יהודה גרין",
-      "artistChannelId": "UC6s2xUPyMS4ZbPBALr9MmcQ",
-      "aliasesUsed": [
-        "יהודה גרין",
-        "Yehuda Green",
-        "yehuda grin",
-        "yehuda gryn",
-        "judah grin",
-        "judah gryn"
-      ],
-      "title": "Land of Your Soul",
-      "expectedType": "ALBUM",
-      "bestScore": 41,
-      "details": {
-        "titleScore": 0,
-        "artistScore": 35,
-        "artistGatePassed": true,
-        "titleGatePassed": false,
-        "candidateTitle": "והשב כהנים",
-        "candidateArtist": "Yehuda Green",
-        "wrapperType": "collection",
-        "kind": null,
-        "rapidfuzzEnabled": true
-      }
-    },
-    {
-      "artistName": "יוני זי",
-      "artistChannelId": "UCkZ8Hbvfbzax0r-t7tQ9YLg",
-      "aliasesUsed": [
-        "יוני זי",
-        "Yoni Z",
-        "ioni zi",
-        "ioni zy",
-        "iony zi",
-        "iony zy"
-      ],
-      "title": "Within Your Walls 2.0",
-      "expectedType": "SINGLE",
-      "bestScore": 66,
-      "details": {
-        "titleScore": 60,
-        "artistScore": 0,
-        "artistGatePassed": false,
-        "titleGatePassed": true,
-        "candidateTitle": "Within Your Walls 2.0 (feat. Yoni Z) - Single",
-        "candidateArtist": "Aryeh Kunstler",
-        "wrapperType": "track",
-        "kind": "song",
         "rapidfuzzEnabled": true
       }
     },
@@ -3919,52 +3863,52 @@
       }
     },
     {
-      "artistName": "בריו חקשור",
-      "artistChannelId": "UCbNw7jFjyhP7OY0IT2OUnIQ",
+      "artistName": "יהודה גרין",
+      "artistChannelId": "UC6s2xUPyMS4ZbPBALr9MmcQ",
       "aliasesUsed": [
-        "בריו חקשור",
-        "Rio Hekchor",
-        "brio chkshor",
-        "brio chkshur",
-        "brio chkshvr",
-        "brio chkshwr"
+        "יהודה גרין",
+        "Yehuda Green",
+        "yehuda grin",
+        "yehuda gryn",
+        "judah grin",
+        "judah gryn"
       ],
-      "title": "בריו 2",
+      "title": "Land of Your Soul",
       "expectedType": "ALBUM",
-      "bestScore": 68,
+      "bestScore": 41,
       "details": {
-        "titleScore": 38,
-        "artistScore": 24,
+        "titleScore": 0,
+        "artistScore": 35,
         "artistGatePassed": true,
-        "titleGatePassed": true,
-        "candidateTitle": "Baryo, Vol. 2",
-        "candidateArtist": "Baryo Hakshur",
+        "titleGatePassed": false,
+        "candidateTitle": "והשב כהנים",
+        "candidateArtist": "Yehuda Green",
         "wrapperType": "collection",
         "kind": null,
         "rapidfuzzEnabled": true
       }
     },
     {
-      "artistName": "טל ועקנין",
-      "artistChannelId": "UCGgyx4Qm9_UB8URmvU6Ynfg",
+      "artistName": "יוני זי",
+      "artistChannelId": "UCkZ8Hbvfbzax0r-t7tQ9YLg",
       "aliasesUsed": [
-        "טל ועקנין",
-        "Tal and Aknin",
-        "tl oknin",
-        "tl oknyn",
-        "tl ocnin",
-        "tl ocnyn"
+        "יוני זי",
+        "Yoni Z",
+        "ioni zi",
+        "ioni zy",
+        "iony zi",
+        "iony zy"
       ],
-      "title": "פאפאוטה - Papaoutai",
+      "title": "Within Your Walls 2.0",
       "expectedType": "SINGLE",
-      "bestScore": 58,
+      "bestScore": 66,
       "details": {
-        "titleScore": 28,
-        "artistScore": 24,
-        "artistGatePassed": true,
-        "titleGatePassed": false,
-        "candidateTitle": "פאפאוטה - Single",
-        "candidateArtist": "Tal Vaknin",
+        "titleScore": 60,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": true,
+        "candidateTitle": "Within Your Walls 2.0 (feat. Yoni Z) - Single",
+        "candidateArtist": "Aryeh Kunstler",
         "wrapperType": "track",
         "kind": "song",
         "rapidfuzzEnabled": true
@@ -4096,26 +4040,26 @@
       }
     },
     {
-      "artistName": "חיים דוד ברסון",
-      "artistChannelId": "UCDFgB4GepvQXWyUg0TMJEaw",
+      "artistName": "טל ועקנין",
+      "artistChannelId": "UCGgyx4Qm9_UB8URmvU6Ynfg",
       "aliasesUsed": [
-        "חיים דוד ברסון",
-        "Haim David Barson",
-        "chaim david brson",
-        "chaim david brsun",
-        "chaim david brsvn",
-        "chaim david brswn"
+        "טל ועקנין",
+        "Tal and Aknin",
+        "tl oknin",
+        "tl oknyn",
+        "tl ocnin",
+        "tl ocnyn"
       ],
-      "title": "Mi Li",
+      "title": "פאפאוטה - Papaoutai",
       "expectedType": "SINGLE",
-      "bestScore": 16,
+      "bestScore": 58,
       "details": {
-        "titleScore": 0,
-        "artistScore": 10,
-        "artistGatePassed": false,
+        "titleScore": 28,
+        "artistScore": 24,
+        "artistGatePassed": true,
         "titleGatePassed": false,
-        "candidateTitle": "I Don't Wanna Wait - Single",
-        "candidateArtist": "David Guetta & OneRepublic",
+        "candidateTitle": "פאפאוטה - Single",
+        "candidateArtist": "Tal Vaknin",
         "wrapperType": "track",
         "kind": "song",
         "rapidfuzzEnabled": true
@@ -4148,6 +4092,32 @@
       }
     },
     {
+      "artistName": "להקת מושב",
+      "artistChannelId": "UCtyTfjzwYYxjvQgVX7ZPgkA",
+      "aliasesUsed": [
+        "להקת מושב",
+        "Moshav band",
+        "lhkt moshb",
+        "lhkt moshv",
+        "lhkt mosb",
+        "lhkt mosv"
+      ],
+      "title": "Malachim",
+      "expectedType": "ALBUM",
+      "bestScore": 34,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 28,
+        "artistGatePassed": true,
+        "titleGatePassed": false,
+        "candidateTitle": "המיטב 1998-2006",
+        "candidateArtist": "Moshav",
+        "wrapperType": "collection",
+        "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
       "artistName": "קינדרלעך",
       "artistChannelId": "UCvxMTtMQVlyNJp75vhs2gVQ",
       "aliasesUsed": [
@@ -4170,6 +4140,32 @@
         "candidateArtist": "Country Yossi",
         "wrapperType": "collection",
         "kind": null,
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
+      "artistName": "חיים דוד ברסון",
+      "artistChannelId": "UCDFgB4GepvQXWyUg0TMJEaw",
+      "aliasesUsed": [
+        "חיים דוד ברסון",
+        "Haim David Barson",
+        "chaim david brson",
+        "chaim david brsun",
+        "chaim david brsvn",
+        "chaim david brswn"
+      ],
+      "title": "Mi Li",
+      "expectedType": "SINGLE",
+      "bestScore": 16,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 10,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "I Don't Wanna Wait - Single",
+        "candidateArtist": "David Guetta & OneRepublic",
+        "wrapperType": "track",
+        "kind": "song",
         "rapidfuzzEnabled": true
       }
     },
@@ -4209,12 +4205,24 @@
     },
     {
       "type": "artist_read_failed",
+      "artistName": "אהרון רזאל",
+      "artistChannelId": "UCWXcFgarUdHuJtYOX_rVKAw",
+      "message": "'musicImmersiveHeaderRenderer'"
+    },
+    {
+      "type": "artist_read_failed",
+      "artistName": "בריו חקשור",
+      "artistChannelId": "UCbNw7jFjyhP7OY0IT2OUnIQ",
+      "message": "'musicImmersiveHeaderRenderer'"
+    },
+    {
+      "type": "artist_read_failed",
       "artistName": "גלעד פוטולסקי",
       "artistChannelId": "UCeki_KBPssr3gz3Zl53DDCQ",
       "message": "'musicImmersiveHeaderRenderer'"
     }
   ],
-  "nextArtistOffset": 163,
-  "itemsRetainedFromPreviousFeed": 23,
-  "completedAt": "2026-09-25T08:10:13.692566+00:00"
+  "nextArtistOffset": 204,
+  "itemsRetainedFromPreviousFeed": 27,
+  "completedAt": "2026-09-26T08:10:19.552384+00:00"
 }
