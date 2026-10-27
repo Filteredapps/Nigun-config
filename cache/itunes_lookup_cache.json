@@ -4860,69 +4860,6 @@
       {
         "wrapperType": "collection",
         "collectionType": "Album",
-        "artistId": 1600535241,
-        "collectionId": 1602712851,
-        "artistName": "Michoel Streicher",
-        "collectionName": "שלנו לעולם",
-        "collectionCensoredName": "שלנו לעולם",
-        "artistViewUrl": "https://music.apple.com/il/artist/michoel-streicher/1600535241?uo=4",
-        "collectionViewUrl": "https://music.apple.com/il/album/%D7%A9%D7%9C%D7%A0%D7%95-%D7%9C%D7%A2%D7%95%D7%9C%D7%9D/1602712851?uo=4",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b1/65/20/b165204a-ad85-2c19-8468-56c69f7fe394/7290502359000.jpg/60x60bb.jpg",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/b1/65/20/b165204a-ad85-2c19-8468-56c69f7fe394/7290502359000.jpg/100x100bb.jpg",
-        "collectionPrice": 12.9,
-        "collectionExplicitness": "notExplicit",
-        "trackCount": 9,
-        "copyright": "℗ 2000 Michoel Streicher",
-        "country": "ISR",
-        "currency": "ILS",
-        "releaseDate": "2000-12-24T08:00:00Z",
-        "primaryGenreName": "Israeli"
-      },
-      {
-        "wrapperType": "collection",
-        "collectionType": "Album",
-        "artistId": 1531739253,
-        "collectionId": 1532265920,
-        "artistName": "Camp S'dei Chemed International",
-        "collectionName": "L'shanah Habo",
-        "collectionCensoredName": "L'shanah Habo",
-        "artistViewUrl": "https://music.apple.com/il/artist/camp-sdei-chemed-international/1531739253?uo=4",
-        "collectionViewUrl": "https://music.apple.com/il/album/lshanah-habo/1532265920?uo=4",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ae/13/0e/ae130e61-4233-fdad-8481-bc138728a486/638865184513.jpg/60x60bb.jpg",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ae/13/0e/ae130e61-4233-fdad-8481-bc138728a486/638865184513.jpg/100x100bb.jpg",
-        "collectionPrice": 37.7,
-        "collectionExplicitness": "notExplicit",
-        "trackCount": 13,
-        "copyright": "℗ 1971 Camp S'dei Chemed International",
-        "country": "ISR",
-        "currency": "ILS",
-        "releaseDate": "1971-09-01T07:00:00Z",
-        "primaryGenreName": "Worldwide"
-      },
-      {
-        "wrapperType": "collection",
-        "collectionType": "Album",
-        "artistId": 1527122292,
-        "collectionId": 1527127490,
-        "artistName": "Shmilu Rosenberg",
-        "collectionName": "Acheinu",
-        "collectionCensoredName": "Acheinu",
-        "artistViewUrl": "https://music.apple.com/il/artist/shmilu-rosenberg/1527122292?uo=4",
-        "collectionViewUrl": "https://music.apple.com/il/album/acheinu/1527127490?uo=4",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/72/ad/ac/72adac69-b62f-edde-f192-57f13fa0c9f4/638865182113.jpg/60x60bb.jpg",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/72/ad/ac/72adac69-b62f-edde-f192-57f13fa0c9f4/638865182113.jpg/100x100bb.jpg",
-        "collectionPrice": 12.9,
-        "collectionExplicitness": "notExplicit",
-        "trackCount": 8,
-        "copyright": "℗ 1982 Shmilu Rosenberg",
-        "country": "ISR",
-        "currency": "ILS",
-        "releaseDate": "1982-08-07T07:00:00Z",
-        "primaryGenreName": "Worldwide"
-      },
-      {
-        "wrapperType": "collection",
-        "collectionType": "Album",
         "artistId": 1345183509,
         "collectionId": 1346137530,
         "artistName": "Meir Richter",
@@ -5140,7 +5077,7 @@
         "isStreamable": true
       }
     ],
-    "expiresAt": 1793088138.3671107
+    "expiresAt": 1793693588.9616828
   },
   "{\"aliases\": [\"Dov Levine\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"A Taste of Shabbos\"}": {
     "results": [
@@ -5381,7 +5318,7 @@
         "primaryGenreName": "Jewish Music"
       }
     ],
-    "expiresAt": 1793088142.6557646
+    "expiresAt": 1793693593.3107564
   },
   "{\"aliases\": [\"Gershi Uri\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Pesach Medley (feat. Meilech Halpern & The Menagen Choir)\"}": {
     "results": [
@@ -5665,7 +5602,7 @@
         "isStreamable": true
       }
     ],
-    "expiresAt": 1793088146.9491472
+    "expiresAt": 1793693597.5473397
   },
   "{\"aliases\": [\"Hershy Bleich\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Mein Tafkid\"}": {
     "results": [
@@ -5901,7 +5838,7 @@
         "primaryGenreName": "Pop"
       }
     ],
-    "expiresAt": 1793088151.1490738
+    "expiresAt": 1793693601.739276
   },
   "{\"aliases\": [\"Hillel Kapnick\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Relax Music Cafe\"}": {
     "results": [
@@ -7578,7 +7515,7 @@
         "isStreamable": true
       }
     ],
-    "expiresAt": 1793088159.5850575
+    "expiresAt": 1793693605.956294
   },
   "{\"aliases\": [\"Mendy J\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Hurting With Insanity (feat. Leibel Lazaroff)\"}": {
     "results": [
@@ -7951,7 +7888,7 @@
         "primaryGenreName": "Instrumental"
       }
     ],
-    "expiresAt": 1793088168.1753953
+    "expiresAt": 1793693610.2614553
   },
   "{\"aliases\": [\"Mendy Portnoy\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"The King and I\"}": {
     "results": [
@@ -8239,7 +8176,7 @@
         "primaryGenreName": "Singer/Songwriter"
       }
     ],
-    "expiresAt": 1793088172.388615
+    "expiresAt": 1793693614.3966918
   },
   "{\"aliases\": [\"Moshe Yess\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Achva\"}": {
     "results": [
@@ -8403,7 +8340,7 @@
         "primaryGenreName": "Dance"
       }
     ],
-    "expiresAt": 1793088176.609691
+    "expiresAt": 1793693618.600442
   },
   "{\"aliases\": [\"Nachas\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Mekimi\"}": {
     "results": [
@@ -8619,7 +8556,7 @@
         "primaryGenreName": "Worldwide"
       }
     ],
-    "expiresAt": 1793088180.799707
+    "expiresAt": 1793693622.756007
   },
   "{\"aliases\": [\"Shevach Boys Choir\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Treisten (feat. משה דוד וייסמנדל)\"}": {
     "results": [
@@ -10472,7 +10409,7 @@
         "isStreamable": true
       }
     ],
-    "expiresAt": 1793088184.9890933
+    "expiresAt": 1793693626.976419
   },
   "{\"aliases\": [\"TYH Boys\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"I Wanna Be Like Zusha\"}": {
     "results": [
@@ -11029,7 +10966,7 @@
         "primaryGenreName": "Country"
       }
     ],
-    "expiresAt": 1793088189.281469
+    "expiresAt": 1793693631.2106965
   },
   "{\"aliases\": [\"Tali Yess\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Forged With Steel In The City Of Gold\"}": {
     "results": [
@@ -11444,7 +11381,7 @@
         "primaryGenreName": "Pop"
       }
     ],
-    "expiresAt": 1793088193.5056295
+    "expiresAt": 1793693635.3815315
   },
   "{\"aliases\": [\"Thank You Hashem\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Healing Melodies 4 (Acapella)\"}": {
     "results": [
@@ -13574,7 +13511,7 @@
         "isStreamable": true
       }
     ],
-    "expiresAt": 1793088202.1204188
+    "expiresAt": 1793693639.5925806
   },
   "{\"aliases\": [\"Yidi Bialostozky\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Hashiveinu (Live)\"}": {
     "results": [
@@ -14528,7 +14465,7 @@
         "isStreamable": true
       }
     ],
-    "expiresAt": 1793088206.3226247
+    "expiresAt": 1793693643.7666028
   },
   "{\"aliases\": [\"Yossi Zucker\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Reichtum\"}": {
     "results": [
@@ -14886,7 +14823,7 @@
         "isStreamable": true
       }
     ],
-    "expiresAt": 1793088210.5974474
+    "expiresAt": 1793693647.9776168
   },
   "{\"aliases\": [\"אבי אילסון\", \"Avi Ilson\", \"avi\", \"avy\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"ישתבח המלך\"}": {
     "results": [
@@ -15122,7 +15059,7 @@
         "primaryGenreName": "Israeli"
       }
     ],
-    "expiresAt": 1793088214.8268151
+    "expiresAt": 1793693652.1393085
   },
   "{\"aliases\": [\"אבי בן ישראל\", \"Abi Ben Yisrael\", \"avi bn yisrael\", \"avi bn israel\", \"avi vn yisrael\", \"avi vn israel\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"אקספרס לאומן\"}": {
     "results": [
@@ -15941,7 +15878,7 @@
         "primaryGenreName": "Israeli"
       }
     ],
-    "expiresAt": 1793088219.033421
+    "expiresAt": 1793693656.3073134
   },
   "{\"aliases\": [\"אבי פודולינסקי\", \"Avi Podolinsky\", \"avi podolinski\", \"avi podolinsky\", \"avi podolinsci\", \"avi podolinscy\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"להמשיך\"}": {
     "results": [
@@ -16471,7 +16408,7 @@
         "primaryGenreName": "Pop"
       }
     ],
-    "expiresAt": 1793088223.218906
+    "expiresAt": 1793693660.5206177
   },
   "{\"aliases\": [\"אבי פיאמנטה\", \"Father Piamante\", \"avi pimnth\", \"avi pimnt\", \"avi pymnth\", \"avi pymnt\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"שירי משיח וגאולה\"}": {
     "results": [
@@ -16846,7 +16783,7 @@
         "primaryGenreName": "Worldwide"
       }
     ],
-    "expiresAt": 1793087114.7028704
+    "expiresAt": 1793693664.7085893
   },
   "{\"aliases\": [\"אביש ברודט\", \"Avish Brodt\", \"brodt\", \"brudt\", \"brvdt\", \"brwdt\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Zochrei Zmiros Yizamru\"}": {
     "results": [
@@ -17149,7 +17086,7 @@
         "isStreamable": true
       }
     ],
-    "expiresAt": 1793088227.4905074
+    "expiresAt": 1793693668.9004238
   },
   "{\"aliases\": [\"אבישי אשל\", \"Avishai Eshel\", \"avishai\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"חופה לבנה\"}": {
     "results": [
@@ -17477,7 +17414,7 @@
         "primaryGenreName": "Pop"
       }
     ],
-    "expiresAt": 1793088231.76677
+    "expiresAt": 1793693673.1038105
   },
   "{\"aliases\": [\"אברהם חיים גרין\", \"Avraham Haim Green\", \"avraham chaim grin\", \"avraham chaim gryn\", \"avraham haim grin\", \"avraham haim gryn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Neshoma\"}": {
     "results": [
@@ -18048,11 +17985,11 @@
   },
   "{\"aliases\": [\"אברומי ברקו\", \"Avromy Barko\", \"avrumi brko\", \"avrumi brku\", \"avrumi brkv\", \"avrumi brkw\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Teumim Mesivtah 2026 with Berko Brothers\"}": {
     "results": [],
-    "expiresAt": 1793023714.998927
+    "expiresAt": 1793109431.7478747
   },
   "{\"aliases\": [\"אברומי ברקו\", \"Avromy Barko\", \"avrumi brko\", \"avrumi brku\", \"avrumi brkv\", \"avrumi brkw\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Avrumi Berko Production with Eli Marcus at Camp Aish\"}": {
     "results": [],
-    "expiresAt": 1793024884.3581195
+    "expiresAt": 1793110477.3640327
   },
   "{\"aliases\": [\"אברומי ברקו\", \"Avromy Barko\", \"avrumi brko\", \"avrumi brku\", \"avrumi brkv\", \"avrumi brkw\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Wedding 6.22.26 an A Berko Production\"}": {
     "results": [],
@@ -18462,7 +18399,7 @@
         "primaryGenreName": "Worldwide"
       }
     ],
-    "expiresAt": 1793088261.2175717
+    "expiresAt": 1793693701.890042
   },
   "{\"aliases\": [\"אברומי פלאם\", \"Avromy Flam\", \"avrumi plm\", \"avrumi flm\", \"avromi plm\", \"avromi flm\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"A Carlebach Wedding\"}": {
     "results": [
@@ -18797,7 +18734,7 @@
         "primaryGenreName": "Klezmer"
       }
     ],
-    "expiresAt": 1793088265.3950634
+    "expiresAt": 1793693706.0688283
   },
   "{\"aliases\": [\"אברימי רוט\", \"Avrami Roth\", \"rot\", \"rut\", \"rvt\", \"rwt\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"ונראהו\"}": {
     "results": [
@@ -19033,7 +18970,7 @@
         "primaryGenreName": "Worldwide"
       }
     ],
-    "expiresAt": 1793088273.7328832
+    "expiresAt": 1793693714.4584541
   },
   "{\"aliases\": [\"אודי דוידי\", \"Odi Davidi\", \"odi doydi\", \"odi doydy\", \"odi doidi\", \"odi doidy\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Ahavat Olam\"}": {
     "results": [
@@ -19184,7 +19121,7 @@
   },
   "{\"aliases\": [\"אודי דמארי\", \"Udi Damari\", \"odi dmri\", \"odi dmry\", \"ody dmri\", \"ody dmry\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"תקליטי שדרים\"}": {
     "results": [],
-    "expiresAt": 1793021314.3522408
+    "expiresAt": 1793106891.4422061
   },
   "{\"aliases\": [\"אודי דמארי\", \"Udi Damari\", \"odi dmri\", \"odi dmry\", \"ody dmri\", \"ody dmry\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"שבת\"}": {
     "results": [
@@ -19697,7 +19634,7 @@
         "isStreamable": true
       }
     ],
-    "expiresAt": 1793088298.880495
+    "expiresAt": 1793693739.6784782
   },
   "{\"aliases\": [\"אודי דמארי\", \"Udi Damari\", \"odi dmri\", \"odi dmry\", \"ody dmri\", \"ody dmry\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"פשוט אנשים\"}": {
     "results": [
@@ -20121,7 +20058,7 @@
         "primaryGenreName": "Jewish Music"
       }
     ],
-    "expiresAt": 1793088303.0632699
+    "expiresAt": 1793693743.8411193
   },
   "{\"aliases\": [\"אוהד מושקוביץ\", \"Moskovitz fan\", \"ohd moshkobitz\", \"ohd moshkobiz\", \"ohd moshkobytz\", \"ohd moshkobyz\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"להתפלל\"}": {
     "results": [
@@ -20535,7 +20472,7 @@
         "primaryGenreName": "Worldwide"
       }
     ],
-    "expiresAt": 1793088307.2529955
+    "expiresAt": 1793693747.969964
   },
   "{\"aliases\": [\"אורי דוידי\", \"Uri Davidi\", \"ori doydi\", \"ori doydy\", \"ori doidi\", \"ori doidy\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Torah Magna U'Matzla\"}": {
     "results": [
@@ -21478,11 +21415,11 @@
   },
   "{\"aliases\": [\"אייבי רוטנברג\", \"Ivy Rotenberg\", \"rotnbrg\", \"rotnvrg\", \"rutnbrg\", \"rutnvrg\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Journeys, Vol. 5\"}": {
     "results": [],
-    "expiresAt": 1793021340.1420274
+    "expiresAt": 1793106916.413884
   },
   "{\"aliases\": [\"אייבי רוטנברג\", \"Ivy Rotenberg\", \"rotnbrg\", \"rotnvrg\", \"rutnbrg\", \"rutnvrg\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Aish Volume 3\"}": {
     "results": [],
-    "expiresAt": 1793022690.1265368
+    "expiresAt": 1793108362.0581117
   },
   "{\"aliases\": [\"אייבי רוטנברג\", \"Ivy Rotenberg\", \"rotnbrg\", \"rotnvrg\", \"rutnbrg\", \"rutnvrg\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Lev V'nefesh - Volume 1\"}": {
     "results": [
@@ -21557,7 +21494,7 @@
   },
   "{\"aliases\": [\"אייבי רוטנברג\", \"Ivy Rotenberg\", \"rotnbrg\", \"rotnvrg\", \"rutnbrg\", \"rutnvrg\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Journeys, Vol. 1\"}": {
     "results": [],
-    "expiresAt": 1793024913.9693
+    "expiresAt": 1793110552.0948632
   },
   "{\"aliases\": [\"אייבי רוטנברג\", \"Ivy Rotenberg\", \"rotnbrg\", \"rotnvrg\", \"rutnbrg\", \"rutnvrg\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"The Neshama Lives Forever\"}": [],
   "{\"aliases\": [\"אייבי רוטנברג\", \"Ivy Rotenberg\", \"rotnbrg\", \"rotnvrg\", \"rutnbrg\", \"rutnvrg\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Butterfly (Ohr Naava)\"}": {
@@ -22032,7 +21969,7 @@
         "primaryGenreName": "Pop"
       }
     ],
-    "expiresAt": 1793088336.4371464
+    "expiresAt": 1793693777.102969
   },
   "{\"aliases\": [\"אייל טויטו\", \"Eyal Toito\", \"toyto\", \"toytu\", \"toytv\", \"toytw\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"רגע לנשמה\"}": {
     "results": [
@@ -22088,15 +22025,15 @@
   },
   "{\"aliases\": [\"איצי וולדנר\", \"Itzi Waldner\", \"ooldnr\", \"ouldnr\", \"ovldnr\", \"owldnr\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"MISOID\"}": {
     "results": [],
-    "expiresAt": 1793022715.2793992
+    "expiresAt": 1793108387.4862053
   },
   "{\"aliases\": [\"איצי וולדנר\", \"Itzi Waldner\", \"ooldnr\", \"ouldnr\", \"ovldnr\", \"owldnr\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"בנים\"}": {
     "results": [],
-    "expiresAt": 1793023749.4623466
+    "expiresAt": 1793109456.6451015
   },
   "{\"aliases\": [\"איצי וולדנר\", \"Itzi Waldner\", \"ooldnr\", \"ouldnr\", \"ovldnr\", \"owldnr\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Yehei Raava (Vocal Version)\"}": {
     "results": [],
-    "expiresAt": 1793024939.2247303
+    "expiresAt": 1793110581.265654
   },
   "{\"aliases\": [\"איצי וולדנר\", \"Itzi Waldner\", \"ooldnr\", \"ouldnr\", \"ovldnr\", \"owldnr\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"דברי ה׳\"}": [],
   "{\"aliases\": [\"איציק אורלב\", \"orlb\", \"orlv\", \"urlb\", \"urlv\", \"aurlb\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"בוא נדליק את האש\"}": [
@@ -23804,7 +23741,7 @@
         "primaryGenreName": "Israeli"
       }
     ],
-    "expiresAt": 1793088374.102948
+    "expiresAt": 1793693814.737664
   },
   "{\"aliases\": [\"איציק וינגרטן\", \"Itzik Weingarten\", \"oyngrtn\", \"oingrtn\", \"uyngrtn\", \"uingrtn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"יש אלוקים\"}": {
     "results": [
@@ -24089,31 +24026,9 @@
         "currency": "ILS",
         "releaseDate": "2020-01-15T08:00:00Z",
         "primaryGenreName": "Worldwide"
-      },
-      {
-        "wrapperType": "collection",
-        "collectionType": "Album",
-        "artistId": 392888216,
-        "collectionId": 1685316375,
-        "amgArtistId": 2443463,
-        "artistName": "Eitan Katz",
-        "collectionName": "Live In Jerusalem 3",
-        "collectionCensoredName": "Live In Jerusalem 3",
-        "artistViewUrl": "https://music.apple.com/il/artist/eitan-katz/392888216?uo=4",
-        "collectionViewUrl": "https://music.apple.com/il/album/live-in-jerusalem-3/1685316375?uo=4",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/64/9e/b4/649eb458-1095-e0f7-33a7-684642e3efe3/artwork.jpg/60x60bb.jpg",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/64/9e/b4/649eb458-1095-e0f7-33a7-684642e3efe3/artwork.jpg/100x100bb.jpg",
-        "collectionPrice": 44.9,
-        "collectionExplicitness": "notExplicit",
-        "trackCount": 21,
-        "copyright": "℗ 2023 Eitan Katz",
-        "country": "ISR",
-        "currency": "ILS",
-        "releaseDate": "2023-05-08T07:00:00Z",
-        "primaryGenreName": "Worldwide"
       }
     ],
-    "expiresAt": 1793088382.612015
+    "expiresAt": 1793693823.29575
   },
   "{\"aliases\": [\"איתן כץ\", \"Eitan Katz\", \"chtz\", \"chz\", \"ktz\", \"kz\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Ani L'dodi (Chupah Moments)\"}": {
     "results": [
@@ -25258,7 +25173,7 @@
   },
   "{\"aliases\": [\"אלי מרקוס\", \"Eli Marcus\", \"eli mrkos\", \"eli mrkus\", \"eli mrkvs\", \"eli mrkws\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"The Chuppah of Grace and Yisrael Einhorn\"}": {
     "results": [],
-    "expiresAt": 1793021365.8319724
+    "expiresAt": 1793106945.6309373
   },
   "{\"aliases\": [\"אלי פרידמן\", \"Eli Friedman\", \"eli pridmn\", \"eli prydmn\", \"eli fridmn\", \"eli frydmn\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"רחובות הנהר\"}": {
     "results": [
@@ -25575,7 +25490,7 @@
   },
   "{\"aliases\": [\"Elnatan Shalom\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"נושם\"}": {
     "results": [],
-    "expiresAt": 1793021391.0241766
+    "expiresAt": 1793106975.5440207
   },
   "{\"aliases\": [\"אלעד כהן\", \"Elad Cohen\", \"chhn\", \"chn\", \"khn\", \"kn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"התגברתי\"}": {
     "results": [
@@ -25775,11 +25690,11 @@
   },
   "{\"aliases\": [\"אפרים מנדלסון\", \"Ephraim Mendelssohn\", \"mndlson\", \"mndlsun\", \"mndlsvn\", \"mndlswn\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Shirei Nafshi 2\"}": {
     "results": [],
-    "expiresAt": 1793021395.2500637
+    "expiresAt": 1793106979.5991335
   },
   "{\"aliases\": [\"אפרים מרקוביץ'\", \"Ephraim Markovich\", \"mrkobitz\", \"mrkobiz\", \"mrkobytz\", \"mrkobyz\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"V'hu Yosheienu\"}": {
     "results": [],
-    "expiresAt": 1793022765.7501307
+    "expiresAt": 1793108449.7189517
   },
   "{\"aliases\": [\"ארי גולדוואג\", \"Ari Goldwag\", \"ari goldoog\", \"ari goldoug\", \"ari goldovg\", \"ari goldowg\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Darkness to Redemption 7\"}": {
     "results": [
@@ -26020,7 +25935,7 @@
   },
   "{\"aliases\": [\"אריה קונסטלר\", \"Arya Kunstler\", \"konstlr\", \"kunstlr\", \"kvnstlr\", \"kwnstlr\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Awaken / התעוררי\"}": {
     "results": [],
-    "expiresAt": 1793021445.9062378
+    "expiresAt": 1793107028.6543312
   },
   "{\"aliases\": [\"אריק דביר\", \"Eric Dvir\", \"dbir\", \"dbyr\", \"dvir\", \"dvyr\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"פורים עם מלודי (feat. תזמורת מלודי)\"}": {
     "results": [
@@ -26182,7 +26097,7 @@
   },
   "{\"aliases\": [\"בנצי קלצקין\", \"Benzi Klatskin\", \"bntzi kltzkin\", \"bntzi kltzkyn\", \"bntzi kltzcin\", \"bntzi kltzcyn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"אם אתה משמח (feat. Ahrele Samet, בנצי שטיין & מוטי ויזל)\"}": {
     "results": [],
-    "expiresAt": 1793021471.219251
+    "expiresAt": 1793107053.2182972
   },
   "{\"aliases\": [\"בנצי שטיין\", \"Benzi Stein\", \"bntzi shtein\", \"bntzi shteyn\", \"bntzi shtain\", \"bntzi shtayn\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"קודש קודשין - Kodesh Kidshin\"}": {
     "results": [
@@ -26212,7 +26127,7 @@
   },
   "{\"aliases\": [\"בערי וובר\", \"Weber cities\", \"beri oobr\", \"beri oovr\", \"beri oubr\", \"beri ouvr\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Freilach On A High!\"}": {
     "results": [],
-    "expiresAt": 1793021496.7218306
+    "expiresAt": 1793107077.5245774
   },
   "{\"aliases\": [\"ברוך ויזל\", \"Baruch Wiesel\", \"broch oyzl\", \"broch oizl\", \"broch uyzl\", \"broch uizl\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"לבוחן לבבות\"}": {
     "results": [
@@ -26301,7 +26216,7 @@
   },
   "{\"aliases\": [\"ברוך שלום בלסופסקי\", \"Welcome Belsofsky\", \"broch shlom blsopski\", \"broch shlom blsopsky\", \"broch shlom blsopsci\", \"broch shlom blsopscy\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Hineni\"}": {
     "results": [],
-    "expiresAt": 1793021522.0365238
+    "expiresAt": 1793107106.0711706
   },
   "{\"aliases\": [\"בריו חקשור\", \"Rio Hekchor\", \"brio chkshor\", \"brio chkshur\", \"brio chkshvr\", \"brio chkshwr\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"בריו 2\"}": {
     "results": [
@@ -26454,7 +26369,7 @@
   },
   "{\"aliases\": [\"גיל ישראלוב\", \"Gil Israelov\", \"gil ishrlob\", \"gil ishrlov\", \"gil ishrlub\", \"gil ishrluv\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"תקליטי שדרים\"}": {
     "results": [],
-    "expiresAt": 1793021547.465395
+    "expiresAt": 1793107130.508266
   },
   "{\"aliases\": [\"דב הנדלר\", \"Dov Handler\", \"db hndlr\", \"dv hndlr\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"נאלמתי דומיה\"}": {
     "results": [
@@ -26510,11 +26425,11 @@
   },
   "{\"aliases\": [\"דדי גראוכר\", \"Daddy Graucher\", \"ddi grochr\", \"ddi grokr\", \"ddi grokhr\", \"ddi gruchr\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Hooked on Dedi\"}": {
     "results": [],
-    "expiresAt": 1793021572.763468
+    "expiresAt": 1793107155.437144
   },
   "{\"aliases\": [\"דובי מייזעלס\", \"Dobby Maysels\", \"dobi meizls\", \"dobi meizals\", \"dobi meyzls\", \"dobi meyzals\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Krechtz\"}": {
     "results": [],
-    "expiresAt": 1793021598.4277728
+    "expiresAt": 1793107180.0685415
   },
   "{\"aliases\": [\"דוד חזיזה\", \"David Haziza\", \"david chzizh\", \"david chziz\", \"david chzyzh\", \"david chzyz\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Shir HaChuppa\"}": {
     "results": [
@@ -26709,7 +26624,7 @@
   },
   "{\"aliases\": [\"דודי פלדמן\", \"Dodi Feldman\", \"dudi pldmn\", \"dudi fldmn\", \"dudy pldmn\", \"dudy fldmn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"יתברך שמך\"}": {
     "results": [],
-    "expiresAt": 1793021623.93696
+    "expiresAt": 1793107205.1320844
   },
   "{\"aliases\": [\"דודי פרישמן\", \"Dodi Frishman\", \"dudi prishmn\", \"dudi prismn\", \"dudi pryshmn\", \"dudi prysmn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"למעלה עלה - ווקאלי\"}": {
     "results": [
@@ -27116,7 +27031,7 @@
   },
   "{\"aliases\": [\"המכביטס\", \"The Maccabees\", \"hmchbits\", \"hmchbyts\", \"hmchvits\", \"hmchvyts\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Threefold Chord\"}": {
     "results": [],
-    "expiresAt": 1793021649.1201537
+    "expiresAt": 1793107229.8842523
   },
   "{\"aliases\": [\"הראל טל\", \"Harel Tel\", \"hrl tl\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"קראתי בכל לב\"}": {
     "results": [
@@ -27205,11 +27120,11 @@
   },
   "{\"aliases\": [\"הרשי וינברגר\", \"Hershey Weinberger\", \"hrshi oynbrgr\", \"hrshi oynvrgr\", \"hrshi oinbrgr\", \"hrshi oinvrgr\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Satmar Medley\"}": {
     "results": [],
-    "expiresAt": 1793021674.6347904
+    "expiresAt": 1793107254.4842112
   },
   "{\"aliases\": [\"הרשי רוטנברג\", \"Hershey Rotenberg\", \"hrshi rotnbrg\", \"hrshi rotnvrg\", \"hrshi rutnbrg\", \"hrshi rutnvrg\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Boneh Chayei - בני חיי\"}": {
     "results": [],
-    "expiresAt": 1793021700.0038486
+    "expiresAt": 1793107279.1391618
   },
   "{\"aliases\": [\"זאנוויל ויינברגר\", \"Zanville Weinberger\", \"znooyl oyinbrgr\", \"znooyl oyinvrgr\", \"znooyl oyynbrgr\", \"znooyl oyynvrgr\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"רצוננו\"}": {
     "results": [
@@ -27298,11 +27213,11 @@
   },
   "{\"aliases\": [\"חיים דוד ברסון\", \"Haim David Barson\", \"chaim david brson\", \"chaim david brsun\", \"chaim david brsvn\", \"chaim david brswn\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Ten Lanu Chaim\"}": {
     "results": [],
-    "expiresAt": 1793021725.5434237
+    "expiresAt": 1793107303.9247792
   },
   "{\"aliases\": [\"חיים דוד סרצ'יק\", \"Haim David Sarachik\", \"chaim david srtz ik\", \"chaim david srtz ic\", \"chaim david srtz yk\", \"chaim david srtz yc\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"A New Light\"}": {
     "results": [],
-    "expiresAt": 1793021750.8777277
+    "expiresAt": 1793107329.4157748
   },
   "{\"aliases\": [\"חיים ישראל\", \"Haim Israel\", \"chaim yisrael\", \"chaim israel\", \"haim yisrael\", \"haim israel\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"בן של מלך העולם\"}": {
     "results": [
@@ -27897,7 +27812,7 @@
   },
   "{\"aliases\": [\"טל ועקנין\", \"Tal and Aknin\", \"tl oknin\", \"tl oknyn\", \"tl ocnin\", \"tl ocnyn\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"My Day - היום שלי\"}": {
     "results": [],
-    "expiresAt": 1793021776.3213038
+    "expiresAt": 1793107354.4187088
   },
   "{\"aliases\": [\"יאיר אלייצור\", \"Yair Elizur\", \"iir\", \"iyr\", \"yir\", \"yyr\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"מתוך הדמעות הוא קורא לך\"}": {
     "results": [
@@ -28154,7 +28069,7 @@
   },
   "{\"aliases\": [\"יהודה גלאנץ\", \"Yehuda Glanz\", \"yehuda glntz\", \"yehuda glnz\", \"judah glntz\", \"judah glnz\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Búsqueda Eterna, Vol. 2\"}": {
     "results": [],
-    "expiresAt": 1793021801.5104926
+    "expiresAt": 1793107379.3269086
   },
   "{\"aliases\": [\"יהודה גרין\", \"Yehuda Green\", \"yehuda grin\", \"yehuda gryn\", \"judah grin\", \"judah gryn\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Barcheini\"}": {
     "results": [
@@ -28243,7 +28158,7 @@
   },
   "{\"aliases\": [\"יואלי גרינפלד\", \"Yoali Greenfeld\", \"ioli grinpld\", \"ioli grinfld\", \"ioli grynpld\", \"ioli grynfld\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Beats 2.0\"}": {
     "results": [],
-    "expiresAt": 1793021827.6476781
+    "expiresAt": 1793107404.110685
   },
   "{\"aliases\": [\"יואלי דיקמן\", \"Yoali Dickman\", \"ioli dikmn\", \"ioli dicmn\", \"ioli dykmn\", \"ioli dycmn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"קומזיץ 5 הימים הנוראים\"}": {
     "results": [
@@ -28497,7 +28412,7 @@
   },
   "{\"aliases\": [\"יומי לואי\", \"Yomi Louie\", \"iomi loi\", \"iomi loy\", \"iomi lui\", \"iomi luy\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Ahavas Hashem\"}": {
     "results": [],
-    "expiresAt": 1793023101.6101282
+    "expiresAt": 1793108776.9516203
   },
   "{\"aliases\": [\"יוני אליאב\", \"Yoni Eliav\", \"ioni\", \"iony\", \"iuni\", \"iuny\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"יוני אליאב במחרוזת פורים 2024 עם גדולי הזמר החסידי. (feat. אהרלע סאמעט, Mendy Weiss, ישי לפידות & Itzik Dadya)\"}": {
     "results": [
@@ -28842,7 +28757,7 @@
   },
   "{\"aliases\": [\"יוני שלמה\", \"Yoni Shlomo\", \"ioni shlomo\", \"ioni shloime\", \"ioni solomon\", \"iony shlomo\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Tracht Gut\"}": {
     "results": [],
-    "expiresAt": 1793021879.0992842
+    "expiresAt": 1793107453.5908391
   },
   "{\"aliases\": [\"יונתן רזאל\", \"Jonathan Razel\", \"iontn rzl\", \"ionsn rzl\", \"iuntn rzl\", \"iunsn rzl\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"50\"}": {
     "results": [
@@ -28951,11 +28866,11 @@
   },
   "{\"aliases\": [\"יוסי פיאמנטה\", \"Yossi Piamante\", \"yossi pimnth\", \"yossi pimnt\", \"yossi pymnth\", \"yossi pymnt\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Big Time\"}": {
     "results": [],
-    "expiresAt": 1793021906.4678137
+    "expiresAt": 1793107478.1851165
   },
   "{\"aliases\": [\"יוסי קוגלר\", \"Yossi Kugler\", \"yossi koglr\", \"yossi kuglr\", \"yossi kvglr\", \"yossi kwglr\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Asei Imanu\"}": {
     "results": [],
-    "expiresAt": 1793023155.141287
+    "expiresAt": 1793108827.302474
   },
   "{\"aliases\": [\"יוסף חיים שוואקי\", \"Yosef Haim Shawaki\", \"yosef chaim shooki\", \"yosef chaim shooky\", \"yosef chaim shooci\", \"yosef chaim shoocy\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"הכל לטובה\"}": {
     "results": [
@@ -29251,7 +29166,7 @@
   },
   "{\"aliases\": [\"יידל ורדיגר\", \"Idle and Verdiger\", \"eidl ordigr\", \"eidl ordygr\", \"eidl urdigr\", \"eidl urdygr\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Hu V'lo Acher\"}": {
     "results": [],
-    "expiresAt": 1793021960.5149941
+    "expiresAt": 1793107527.7080283
   },
   "{\"aliases\": [\"ייטב דאלי\", \"eitb dli\", \"eitb dly\", \"eitv dli\", \"eitv dly\", \"eytb dli\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"ברחתי מעצמי\"}": {
     "results": [
@@ -29486,7 +29401,7 @@
   },
   "{\"aliases\": [\"יצחק מאיר הלפגוט\", \"Yitzhak Meir Halfagot\", \"yitzchak meir hlpgot\", \"yitzchak meir hlpgut\", \"yitzchak meir hlpgvt\", \"yitzchak meir hlpgwt\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Mizmor Shir\"}": {
     "results": [],
-    "expiresAt": 1793021986.485161
+    "expiresAt": 1793107552.3638358
   },
   "{\"aliases\": [\"יצי ספינר\", \"Yitzy Spinner\", \"itzi spinr\", \"itzi spynr\", \"itzi sfinr\", \"itzi sfynr\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Batuach בטוח\"}": {
     "results": [
@@ -29549,7 +29464,7 @@
   },
   "{\"aliases\": [\"ישי לפידות\", \"Yeshi torches\", \"ishay lpidot\", \"ishay lpidos\", \"ishay lpidut\", \"ishay lpidus\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"אוף שימחעס וחברים\"}": {
     "results": [],
-    "expiresAt": 1793022012.2993653
+    "expiresAt": 1793107577.0708833
   },
   "{\"aliases\": [\"ישי ריבו\", \"Hashi Rivo\", \"ishay ribo\", \"ishay ribu\", \"ishay ribv\", \"ishay ribw\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"סוף חמה לבוא\"}": {
     "results": [
@@ -29897,7 +29812,7 @@
   },
   "{\"aliases\": [\"ישראל ורדיגר\", \"Israel Werdiger\", \"yisrael ordigr\", \"yisrael ordygr\", \"yisrael urdigr\", \"yisrael urdygr\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Ashira V'azamra\"}": {
     "results": [],
-    "expiresAt": 1793022037.9470017
+    "expiresAt": 1793107602.0813377
   },
   "{\"aliases\": [\"להקת ישיבה בויס\", \"Yeshiva Boys band\", \"lhkt ishibh boys\", \"lhkt ishibh bois\", \"lhkt ishibh buys\", \"lhkt ishibh buis\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"YBC III - Shabichi\"}": {
     "results": [
@@ -29977,15 +29892,15 @@
   },
   "{\"aliases\": [\"להקת תזמורת פריילך\", \"Frailech Orchestra Band\", \"lhkt tzmort preilch\", \"lhkt tzmort preilk\", \"lhkt tzmort preilkh\", \"lhkt tzmort preylch\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"FreiLand\"}": {
     "results": [],
-    "expiresAt": 1793022063.3752143
+    "expiresAt": 1793107626.6226919
   },
   "{\"aliases\": [\"לוי פולקוביץ\", \"Levy Polkovitz\", \"loy polkobitz\", \"loy polkobiz\", \"loy polkobytz\", \"loy polkobyz\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"TYH Live Session with Levy Falkowitz\"}": {
     "results": [],
-    "expiresAt": 1793022089.0685263
+    "expiresAt": 1793107651.1922545
   },
   "{\"aliases\": [\"לייבי וידר\", \"Lively Vader\", \"leibi oydr\", \"leibi oidr\", \"leibi uydr\", \"leibi uidr\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Live Recordings (Mendlowitz Chuppah)\"}": {
     "results": [],
-    "expiresAt": 1793022114.4941292
+    "expiresAt": 1793107676.0247338
   },
   "{\"aliases\": [\"לייזר לויד\", \"Laser Lloyd\", \"leizr loyd\", \"leizr loid\", \"leizr luyd\", \"leizr luid\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Tomorrow Never Comes\"}": {
     "results": [
@@ -30390,15 +30305,15 @@
   },
   "{\"aliases\": [\"מוישי שוורץ\", \"Moishi Schwartz\", \"moyshi shoortz\", \"moyshi shoorz\", \"moyshi shourtz\", \"moyshi shourz\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Minutes of Elul (Live)\"}": {
     "results": [],
-    "expiresAt": 1793022139.8215828
+    "expiresAt": 1793107700.6810021
   },
   "{\"aliases\": [\"מיילך ברונשטיין\", \"Mailach Bronstein\", \"meilch bronshtein\", \"meilch bronshteyn\", \"meilch bronshtain\", \"meilch bronshtayn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Menucha V'Simcha (מנוחה ושמחה)\"}": {
     "results": [],
-    "expiresAt": 1793022165.343127
+    "expiresAt": 1793107725.4034097
   },
   "{\"aliases\": [\"מיילך קאהן\", \"Mailch Kahn\", \"meilch khn\", \"meilch kn\", \"meilch chn\", \"meilch cn\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"It's Been A While מנגן\"}": {
     "results": [],
-    "expiresAt": 1793022190.806122
+    "expiresAt": 1793107751.1194046
   },
   "{\"aliases\": [\"מיכאל אזולאי\", \"Michael Azoulai\", \"michael\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"כי עמנו\"}": {
     "results": [
@@ -30581,7 +30496,7 @@
   },
   "{\"aliases\": [\"מנדי ג'רופי\", \"Mandy Jeroffi\", \"mndi g ropi\", \"mndi g ropy\", \"mndi g rofi\", \"mndi g rofy\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"מרקדין\"}": {
     "results": [],
-    "expiresAt": 1793022216.140881
+    "expiresAt": 1793107776.5924375
   },
   "{\"aliases\": [\"מנדי גולדברג\", \"Mandy Goldberg\", \"mndi goldbrg\", \"mndi goldvrg\", \"mndi guldbrg\", \"mndi guldvrg\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"בכל העולמות\"}": {
     "results": [
@@ -30644,15 +30559,15 @@
   },
   "{\"aliases\": [\"מנדי הרשקוביץ\", \"Mandy Hershkowitz\", \"mndi hrshkobitz\", \"mndi hrshkobiz\", \"mndi hrshkobytz\", \"mndi hrshkobyz\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Yingerlich Through the Years\"}": {
     "results": [],
-    "expiresAt": 1793022241.2262182
+    "expiresAt": 1793107806.0214367
   },
   "{\"aliases\": [\"מנדי וולד\", \"Mandy Wald\", \"mndi oold\", \"mndi ould\", \"mndi ovld\", \"mndi owld\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Anachnu Amcha\"}": {
     "results": [],
-    "expiresAt": 1793022266.4059763
+    "expiresAt": 1793107837.5752006
   },
   "{\"aliases\": [\"מנדי וייס\", \"Mandy Weiss\", \"mndi oyis\", \"mndi oyys\", \"mndi oiis\", \"mndi oiys\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Aleh Aleh\"}": {
     "results": [],
-    "expiresAt": 1793022291.6270924
+    "expiresAt": 1793107863.0522199
   },
   "{\"aliases\": [\"מנדי רוט\", \"Mandy Roth\", \"mndi rot\", \"mndi rut\", \"mndi rvt\", \"mndi rwt\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"מחרוזת חופה\"}": {
     "results": [
@@ -30970,7 +30885,7 @@
   },
   "{\"aliases\": [\"מקהלת פרחי לונדון\", \"London Flower Choir\", \"mkhlt prchi london\", \"mkhlt prchi londun\", \"mkhlt prchi londvn\", \"mkhlt prchi londwn\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Mama - ונישא ברכה\"}": {
     "results": [],
-    "expiresAt": 1793022316.8626752
+    "expiresAt": 1793107888.1729317
   },
   "{\"aliases\": [\"מקהלת פרחי מיאמי\", \"Miami Flower Choir\", \"mkhlt prchi mimi\", \"mkhlt prchi mimy\", \"mkhlt prchi mymi\", \"mkhlt prchi mymy\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"The Miami Solo Album: Hisorirus\"}": {
     "results": [
@@ -31517,11 +31432,11 @@
   },
   "{\"aliases\": [\"משה מנדלוביץ\", \"Moshe Mandelovich\", \"moshe mndlobitz\", \"moshe mndlobiz\", \"moshe mndlobytz\", \"moshe mndlobyz\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Off The Record 3 (The Pirchei Years)\"}": {
     "results": [],
-    "expiresAt": 1793022341.9277563
+    "expiresAt": 1793107913.2088742
   },
   "{\"aliases\": [\"משה פלד\", \"Moshe Peled\", \"moshe pld\", \"moshe fld\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"משה פלד - האוסף\"}": {
     "results": [],
-    "expiresAt": 1793022367.1031773
+    "expiresAt": 1793107938.889749
   },
   "{\"aliases\": [\"משה קליין\", \"Moshe Klein\", \"moshe klein\", \"moshe kleyn\", \"moshe klain\", \"moshe klayn\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"ווקאלי 01\"}": {
     "results": [
@@ -32074,7 +31989,7 @@
   },
   "{\"aliases\": [\"נמואל הרוש\", \"Nemuel Harush\", \"nmol hrosh\", \"nmol hros\", \"nmol hrush\", \"nmol hrus\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Live 2025\"}": {
     "results": [],
-    "expiresAt": 1793022383.984828
+    "expiresAt": 1793107955.4569128
   },
   "{\"aliases\": [\"נפתלי בלומנטל\", \"Naftali Blumenthal\", \"naftali blomntl\", \"naftali blumntl\", \"naftali blvmntl\", \"naftali blwmntl\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Good Things Are Coming\"}": {
     "results": [
@@ -32125,7 +32040,7 @@
   },
   "{\"aliases\": [\"נפתלי הרשטיק\", \"Naftali Harshtik\", \"naftali hrshtik\", \"naftali hrshtic\", \"naftali hrshtyk\", \"naftali hrshtyc\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Vienna Boys Choir: A Jewish Celebration in Song\"}": {
     "results": [],
-    "expiresAt": 1793022409.2392092
+    "expiresAt": 1793107980.2296336
   },
   "{\"aliases\": [\"נפתלי קמפה\", \"Naftali Kempe\", \"naftali kmph\", \"naftali kmp\", \"naftali kmfh\", \"naftali kmf\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Ad Sheyavo Mashiach\"}": {
     "results": [
@@ -32683,7 +32598,7 @@
   },
   "{\"aliases\": [\"פינחס ביכלר\", \"Pinchas Bichler\", \"pinchs bichlr\", \"pinchs biklr\", \"pinchs bikhlr\", \"pinchs bychlr\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"מקווה נייעס\"}": {
     "results": [],
-    "expiresAt": 1793020925.172448
+    "expiresAt": 1793108005.3124073
   },
   "{\"aliases\": [\"פיני איינהורן\", \"Finny Einhorn\", \"pini\", \"piny\", \"pyni\", \"pyny\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"סליחות\"}": {
     "results": [
@@ -32734,15 +32649,15 @@
   },
   "{\"aliases\": [\"פיני שכטר\", \"Finny Schechter\", \"pini shchtr\", \"pini shktr\", \"pini shkhtr\", \"pini schtr\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Al Eleh Acapella\"}": {
     "results": [],
-    "expiresAt": 1793020950.4918096
+    "expiresAt": 1793108030.3907194
   },
   "{\"aliases\": [\"צליל וזמר\", \"Sound and singer\", \"tzlil ozmr\", \"tzlil ozmer\", \"tzlil uzmr\", \"tzlil uzmer\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Hooked on Chanukah\"}": {
     "results": [],
-    "expiresAt": 1793020975.8903506
+    "expiresAt": 1793108055.8593757
   },
   "{\"aliases\": [\"צמד רעים\", \"A bad pair\", \"tzmd rim\", \"tzmd rym\", \"tzmd raim\", \"tzmd raym\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"מיטב השירים החסידים\"}": {
     "results": [],
-    "expiresAt": 1793021001.2227657
+    "expiresAt": 1793108080.7042923
   },
   "{\"aliases\": [\"קובי ברומר\", \"Kobe Brummer\", \"kobi bromr\", \"kobi bromer\", \"kobi brumr\", \"kobi brumer\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"קומזיץ 5 הימים הנוראים\"}": {
     "results": [
@@ -32904,7 +32819,7 @@
   },
   "{\"aliases\": [\"רועי ידיד\", \"Roy friend\", \"roi idid\", \"roi idyd\", \"roi ydid\", \"roi ydyd\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"תקליטי שדרים\"}": {
     "results": [],
-    "expiresAt": 1793021031.002328
+    "expiresAt": 1793108105.5647843
   },
   "{\"aliases\": [\"רפאל אוזן\", \"Raphael Ozan\", \"rpl ozn\", \"rpl uzn\", \"rpl auzn\", \"rfl ozn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"ברכני בשלום\"}": {
     "results": [
@@ -33111,11 +33026,11 @@
   },
   "{\"aliases\": [\"שימי אנגל\", \"Shimi Engel\", \"shimi\", \"shimy\", \"shymi\", \"shymy\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Sheinis\"}": {
     "results": [],
-    "expiresAt": 1793021056.101488
+    "expiresAt": 1793108131.014959
   },
   "{\"aliases\": [\"שירה Choir\", \"Choir singing\", \"shirh choir\", \"shir choir\", \"shyrh choir\", \"shyr choir\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Bucherish - בחוריש\"}": {
     "results": [],
-    "expiresAt": 1793021081.324618
+    "expiresAt": 1793108156.1620874
   },
   "{\"aliases\": [\"שלום ברנהולץ\", \"Hello Bernholz\", \"shlom brnholtz\", \"shlom brnholz\", \"shlom brnhultz\", \"shlom brnhulz\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"ביכורים\"}": {
     "results": [
@@ -33145,7 +33060,7 @@
   },
   "{\"aliases\": [\"שלומי דאקס\", \"Hello Dax\", \"shlomi dks\", \"shlomi dcs\", \"shlomy dks\", \"shlomy dcs\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Acheinu\"}": {
     "results": [],
-    "expiresAt": 1793022509.933101
+    "expiresAt": 1793109279.1246352
   },
   "{\"aliases\": [\"שלומי דסקל\", \"Shlomi Daskel\", \"shlomi dskl\", \"shlomi dscl\", \"shlomy dskl\", \"shlomy dscl\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"ALIVE: A Dance with Daskal\"}": {
     "results": [
@@ -33455,7 +33370,7 @@
   },
   "{\"aliases\": [\"שלמה טויסיג\", \"Shlomo Tuisig\", \"shlomo toysig\", \"shlomo toysyg\", \"shlomo toisig\", \"shlomo toisyg\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"לעתיד לבוא\"}": {
     "results": [],
-    "expiresAt": 1793021132.159779
+    "expiresAt": 1793108206.1610332
   },
   "{\"aliases\": [\"שלמה כהן\", \"Shlomo Cohen\", \"shlomo chhn\", \"shlomo chn\", \"shlomo khn\", \"shlomo kn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"שרים אלול\"}": {
     "results": [
@@ -33518,7 +33433,7 @@
   },
   "{\"aliases\": [\"שלמה כץ\", \"Shlomo Katz\", \"shlomo chtz\", \"shlomo chz\", \"shlomo ktz\", \"shlomo kz\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Brit Avot\"}": {
     "results": [],
-    "expiresAt": 1793021157.5415223
+    "expiresAt": 1793108231.080929
   },
   "{\"aliases\": [\"שלמה קרליבך\", \"Shlomo Karlibach\", \"shlomo krlibch\", \"shlomo krlibk\", \"shlomo krlibkh\", \"shlomo krlivch\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"At The Village Gate\"}": {
     "results": [
@@ -33602,7 +33517,7 @@
   },
   "{\"aliases\": [\"שמואל גריינמן\", \"Shmuel Greinman\", \"shmuel greinmn\", \"shmuel greynmn\", \"shmuel grainmn\", \"shmuel graynmn\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"ארץ מרחקים\"}": {
     "results": [],
-    "expiresAt": 1793021183.0451531
+    "expiresAt": 1793108257.0339034
   },
   "{\"aliases\": [\"שמואל הררי\", \"Shmuel Harari\", \"shmuel hrri\", \"shmuel hrry\", \"samuel hrri\", \"samuel hrry\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"אחדות\"}": {
     "results": [
@@ -33980,11 +33895,11 @@
   },
   "{\"aliases\": [\"שרולי גרין\", \"Charoli Green\", \"shroli grin\", \"shroli gryn\", \"shroly grin\", \"shroly gryn\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"HYPE\"}": {
     "results": [],
-    "expiresAt": 1793021208.4285824
+    "expiresAt": 1793106772.8102996
   },
   "{\"aliases\": [\"שרולי ליפשיץ\", \"Sharoli Lifshitz\", \"shroli lipshitz\", \"shroli lipshiz\", \"shroli lipshytz\", \"shroli lipshyz\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"ותיהב לי (feat. שמחה אברמצ'יק)\"}": {
     "results": [],
-    "expiresAt": 1793021233.9664998
+    "expiresAt": 1793106802.1118493
   },
   "{\"aliases\": [\"שרוליק מנדלסון\", \"Shrolik Mendelssohn\", \"shrolik mndlson\", \"shrolik mndlsun\", \"shrolik mndlsvn\", \"shrolik mndlswn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"In my mind\"}": {
     "results": [
@@ -34106,7 +34021,7 @@
   },
   "{\"aliases\": [\"תזמורת המנגנים\", \"The musicians' orchestra\", \"tzmort hmngnim\", \"tzmort hmngnym\", \"tzmors hmngnim\", \"tzmors hmngnym\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Kumzing 3 B - קומזינג 3 ב'\"}": {
     "results": [],
-    "expiresAt": 1793021259.38615
+    "expiresAt": 1793106833.5131488
   },
   "{\"aliases\": [\"אהרון רזאל\", \"Aharon Razel\", \"rzl\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"כבן המתגעגע\"}": {
     "results": [
@@ -35647,11 +35562,11 @@
   },
   "{\"aliases\": [\"אפרים מנדלסון\", \"Ephraim Mendelssohn\", \"mndlson\", \"mndlsun\", \"mndlsvn\", \"mndlswn\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Hisragshus\"}": {
     "results": [],
-    "expiresAt": 1793022740.6182275
+    "expiresAt": 1793108422.6321268
   },
   "{\"aliases\": [\"אפרים מרקוביץ'\", \"Ephraim Markovich\", \"mrkobitz\", \"mrkobiz\", \"mrkobytz\", \"mrkobyz\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Wedding Dance\"}": {
     "results": [],
-    "expiresAt": 1793023851.335108
+    "expiresAt": 1793109556.7647119
   },
   "{\"aliases\": [\"ארי גולדוואג\", \"Ari Goldwag\", \"ari goldoog\", \"ari goldoug\", \"ari goldovg\", \"ari goldowg\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Acoustix Volume One\"}": {
     "results": [
@@ -36080,7 +35995,7 @@
   },
   "{\"aliases\": [\"בערי וובר\", \"Weber cities\", \"beri oobr\", \"beri oovr\", \"beri oubr\", \"beri ouvr\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Beri Energy\"}": {
     "results": [],
-    "expiresAt": 1793022791.0128074
+    "expiresAt": 1793108475.5429225
   },
   "{\"aliases\": [\"ברוך ויזל\", \"Baruch Wiesel\", \"broch oyzl\", \"broch oizl\", \"broch uyzl\", \"broch uizl\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"תפילת בעל המנגן\"}": {
     "results": [
@@ -36169,7 +36084,7 @@
   },
   "{\"aliases\": [\"ברוך שלום בלסופסקי\", \"Welcome Belsofsky\", \"broch shlom blsopski\", \"broch shlom blsopsky\", \"broch shlom blsopsci\", \"broch shlom blsopscy\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Neshama Dance\"}": {
     "results": [],
-    "expiresAt": 1793022816.3928647
+    "expiresAt": 1793108500.5445583
   },
   "{\"aliases\": [\"בריו חקשור\", \"Rio Hekchor\", \"brio chkshor\", \"brio chkshur\", \"brio chkshvr\", \"brio chkshwr\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"אנעים זמירות\"}": {
     "results": [
@@ -36225,7 +36140,7 @@
   },
   "{\"aliases\": [\"גבריאל חסון\", \"Gabriel Hasson\", \"gbril chson\", \"gbril chsun\", \"gbril chsvn\", \"gbril chswn\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"פרויקט המלך דוד (עשרה מיני נגינה)\"}": {
     "results": [],
-    "expiresAt": 1793022841.5845351
+    "expiresAt": 1793108526.4794488
   },
   "{\"aliases\": [\"גד אלבז\", \"Gad Elbaz\", \"gd\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"משמעויות\"}": {
     "results": [
@@ -36341,11 +36256,11 @@
   },
   "{\"aliases\": [\"דדי גראוכר\", \"Daddy Graucher\", \"ddi grochr\", \"ddi grokr\", \"ddi grokhr\", \"ddi gruchr\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Hakol  L'Tova\"}": {
     "results": [],
-    "expiresAt": 1793022867.2230392
+    "expiresAt": 1793108552.0531466
   },
   "{\"aliases\": [\"דובי מייזעלס\", \"Dobby Maysels\", \"dobi meizls\", \"dobi meizals\", \"dobi meyzls\", \"dobi meyzals\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Shtendig Lipa Show #2\"}": {
     "results": [],
-    "expiresAt": 1793022892.3730211
+    "expiresAt": 1793108576.9854665
   },
   "{\"aliases\": [\"דוד חזיזה\", \"David Haziza\", \"david chzizh\", \"david chziz\", \"david chzyzh\", \"david chzyz\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Bou Nirkod\"}": {
     "results": [
@@ -36660,7 +36575,7 @@
   },
   "{\"aliases\": [\"דודי פלדמן\", \"Dodi Feldman\", \"dudi pldmn\", \"dudi fldmn\", \"dudy pldmn\", \"dudy fldmn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"תשועתם\"}": {
     "results": [],
-    "expiresAt": 1793022917.7479625
+    "expiresAt": 1793108602.1344097
   },
   "{\"aliases\": [\"דודי פרישמן\", \"Dodi Frishman\", \"dudi prishmn\", \"dudi prismn\", \"dudi pryshmn\", \"dudi prysmn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"למעלה עלה\"}": {
     "results": [
@@ -37139,7 +37054,7 @@
   },
   "{\"aliases\": [\"המכביטס\", \"The Maccabees\", \"hmchbits\", \"hmchbyts\", \"hmchvits\", \"hmchvyts\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"One Day More\"}": {
     "results": [],
-    "expiresAt": 1793023995.6202097
+    "expiresAt": 1793109698.2597175
   },
   "{\"aliases\": [\"הראל טל\", \"Harel Tel\", \"hrl tl\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"נפשי בשאלתי\"}": {
     "results": [
@@ -37287,7 +37202,7 @@
   },
   "{\"aliases\": [\"הרשי רוטנברג\", \"Hershey Rotenberg\", \"hrshi rotnbrg\", \"hrshi rotnvrg\", \"hrshi rutnbrg\", \"hrshi rutnvrg\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Lo Amus\"}": {
     "results": [],
-    "expiresAt": 1793022969.2709417
+    "expiresAt": 1793108651.9047122
   },
   "{\"aliases\": [\"זאנוויל ויינברגר\", \"Zanville Weinberger\", \"znooyl oyinbrgr\", \"znooyl oyinvrgr\", \"znooyl oyynbrgr\", \"znooyl oyynvrgr\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"ציון וירושלים\"}": {
     "results": [
@@ -37350,11 +37265,11 @@
   },
   "{\"aliases\": [\"חיים דוד ברסון\", \"Haim David Barson\", \"chaim david brson\", \"chaim david brsun\", \"chaim david brsvn\", \"chaim david brswn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Kadosh Hayom\"}": {
     "results": [],
-    "expiresAt": 1793022995.3500183
+    "expiresAt": 1793108676.8917217
   },
   "{\"aliases\": [\"חיים דוד סרצ'יק\", \"Haim David Sarachik\", \"chaim david srtz ik\", \"chaim david srtz ic\", \"chaim david srtz yk\", \"chaim david srtz yc\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Mi'tzur Dvash\"}": {
     "results": [],
-    "expiresAt": 1793023021.624918
+    "expiresAt": 1793108701.7527468
   },
   "{\"aliases\": [\"חיים ישראל\", \"Haim Israel\", \"chaim yisrael\", \"chaim israel\", \"haim yisrael\", \"haim israel\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"ושמחת\"}": {
     "results": [
@@ -38171,7 +38086,7 @@
   },
   "{\"aliases\": [\"יהודה גלאנץ\", \"Yehuda Glanz\", \"yehuda glntz\", \"yehuda glnz\", \"judah glntz\", \"judah glnz\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Búsqueda Eterna, Vol. 1\"}": {
     "results": [],
-    "expiresAt": 1793023047.257987
+    "expiresAt": 1793108726.7098157
   },
   "{\"aliases\": [\"יהודה גרין\", \"Yehuda Green\", \"yehuda grin\", \"yehuda gryn\", \"judah grin\", \"judah gryn\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Land of Your Soul\"}": {
     "results": [
@@ -38303,7 +38218,7 @@
   },
   "{\"aliases\": [\"יואלי גרינפלד\", \"Yoali Greenfeld\", \"ioli grinpld\", \"ioli grinfld\", \"ioli grynpld\", \"ioli grynfld\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Beats\"}": {
     "results": [],
-    "expiresAt": 1793023072.740322
+    "expiresAt": 1793108751.8291981
   },
   "{\"aliases\": [\"יואלי דיקמן\", \"Yoali Dickman\", \"ioli dikmn\", \"ioli dicmn\", \"ioli dykmn\", \"ioli dycmn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"שרים MBD\"}": {
     "results": [
@@ -38639,7 +38554,7 @@
   },
   "{\"aliases\": [\"יומי לואי\", \"Yomi Louie\", \"iomi loi\", \"iomi loy\", \"iomi lui\", \"iomi luy\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Mi Adir\"}": {
     "results": [],
-    "expiresAt": 1793024148.3163617
+    "expiresAt": 1793109845.4559705
   },
   "{\"aliases\": [\"יוני אליאב\", \"Yoni Eliav\", \"ioni\", \"iony\", \"iuni\", \"iuny\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"יוני אליאב ואלחנן שטיינמץ - טאטאלע (feat. אלחנן שטיינמץ)\"}": {
     "results": [
@@ -39445,11 +39360,11 @@
   },
   "{\"aliases\": [\"יוסי פיאמנטה\", \"Yossi Piamante\", \"yossi pimnth\", \"yossi pimnt\", \"yossi pymnth\", \"yossi pymnt\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Mitzvah\"}": {
     "results": [],
-    "expiresAt": 1793023129.6575267
+    "expiresAt": 1793108802.1697736
   },
   "{\"aliases\": [\"יוסי קוגלר\", \"Yossi Kugler\", \"yossi koglr\", \"yossi kuglr\", \"yossi kvglr\", \"yossi kwglr\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Tisba Nafshi\"}": {
     "results": [],
-    "expiresAt": 1793024198.920669
+    "expiresAt": 1793109894.0799289
   },
   "{\"aliases\": [\"יוסף חיים שוואקי\", \"Yosef Haim Shawaki\", \"yosef chaim shooki\", \"yosef chaim shooky\", \"yosef chaim shooci\", \"yosef chaim shoocy\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"חביבין עלי\"}": {
     "results": [
@@ -39766,7 +39681,7 @@
   },
   "{\"aliases\": [\"יידל ורדיגר\", \"Idle and Verdiger\", \"eidl ordigr\", \"eidl ordygr\", \"eidl urdigr\", \"eidl urdygr\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"A Verdiger Yid\"}": {
     "results": [],
-    "expiresAt": 1793023180.6999483
+    "expiresAt": 1793108852.1405683
   },
   "{\"aliases\": [\"ייטב דאלי\", \"eitb dli\", \"eitb dly\", \"eitv dli\", \"eitv dly\", \"eytb dli\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"סדקים\"}": {
     "results": [
@@ -39947,7 +39862,7 @@
   },
   "{\"aliases\": [\"יצחק מאיר הלפגוט\", \"Yitzhak Meir Halfagot\", \"yitzchak meir hlpgot\", \"yitzchak meir hlpgut\", \"yitzchak meir hlpgvt\", \"yitzchak meir hlpgwt\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Halleluka\"}": {
     "results": [],
-    "expiresAt": 1793023206.1346781
+    "expiresAt": 1793108877.6187823
   },
   "{\"aliases\": [\"יצי ספינר\", \"Yitzy Spinner\", \"itzi spinr\", \"itzi spynr\", \"itzi sfinr\", \"itzi sfynr\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Titchadesh\"}": {
     "results": [
@@ -40321,11 +40236,11 @@
   },
   "{\"aliases\": [\"ישראל ורדיגר\", \"Israel Werdiger\", \"yisrael ordigr\", \"yisrael ordygr\", \"yisrael urdigr\", \"yisrael urdygr\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Odeh Lokeil\"}": {
     "results": [],
-    "expiresAt": 1793023231.6950881
+    "expiresAt": 1793108902.7065432
   },
   "{\"aliases\": [\"להקת ישיבה בויס\", \"Yeshiva Boys band\", \"lhkt ishibh boys\", \"lhkt ishibh bois\", \"lhkt ishibh buys\", \"lhkt ishibh buis\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"YBC Live! II\"}": {
     "results": [],
-    "expiresAt": 1793023257.2407956
+    "expiresAt": 1793108927.7090425
   },
   "{\"aliases\": [\"להקת מושב\", \"Moshav band\", \"lhkt moshb\", \"lhkt moshv\", \"lhkt mosb\", \"lhkt mosv\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Shabbat, Vol. 1\"}": {
     "results": [
@@ -40378,19 +40293,19 @@
   },
   "{\"aliases\": [\"להקת תזמורת פריילך\", \"Frailech Orchestra Band\", \"lhkt tzmort preilch\", \"lhkt tzmort preilk\", \"lhkt tzmort preilkh\", \"lhkt tzmort preylch\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Bucherish - בחוריש\"}": {
     "results": [],
-    "expiresAt": 1793023282.798439
+    "expiresAt": 1793108952.5172892
   },
   "{\"aliases\": [\"לוי פולקוביץ\", \"Levy Polkovitz\", \"loy polkobitz\", \"loy polkobiz\", \"loy polkobytz\", \"loy polkobyz\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Shtendig Lipa Show #4\"}": {
     "results": [],
-    "expiresAt": 1793023308.192527
+    "expiresAt": 1793108978.028823
   },
   "{\"aliases\": [\"לייבי וידר\", \"Lively Vader\", \"leibi oydr\", \"leibi oidr\", \"leibi uydr\", \"leibi uidr\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Live Recordings (Hershkowitz Bar Mitzvah)\"}": {
     "results": [],
-    "expiresAt": 1793023333.8315458
+    "expiresAt": 1793109003.2360146
   },
   "{\"aliases\": [\"לייזר לויד\", \"Laser Lloyd\", \"leizr loyd\", \"leizr loid\", \"leizr luyd\", \"leizr luid\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Lazer Lloyd\"}": {
     "results": [],
-    "expiresAt": 1793023359.3349705
+    "expiresAt": 1793109028.6892133
   },
   "{\"aliases\": [\"מאיר בן דרור\", \"Meir Ben Dror\", \"meir bn dror\", \"meir bn drur\", \"meir bn drvr\", \"meir bn drwr\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"קרן אורה\"}": {
     "results": [
@@ -40762,15 +40677,15 @@
   },
   "{\"aliases\": [\"מוישי שוורץ\", \"Moishi Schwartz\", \"moyshi shoortz\", \"moyshi shoorz\", \"moyshi shourtz\", \"moyshi shourz\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Afikoman (אפיקומן)\"}": {
     "results": [],
-    "expiresAt": 1793023384.9789543
+    "expiresAt": 1793109053.5737274
   },
   "{\"aliases\": [\"מיילך ברונשטיין\", \"Mailach Bronstein\", \"meilch bronshtein\", \"meilch bronshteyn\", \"meilch bronshtain\", \"meilch bronshtayn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Shabbos Koidesh (שבת קודש)\"}": {
     "results": [],
-    "expiresAt": 1793023410.116923
+    "expiresAt": 1793109078.5428526
   },
   "{\"aliases\": [\"מיילך קאהן\", \"Mailch Kahn\", \"meilch khn\", \"meilch kn\", \"meilch chn\", \"meilch cn\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Yeder Einer\"}": {
     "results": [],
-    "expiresAt": 1793023435.3259816
+    "expiresAt": 1793109103.5991619
   },
   "{\"aliases\": [\"מיכאל אזולאי\", \"Michael Azoulai\", \"michael\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"הושענא\"}": {
     "results": [
@@ -40911,7 +40826,7 @@
   },
   "{\"aliases\": [\"מנדי ג'רופי\", \"Mandy Jeroffi\", \"mndi g ropi\", \"mndi g ropy\", \"mndi g rofi\", \"mndi g rofy\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"היום הוא יבוא\"}": {
     "results": [],
-    "expiresAt": 1793023460.685568
+    "expiresAt": 1793109129.280296
   },
   "{\"aliases\": [\"מנדי גולדברג\", \"Mandy Goldberg\", \"mndi goldbrg\", \"mndi goldvrg\", \"mndi guldbrg\", \"mndi guldvrg\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"דער זמר (feat. Ahrele Samet)\"}": {
     "results": [
@@ -41189,7 +41104,7 @@
   },
   "{\"aliases\": [\"מנדי וייס\", \"Mandy Weiss\", \"mndi oyis\", \"mndi oyys\", \"mndi oiis\", \"mndi oiys\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"באנדא דרייב\"}": {
     "results": [],
-    "expiresAt": 1793024452.4991732
+    "expiresAt": 1793110137.3024662
   },
   "{\"aliases\": [\"מנדי רוט\", \"Mandy Roth\", \"mndi rot\", \"mndi rut\", \"mndi rvt\", \"mndi rwt\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"מחרוזת שבת\"}": {
     "results": [
@@ -42891,7 +42806,7 @@
   },
   "{\"aliases\": [\"נמואל הרוש\", \"Nemuel Harush\", \"nmol hrosh\", \"nmol hros\", \"nmol hrush\", \"nmol hrus\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"אלף\"}": {
     "results": [],
-    "expiresAt": 1793023511.5323281
+    "expiresAt": 1793109179.2876441
   },
   "{\"aliases\": [\"נפתלי בלומנטל\", \"Naftali Blumenthal\", \"naftali blomntl\", \"naftali blumntl\", \"naftali blvmntl\", \"naftali blwmntl\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Time To Breathe 2 (An Acapella Experience)\"}": {
     "results": [
@@ -43637,7 +43552,7 @@
   },
   "{\"aliases\": [\"פינחס ביכלר\", \"Pinchas Bichler\", \"pinchs bichlr\", \"pinchs biklr\", \"pinchs bikhlr\", \"pinchs bychlr\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"תפן אלינו\"}": {
     "results": [],
-    "expiresAt": 1793022434.3527768
+    "expiresAt": 1793109204.1033661
   },
   "{\"aliases\": [\"פיני איינהורן\", \"Finny Einhorn\", \"pini\", \"piny\", \"pyni\", \"pyny\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"עולמות\"}": {
     "results": [
@@ -43667,7 +43582,7 @@
   },
   "{\"aliases\": [\"פיני שכטר\", \"Finny Schechter\", \"pini shchtr\", \"pini shktr\", \"pini shkhtr\", \"pini schtr\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Al Eleh\"}": {
     "results": [],
-    "expiresAt": 1793022459.4054115
+    "expiresAt": 1793109229.0253022
   },
   "{\"aliases\": [\"צליל וזמר\", \"Sound and singer\", \"tzlil ozmr\", \"tzlil ozmer\", \"tzlil uzmr\", \"tzlil uzmer\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Volume 3\"}": {
     "results": [
@@ -44614,7 +44529,7 @@
   },
   "{\"aliases\": [\"שימי אנגל\", \"Shimi Engel\", \"shimi\", \"shimy\", \"shymi\", \"shymy\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Classics\"}": {
     "results": [],
-    "expiresAt": 1793022484.743945
+    "expiresAt": 1793109254.1042745
   },
   "{\"aliases\": [\"שירה Choir\", \"Choir singing\", \"shirh choir\", \"shir choir\", \"shyrh choir\", \"shyr choir\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Paamonim - פעמונים\"}": {
     "results": [
@@ -44991,7 +44906,7 @@
   },
   "{\"aliases\": [\"שלמה כץ\", \"Shlomo Katz\", \"shlomo chtz\", \"shlomo chz\", \"shlomo ktz\", \"shlomo kz\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Yismach Melech\"}": {
     "results": [],
-    "expiresAt": 1793022535.2050548
+    "expiresAt": 1793109304.0785563
   },
   "{\"aliases\": [\"שלמה קרליבך\", \"Shlomo Karlibach\", \"shlomo krlibch\", \"shlomo krlibk\", \"shlomo krlibkh\", \"shlomo krlivch\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Shlomo Carlebach Live - Let there be peace\"}": {
     "results": [
@@ -45349,7 +45264,7 @@
   },
   "{\"aliases\": [\"שמואל גריינמן\", \"Shmuel Greinman\", \"shmuel greinmn\", \"shmuel greynmn\", \"shmuel grainmn\", \"shmuel graynmn\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"בית אבי\"}": {
     "results": [],
-    "expiresAt": 1793022560.3054574
+    "expiresAt": 1793109329.1389189
   },
   "{\"aliases\": [\"שמואל הררי\", \"Shmuel Harari\", \"shmuel hrri\", \"shmuel hrry\", \"samuel hrri\", \"samuel hrry\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"לחיים נרים\"}": {
     "results": [
@@ -45803,7 +45718,7 @@
   },
   "{\"aliases\": [\"שמעון סיבוני\", \"Shimon Siboni\", \"shmon siboni\", \"shmon sibony\", \"shmon sibuni\", \"shmon sibuny\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"המלך בשדה\"}": {
     "results": [],
-    "expiresAt": 1793022585.4357612
+    "expiresAt": 1793109354.1341555
   },
   "{\"aliases\": [\"שרגי גשטטנר\", \"Shregi Gesttner\", \"shrgi gshttnr\", \"shrgi gsttnr\", \"shrgy gshttnr\", \"shrgy gsttnr\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Shragee\"}": {
     "results": [
@@ -45876,7 +45791,7 @@
   },
   "{\"aliases\": [\"שרולי גרין\", \"Charoli Green\", \"shroli grin\", \"shroli gryn\", \"shroly grin\", \"shroly gryn\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"נויז\"}": {
     "results": [],
-    "expiresAt": 1793022610.4696987
+    "expiresAt": 1793108282.0055373
   },
   "{\"aliases\": [\"שרוליק מנדלסון\", \"Shrolik Mendelssohn\", \"shrolik mndlson\", \"shrolik mndlsun\", \"shrolik mndlsvn\", \"shrolik mndlswn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"שחרר לי את כל החסמים (feat. יענקי היל)\"}": {
     "results": [
@@ -45998,7 +45913,7 @@
   },
   "{\"aliases\": [\"תזמורת המנגנים\", \"The musicians' orchestra\", \"tzmort hmngnim\", \"tzmort hmngnym\", \"tzmors hmngnim\", \"tzmors hmngnym\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Kumzing 3 A - קומזינג 3 א'\"}": {
     "results": [],
-    "expiresAt": 1793022635.5819538
+    "expiresAt": 1793108307.10238
   },
   "{\"aliases\": [\"אהרון רזאל\", \"Aharon Razel\", \"rzl\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"הנשמה רוצה יותר\"}": {
     "results": [
@@ -46637,7 +46552,7 @@
   },
   "{\"aliases\": [\"אלי שוובל\", \"Eli Shovel\", \"eli shoobl\", \"eli shoovl\", \"eli shoubl\", \"eli shouvl\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Rifaeinu (Acapella)\"}": {
     "results": [],
-    "expiresAt": 1793023774.8435876
+    "expiresAt": 1793109481.6696155
   },
   "{\"aliases\": [\"אליה והב\", \"Elia and Heb\", \"ohb\", \"ohv\", \"ob\", \"ov\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"אבינו הגדול\"}": {
     "results": [
@@ -47311,7 +47226,7 @@
   },
   "{\"aliases\": [\"אלעד כהן\", \"Elad Cohen\", \"chhn\", \"chn\", \"khn\", \"kn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"רפאני השם\"}": {
     "results": [],
-    "expiresAt": 1793023800.3664548
+    "expiresAt": 1793109506.728847
   },
   "{\"aliases\": [\"אלעד שער\", \"Elad Shaar\", \"shr\", \"shar\", \"sr\", \"sar\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"הוציאה ממסגר נפשי\"}": {
     "results": [
@@ -47468,11 +47383,11 @@
   },
   "{\"aliases\": [\"אפרים מנדלסון\", \"Ephraim Mendelssohn\", \"mndlson\", \"mndlsun\", \"mndlsvn\", \"mndlswn\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Havei Don\"}": {
     "results": [],
-    "expiresAt": 1793023825.835532
+    "expiresAt": 1793109531.68423
   },
   "{\"aliases\": [\"אפרים מרקוביץ'\", \"Ephraim Markovich\", \"mrkobitz\", \"mrkobiz\", \"mrkobytz\", \"mrkobyz\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Vehi Sheamda Bobov\"}": {
     "results": [],
-    "expiresAt": 1793025019.68285
+    "expiresAt": 1793110723.3373756
   },
   "{\"aliases\": [\"ארי גולדוואג\", \"Ari Goldwag\", \"ari goldoog\", \"ari goldoug\", \"ari goldovg\", \"ari goldowg\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"A Cappella Soul 13\"}": {
     "results": [
@@ -48623,7 +48538,7 @@
   },
   "{\"aliases\": [\"ברוך שלום בלסופסקי\", \"Welcome Belsofsky\", \"broch shlom blsopski\", \"broch shlom blsopsky\", \"broch shlom blsopsci\", \"broch shlom blsopscy\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Bishvili\"}": {
     "results": [],
-    "expiresAt": 1793023881.2220657
+    "expiresAt": 1793109586.2107046
   },
   "{\"aliases\": [\"בריו חקשור\", \"Rio Hekchor\", \"brio chkshor\", \"brio chkshur\", \"brio chkshvr\", \"brio chkshwr\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"שיר ושבחה\"}": {
     "results": [
@@ -48705,7 +48620,7 @@
   },
   "{\"aliases\": [\"גד אלבז\", \"Gad Elbaz\", \"gd\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"ניגון ומיזמור\"}": {
     "results": [],
-    "expiresAt": 1793023906.6257463
+    "expiresAt": 1793109611.5226662
   },
   "{\"aliases\": [\"גיל ישראלוב\", \"Gil Israelov\", \"gil ishrlob\", \"gil ishrlov\", \"gil ishrlub\", \"gil ishrluv\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"חד גדיא\"}": {
     "results": [
@@ -48882,15 +48797,15 @@
   },
   "{\"aliases\": [\"דדי גראוכר\", \"Daddy Graucher\", \"ddi grochr\", \"ddi grokr\", \"ddi grokhr\", \"ddi gruchr\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Omnom\"}": {
     "results": [],
-    "expiresAt": 1793023919.2936192
+    "expiresAt": 1793109624.1413887
   },
   "{\"aliases\": [\"דובי מייזעלס\", \"Dobby Maysels\", \"dobi meizls\", \"dobi meizals\", \"dobi meyzls\", \"dobi meyzals\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"SHTENDIG 11:30\"}": {
     "results": [],
-    "expiresAt": 1793023944.6114914
+    "expiresAt": 1793109648.8165317
   },
   "{\"aliases\": [\"דוד חזיזה\", \"David Haziza\", \"david chzizh\", \"david chziz\", \"david chzyzh\", \"david chzyz\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Zchuto\"}": {
     "results": [],
-    "expiresAt": 1793023970.0433676
+    "expiresAt": 1793109673.795325
   },
   "{\"aliases\": [\"דוד חפצדי\", \"David Hefzadi\", \"david chptzdi\", \"david chptzdy\", \"david chpzdi\", \"david chpzdy\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"אשא עיני\"}": {
     "results": [
@@ -49765,15 +49680,15 @@
   },
   "{\"aliases\": [\"הרשי רוטנברג\", \"Hershey Rotenberg\", \"hrshi rotnbrg\", \"hrshi rotnvrg\", \"hrshi rutnbrg\", \"hrshi rutnvrg\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"A Yiddish Hartz (feat. Shira Choir)\"}": {
     "results": [],
-    "expiresAt": 1793024020.9271772
+    "expiresAt": 1793109722.8549461
   },
   "{\"aliases\": [\"חיים דוד ברסון\", \"Haim David Barson\", \"chaim david brson\", \"chaim david brsun\", \"chaim david brsvn\", \"chaim david brswn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"V’hashev\"}": {
     "results": [],
-    "expiresAt": 1793024046.3093202
+    "expiresAt": 1793109747.5485635
   },
   "{\"aliases\": [\"חיים דוד סרצ'יק\", \"Haim David Sarachik\", \"chaim david srtz ik\", \"chaim david srtz ic\", \"chaim david srtz yk\", \"chaim david srtz yc\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Hayom\"}": {
     "results": [],
-    "expiresAt": 1793024071.6551232
+    "expiresAt": 1793109772.2834897
   },
   "{\"aliases\": [\"חיים פורטל\", \"Haim Portal\", \"chaim portl\", \"chaim purtl\", \"chaim pvrtl\", \"chaim pwrtl\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"השמש שבך\"}": {
     "results": [
@@ -51207,7 +51122,7 @@
   },
   "{\"aliases\": [\"יהודה גלאנץ\", \"Yehuda Glanz\", \"yehuda glntz\", \"yehuda glnz\", \"judah glntz\", \"judah glnz\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Chay VeKayam\"}": {
     "results": [],
-    "expiresAt": 1793024097.147555
+    "expiresAt": 1793109796.8123827
   },
   "{\"aliases\": [\"יהודה גרין\", \"Yehuda Green\", \"yehuda grin\", \"yehuda gryn\", \"judah grin\", \"judah gryn\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Neshamele\"}": {
     "results": [
@@ -51296,7 +51211,7 @@
   },
   "{\"aliases\": [\"יואלי גרינפלד\", \"Yoali Greenfeld\", \"ioli grinpld\", \"ioli grinfld\", \"ioli grynpld\", \"ioli grynfld\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Tezakeinu\"}": {
     "results": [],
-    "expiresAt": 1793024122.7416587
+    "expiresAt": 1793109821.13416
   },
   "{\"aliases\": [\"יואלי דיקמן\", \"Yoali Dickman\", \"ioli dikmn\", \"ioli dicmn\", \"ioli dykmn\", \"ioli dycmn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"יד ביד\"}": {
     "results": [
@@ -51746,7 +51661,7 @@
   },
   "{\"aliases\": [\"יוסי פיאמנטה\", \"Yossi Piamante\", \"yossi pimnth\", \"yossi pimnt\", \"yossi pymnth\", \"yossi pymnt\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Strings of My Heart\"}": {
     "results": [],
-    "expiresAt": 1793024173.6592171
+    "expiresAt": 1793109869.7855773
   },
   "{\"aliases\": [\"יוסי קוגלר\", \"Yossi Kugler\", \"yossi koglr\", \"yossi kuglr\", \"yossi kvglr\", \"yossi kwglr\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Aneni | ענני\"}": {
     "results": [],
@@ -51955,7 +51870,7 @@
   },
   "{\"aliases\": [\"יידל ורדיגר\", \"Idle and Verdiger\", \"eidl ordigr\", \"eidl ordygr\", \"eidl urdigr\", \"eidl urdygr\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Lev Echad\"}": {
     "results": [],
-    "expiresAt": 1793024224.2963796
+    "expiresAt": 1793109918.3774655
   },
   "{\"aliases\": [\"ייטב דאלי\", \"eitb dli\", \"eitb dly\", \"eitv dli\", \"eitv dly\", \"eytb dli\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"תישאר אתה\"}": {
     "results": [
@@ -52515,7 +52430,7 @@
   },
   "{\"aliases\": [\"ישראל ורדיגר\", \"Israel Werdiger\", \"yisrael ordigr\", \"yisrael ordygr\", \"yisrael urdigr\", \"yisrael urdygr\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Bayis Neeman B'Yisroel\"}": {
     "results": [],
-    "expiresAt": 1793024249.5711393
+    "expiresAt": 1793109942.6929328
   },
   "{\"aliases\": [\"להקת ישיבה בויס\", \"Yeshiva Boys band\", \"lhkt ishibh boys\", \"lhkt ishibh bois\", \"lhkt ishibh buys\", \"lhkt ishibh buis\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Our Greatest Hits Live! Tour\"}": {
     "results": [
@@ -52617,11 +52532,11 @@
   },
   "{\"aliases\": [\"להקת תזמורת פריילך\", \"Frailech Orchestra Band\", \"lhkt tzmort preilch\", \"lhkt tzmort preilk\", \"lhkt tzmort preilkh\", \"lhkt tzmort preylch\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Paamonim - פעמונים\"}": {
     "results": [],
-    "expiresAt": 1793024274.8803835
+    "expiresAt": 1793109966.9852564
   },
   "{\"aliases\": [\"לוי פולקוביץ\", \"Levy Polkovitz\", \"loy polkobitz\", \"loy polkobiz\", \"loy polkobytz\", \"loy polkobyz\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"A Ehrlicheh Lid - א עהרליכע ליד\"}": {
     "results": [],
-    "expiresAt": 1793024300.24307
+    "expiresAt": 1793109991.2881126
   },
   "{\"aliases\": [\"לייבי וידר\", \"Lively Vader\", \"leibi oydr\", \"leibi oidr\", \"leibi uydr\", \"leibi uidr\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Ani Maamin (Vocal Version)\"}": {
     "results": [],
@@ -52629,7 +52544,7 @@
   },
   "{\"aliases\": [\"לייזר לויד\", \"Laser Lloyd\", \"leizr loyd\", \"leizr loid\", \"leizr luyd\", \"leizr luid\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Insides Out\"}": {
     "results": [],
-    "expiresAt": 1793024325.6107736
+    "expiresAt": 1793110015.672769
   },
   "{\"aliases\": [\"מאיר בן דרור\", \"Meir Ben Dror\", \"meir bn dror\", \"meir bn drur\", \"meir bn drvr\", \"meir bn drwr\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"לבבות\"}": {
     "results": [
@@ -53055,11 +52970,11 @@
   },
   "{\"aliases\": [\"מוישי שוורץ\", \"Moishi Schwartz\", \"moyshi shoortz\", \"moyshi shoorz\", \"moyshi shourtz\", \"moyshi shourz\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Chadarum! (feat. שייע גרוס)\"}": {
     "results": [],
-    "expiresAt": 1793024351.0721674
+    "expiresAt": 1793110040.0307636
   },
   "{\"aliases\": [\"מיילך ברונשטיין\", \"Mailach Bronstein\", \"meilch bronshtein\", \"meilch bronshteyn\", \"meilch bronshtain\", \"meilch bronshtayn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"ברכנו\"}": {
     "results": [],
-    "expiresAt": 1793024376.3281662
+    "expiresAt": 1793110064.3306465
   },
   "{\"aliases\": [\"מיילך קאהן\", \"Mailch Kahn\", \"meilch khn\", \"meilch kn\", \"meilch chn\", \"meilch cn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"אז ביום\"}": {
     "results": [],
@@ -53204,7 +53119,7 @@
   },
   "{\"aliases\": [\"מנדי ג'רופי\", \"Mandy Jeroffi\", \"mndi g ropi\", \"mndi g ropy\", \"mndi g rofi\", \"mndi g rofy\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"ארץ אשר תמיד\"}": {
     "results": [],
-    "expiresAt": 1793024427.0916958
+    "expiresAt": 1793110112.960734
   },
   "{\"aliases\": [\"מנדי גולדברג\", \"Mandy Goldberg\", \"mndi goldbrg\", \"mndi goldvrg\", \"mndi guldbrg\", \"mndi guldvrg\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"אנא בכח ר' שלמה קרליבך\"}": {
     "results": [
@@ -54014,7 +53929,7 @@
   },
   "{\"aliases\": [\"מקהלת פרחי לונדון\", \"London Flower Choir\", \"mkhlt prchi london\", \"mkhlt prchi londun\", \"mkhlt prchi londvn\", \"mkhlt prchi londwn\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"London Live - שעו שערים\"}": {
     "results": [],
-    "expiresAt": 1793024477.9599626
+    "expiresAt": 1793110161.6964695
   },
   "{\"aliases\": [\"מקהלת פרחי מיאמי\", \"Miami Flower Choir\", \"mkhlt prchi mimi\", \"mkhlt prchi mimy\", \"mkhlt prchi mymi\", \"mkhlt prchi mymy\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"This Chanuka 5782\"}": {
     "results": [
@@ -55573,7 +55488,7 @@
   },
   "{\"aliases\": [\"נמואל הרוש\", \"Nemuel Harush\", \"nmol hrosh\", \"nmol hros\", \"nmol hrush\", \"nmol hrus\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"התגלות\"}": {
     "results": [],
-    "expiresAt": 1793024507.7742388
+    "expiresAt": 1793110186.0685449
   },
   "{\"aliases\": [\"נפתלי בלומנטל\", \"Naftali Blumenthal\", \"naftali blomntl\", \"naftali blumntl\", \"naftali blvmntl\", \"naftali blwmntl\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Time to Breathe (An Acapella Experience)\"}": {
     "results": [
@@ -56208,7 +56123,7 @@
   },
   "{\"aliases\": [\"פינחס ביכלר\", \"Pinchas Bichler\", \"pinchs bichlr\", \"pinchs biklr\", \"pinchs bikhlr\", \"pinchs bychlr\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"שויתי\"}": {
     "results": [],
-    "expiresAt": 1793023537.0464056
+    "expiresAt": 1793110210.415458
   },
   "{\"aliases\": [\"פיני איינהורן\", \"Finny Einhorn\", \"pini\", \"piny\", \"pyni\", \"pyny\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Jewish Beat\"}": {
     "results": [
@@ -56259,7 +56174,7 @@
   },
   "{\"aliases\": [\"פיני שכטר\", \"Finny Schechter\", \"pini shchtr\", \"pini shktr\", \"pini shkhtr\", \"pini schtr\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Yedid Nefesh\"}": {
     "results": [],
-    "expiresAt": 1793023562.3924413
+    "expiresAt": 1793110235.3485465
   },
   "{\"aliases\": [\"צליל וזמר\", \"Sound and singer\", \"tzlil ozmr\", \"tzlil ozmer\", \"tzlil uzmr\", \"tzlil uzmer\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Volume 1\"}": {
     "results": [
@@ -57428,7 +57343,7 @@
   },
   "{\"aliases\": [\"שימי אנגל\", \"Shimi Engel\", \"shimi\", \"shimy\", \"shymi\", \"shymy\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Klal\"}": {
     "results": [],
-    "expiresAt": 1793023587.8812988
+    "expiresAt": 1793110260.4701314
   },
   "{\"aliases\": [\"שירה Choir\", \"Choir singing\", \"shirh choir\", \"shir choir\", \"shyrh choir\", \"shyr choir\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Satmar Medley\"}": {
     "results": [
@@ -57706,7 +57621,7 @@
   },
   "{\"aliases\": [\"שלומי דסקל\", \"Shlomi Daskel\", \"shlomi dskl\", \"shlomi dscl\", \"shlomy dskl\", \"shlomy dscl\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"לא שייך - חלק א\"}": {
     "results": [],
-    "expiresAt": 1793023613.3023431
+    "expiresAt": 1793110285.4148088
   },
   "{\"aliases\": [\"שלומי קאופמן\", \"Shlomi Kaufman\", \"shlomi kopmn\", \"shlomi kofmn\", \"shlomi kupmn\", \"shlomi kufmn\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Emes Volume 1\"}": {
     "results": [
@@ -58113,7 +58028,7 @@
   },
   "{\"aliases\": [\"שמואל גריינמן\", \"Shmuel Greinman\", \"shmuel greinmn\", \"shmuel greynmn\", \"shmuel grainmn\", \"shmuel graynmn\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"רגעי התעלות בן תורה\"}": {
     "results": [],
-    "expiresAt": 1793023638.6049516
+    "expiresAt": 1793110310.2551627
   },
   "{\"aliases\": [\"שמואל הררי\", \"Shmuel Harari\", \"shmuel hrri\", \"shmuel hrry\", \"samuel hrri\", \"samuel hrry\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"שבורי לב\"}": {
     "results": [
@@ -58624,7 +58539,7 @@
   },
   "{\"aliases\": [\"שרולי גרין\", \"Charoli Green\", \"shroli grin\", \"shroli gryn\", \"shroly grin\", \"shroly gryn\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"תשרי\"}": {
     "results": [],
-    "expiresAt": 1793023664.0556085
+    "expiresAt": 1793109381.7097433
   },
   "{\"aliases\": [\"שרוליק מנדלסון\", \"Shrolik Mendelssohn\", \"shrolik mndlson\", \"shrolik mndlsun\", \"shrolik mndlsvn\", \"shrolik mndlswn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"לא בכח\"}": {
     "results": [
@@ -58746,7 +58661,7 @@
   },
   "{\"aliases\": [\"תזמורת המנגנים\", \"The musicians' orchestra\", \"tzmort hmngnim\", \"tzmort hmngnym\", \"tzmors hmngnim\", \"tzmors hmngnym\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Kumtantz 1 B - קומטאנץ 1 ב'\"}": {
     "results": [],
-    "expiresAt": 1793023689.58128
+    "expiresAt": 1793109406.779628
   },
   "{\"aliases\": [\"אמיר אליהו\", \"Amir Eliyahu\", \"eliyahu\", \"eli\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"החתונה\"}": {
     "results": [
@@ -58772,7 +58687,7 @@
         "primaryGenreName": "Pop"
       }
     ],
-    "expiresAt": 1793088458.1587837
+    "expiresAt": 1793693889.9323914
   },
   "{\"aliases\": [\"אסף שפר\", \"Assaf Shafer\", \"shpr\", \"shfr\", \"spr\", \"sfr\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"המנורה\"}": {
     "results": [
@@ -58831,11 +58746,11 @@
         "primaryGenreName": "Pop"
       }
     ],
-    "expiresAt": 1793088462.3791518
+    "expiresAt": 1793693894.0739625
   },
   "{\"aliases\": [\"אפרים מנדלסון\", \"Ephraim Mendelssohn\", \"mndlson\", \"mndlsun\", \"mndlsvn\", \"mndlswn\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Lashir Bekol Naim\"}": {
     "results": [],
-    "expiresAt": 1793024994.2166004
+    "expiresAt": 1793110698.2382689
   },
   "{\"aliases\": [\"אפרים מרקוביץ'\", \"Ephraim Markovich\", \"mrkobitz\", \"mrkobiz\", \"mrkobytz\", \"mrkobyz\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Gut Shabbos Viznitz\"}": {
     "results": [],
@@ -58995,7 +58910,7 @@
   },
   "{\"aliases\": [\"בן סנוף\", \"Ben Snoff\", \"bn snof\", \"bn snuf\", \"bn snvf\", \"bn snwf\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Aba Toda\"}": {
     "results": [],
-    "expiresAt": 1793025083.164784
+    "expiresAt": 1793110773.0081708
   },
   "{\"aliases\": [\"בנצי קלצקין\", \"Benzi Klatskin\", \"bntzi kltzkin\", \"bntzi kltzkyn\", \"bntzi kltzcin\", \"bntzi kltzcyn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"שנה וברכותיה (feat. פנחס ביכלר & אליעזר הופמן)\"}": {
     "results": [
@@ -59249,11 +59164,11 @@
   },
   "{\"aliases\": [\"ברוך שלום בלסופסקי\", \"Welcome Belsofsky\", \"broch shlom blsopski\", \"broch shlom blsopsky\", \"broch shlom blsopsci\", \"broch shlom blsopscy\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"I Can\"}": {
     "results": [],
-    "expiresAt": 1793025134.0143714
+    "expiresAt": 1793110797.8841758
   },
   "{\"aliases\": [\"בריו חקשור\", \"Rio Hekchor\", \"brio chkshor\", \"brio chkshur\", \"brio chkshvr\", \"brio chkshwr\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"אין ייאוש\"}": {
     "results": [],
-    "expiresAt": 1792505366.9605906
+    "expiresAt": 1793110822.722704
   },
   "{\"aliases\": [\"ג'ואי ניוקומב (Joey Newcomb)\", \"Joey Newcomb\", \"g oi niokomb joey newcomb\", \"g oi niokomv joey newcomb\", \"g oi niokumb joey newcomb\", \"g oi niokumv joey newcomb\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"TYH Live Session with Joey Newcomb\"}": {
     "results": [
@@ -59366,6 +59281,27 @@
         "wrapperType": "collection",
         "collectionType": "Album",
         "artistId": 1456046861,
+        "collectionId": 1850769378,
+        "artistName": "Thank You Hashem & Sochi Majeski",
+        "collectionName": "Shukul Shukul - Single",
+        "collectionCensoredName": "Shukul Shukul - Single",
+        "artistViewUrl": "https://music.apple.com/il/artist/thank-you-hashem/1456046861?uo=4",
+        "collectionViewUrl": "https://music.apple.com/il/album/shukul-shukul-single/1850769378?uo=4",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3f/28/eb/3f28ebe8-2d4f-f516-b539-3dabc110946c/artwork.jpg/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3f/28/eb/3f28ebe8-2d4f-f516-b539-3dabc110946c/artwork.jpg/100x100bb.jpg",
+        "collectionPrice": 2.9,
+        "collectionExplicitness": "notExplicit",
+        "trackCount": 1,
+        "copyright": "℗ 2025 Farbrengable Studios",
+        "country": "ISR",
+        "currency": "ILS",
+        "releaseDate": "2025-11-01T07:00:00Z",
+        "primaryGenreName": "Pop"
+      },
+      {
+        "wrapperType": "collection",
+        "collectionType": "Album",
+        "artistId": 1456046861,
         "collectionId": 6778587110,
         "artistName": "Thank You Hashem & TYH Boys",
         "collectionName": "Little Bardichevers",
@@ -59408,27 +59344,6 @@
         "wrapperType": "collection",
         "collectionType": "Album",
         "artistId": 1456046861,
-        "collectionId": 1850769378,
-        "artistName": "Thank You Hashem & Sochi Majeski",
-        "collectionName": "Shukul Shukul - Single",
-        "collectionCensoredName": "Shukul Shukul - Single",
-        "artistViewUrl": "https://music.apple.com/il/artist/thank-you-hashem/1456046861?uo=4",
-        "collectionViewUrl": "https://music.apple.com/il/album/shukul-shukul-single/1850769378?uo=4",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3f/28/eb/3f28ebe8-2d4f-f516-b539-3dabc110946c/artwork.jpg/60x60bb.jpg",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3f/28/eb/3f28ebe8-2d4f-f516-b539-3dabc110946c/artwork.jpg/100x100bb.jpg",
-        "collectionPrice": 2.9,
-        "collectionExplicitness": "notExplicit",
-        "trackCount": 1,
-        "copyright": "℗ 2025 Farbrengable Studios",
-        "country": "ISR",
-        "currency": "ILS",
-        "releaseDate": "2025-11-01T07:00:00Z",
-        "primaryGenreName": "Pop"
-      },
-      {
-        "wrapperType": "collection",
-        "collectionType": "Album",
-        "artistId": 1456046861,
         "collectionId": 1832826279,
         "artistName": "Thank You Hashem & TYH Boys",
         "collectionName": "Finish Line - Single",
@@ -59450,29 +59365,29 @@
         "wrapperType": "collection",
         "collectionType": "Album",
         "artistId": 1456046861,
-        "collectionId": 6815603754,
-        "artistName": "Thank You Hashem & TYH Boys",
-        "collectionName": "Little Bardichevers (UPMIX)",
-        "collectionCensoredName": "Little Bardichevers (UPMIX)",
+        "collectionId": 1826984079,
+        "artistName": "Thank You Hashem",
+        "collectionName": "Healing Melodies 3 (Acapella)",
+        "collectionCensoredName": "Healing Melodies 3 (Acapella)",
         "artistViewUrl": "https://music.apple.com/il/artist/thank-you-hashem/1456046861?uo=4",
-        "collectionViewUrl": "https://music.apple.com/il/album/little-bardichevers-upmix/6815603754?uo=4",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f9/37/0c/f9370c39-ac01-0768-ddc5-ec91103339de/artwork.jpg/60x60bb.jpg",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f9/37/0c/f9370c39-ac01-0768-ddc5-ec91103339de/artwork.jpg/100x100bb.jpg",
-        "collectionPrice": 23.2,
+        "collectionViewUrl": "https://music.apple.com/il/album/healing-melodies-3-acapella/1826984079?uo=4",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fb/68/b6/fb68b652-0993-0380-8005-f75b486aee70/artwork.jpg/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fb/68/b6/fb68b652-0993-0380-8005-f75b486aee70/artwork.jpg/100x100bb.jpg",
+        "collectionPrice": 20.3,
         "collectionExplicitness": "notExplicit",
-        "trackCount": 8,
-        "copyright": "℗ 2026 Farbrengable Studios",
+        "trackCount": 7,
+        "copyright": "℗ 2025 Farbrengable Studios",
         "country": "ISR",
         "currency": "ILS",
-        "releaseDate": "2026-09-23T07:00:00Z",
+        "releaseDate": "2025-07-15T07:00:00Z",
         "primaryGenreName": "Pop"
       }
     ],
-    "expiresAt": 1792570008.6132903
+    "expiresAt": 1793694047.6334612
   },
   "{\"aliases\": [\"גבריאל חסון\", \"Gabriel Hasson\", \"gbril chson\", \"gbril chsun\", \"gbril chsvn\", \"gbril chswn\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Tovel Ve'shoheach\"}": {
     "results": [],
-    "expiresAt": 1792505391.8922465
+    "expiresAt": 1793110855.9405775
   },
   "{\"aliases\": [\"גד אלבז\", \"Gad Elbaz\", \"gd\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"L'Chaim\"}": {
     "results": [
@@ -59499,7 +59414,7 @@
         "primaryGenreName": "Klezmer"
       }
     ],
-    "expiresAt": 1792570042.06277
+    "expiresAt": 1793694081.0335598
   },
   "{\"aliases\": [\"גיל ישראלוב\", \"Gil Israelov\", \"gil ishrlob\", \"gil ishrlov\", \"gil ishrlub\", \"gil ishrluv\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"על הניסים\"}": {
     "results": [
@@ -59558,7 +59473,7 @@
         "primaryGenreName": "Pop"
       }
     ],
-    "expiresAt": 1792570046.2352893
+    "expiresAt": 1793694085.1537182
   },
   "{\"aliases\": [\"דב הנדלר\", \"Dov Handler\", \"db hndlr\", \"dv hndlr\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"נוסח קדיש ערבית - ימים נוראים\"}": {
     "results": [
@@ -59671,11 +59586,11 @@
         "primaryGenreName": "Pop"
       }
     ],
-    "expiresAt": 1792570050.3799455
+    "expiresAt": 1793694089.389949
   },
   "{\"aliases\": [\"דדי גראוכר\", \"Daddy Graucher\", \"ddi grochr\", \"ddi grokr\", \"ddi grokhr\", \"ddi gruchr\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"V'ohavto\"}": {
     "results": [],
-    "expiresAt": 1792505417.1024497
+    "expiresAt": 1793110893.6821744
   },
   "{\"aliases\": [\"סיני תור\", \"Chinese turn\", \"sini tor\", \"sini tur\", \"sini tvr\", \"sini twr\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"טוב כמו עכשיו\"}": {
     "results": [
@@ -59750,7 +59665,7 @@
         "primaryGenreName": "Pop"
       }
     ],
-    "expiresAt": 1793084588.5298402
+    "expiresAt": 1793690087.3009508
   },
   "{\"aliases\": [\"סיני תור\", \"Chinese turn\", \"sini tor\", \"sini tur\", \"sini tvr\", \"sini twr\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"דרשתי קרבתך\"}": {
     "results": [
@@ -59803,7 +59718,7 @@
         "primaryGenreName": "Pop"
       }
     ],
-    "expiresAt": 1793086077.0629742
+    "expiresAt": 1793691557.8847673
   },
   "{\"aliases\": [\"מיכאל שניצלר\", \"Michael Schnitzler\", \"michael shnitzlr\", \"michael shnizlr\", \"michael shnytzlr\", \"michael shnyzlr\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"טאנץ מיט לחיים\"}": {
     "results": [
@@ -59833,7 +59748,7 @@
   },
   "{\"aliases\": [\"מנדי וולד\", \"Mandy Wald\", \"mndi oold\", \"mndi ould\", \"mndi ovld\", \"mndi owld\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Sameach\"}": {
     "results": [],
-    "expiresAt": 1793023485.9503577
+    "expiresAt": 1793109154.119231
   },
   "{\"aliases\": [\"סיני תור\", \"Chinese turn\", \"sini tor\", \"sini tur\", \"sini tvr\", \"sini twr\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"עולה מן הים\"}": {
     "results": [
@@ -63500,7 +63415,7 @@
   },
   "{\"aliases\": [\"מיילך קאהן\", \"Mailch Kahn\", \"meilch khn\", \"meilch kn\", \"meilch chn\", \"meilch cn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"GEPRAIGILT (געפרעגעלט)\"}": {
     "results": [],
-    "expiresAt": 1793024401.71891
+    "expiresAt": 1793110088.6252751
   },
   "{\"aliases\": [\"מוישי שוורץ\", \"Moishi Schwartz\", \"moyshi shoortz\", \"moyshi shoorz\", \"moyshi shourtz\", \"moyshi shourz\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Tiki (תקעו)\"}": {
     "results": [],
@@ -67735,7 +67650,7 @@
   },
   "{\"aliases\": [\"שרולי גרין\", \"Charoli Green\", \"shroli grin\", \"shroli gryn\", \"shroly grin\", \"shroly gryn\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"TYH Live Session with Sruly Green\"}": {
     "results": [],
-    "expiresAt": 1793024790.4991012
+    "expiresAt": 1793110339.3573434
   },
   "{\"aliases\": [\"שרוליק מנדלסון\", \"Shrolik Mendelssohn\", \"shrolik mndlson\", \"shrolik mndlsun\", \"shrolik mndlsvn\", \"shrolik mndlswn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"אין כאלוקינו (feat. מוישי מנדלסון, מוטי גולדמן & שלוימי ברנשטיין)\"}": {
     "results": [
@@ -67798,7 +67713,7 @@
   },
   "{\"aliases\": [\"תזמורת המנגנים\", \"The musicians' orchestra\", \"tzmort hmngnim\", \"tzmort hmngnym\", \"tzmors hmngnim\", \"tzmors hmngnym\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Kumtantz 1 A - קומטאנץ 1 א'\"}": {
     "results": [],
-    "expiresAt": 1793024820.3938565
+    "expiresAt": 1793110364.4214792
   },
   "{\"aliases\": [\"איציק אורלב\", \"Itzik Orlev\", \"orlb\", \"orlv\", \"urlb\", \"urlv\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"אל האור\"}": {
     "results": [
@@ -67824,7 +67739,7 @@
         "primaryGenreName": "Pop"
       }
     ],
-    "expiresAt": 1793088365.73139
+    "expiresAt": 1793693806.344588
   },
   "{\"aliases\": [\"איציק דדיה\", \"Itzik Dadia\", \"ddih\", \"ddi\", \"ddyh\", \"ddy\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"עם ישראל חי\"}": {
     "results": [
@@ -67913,7 +67828,7 @@
         "primaryGenreName": "Pop"
       }
     ],
-    "expiresAt": 1793088369.9195848
+    "expiresAt": 1793693810.5412602
   },
   "{\"aliases\": [\"איתי דוד\", \"David with me\", \"david\", \"dovid\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"מחכה לשקט\"}": {
     "results": [
@@ -67997,10 +67912,10 @@
         "artistViewUrl": "https://music.apple.com/il/artist/shrekdimc/1472153170?uo=4",
         "collectionViewUrl": "https://music.apple.com/il/album/%D7%90%D7%9C-%D7%AA%D7%A9%D7%92%D7%A2-%D7%90%D7%95%D7%AA%D7%99/1474523390?i=1474523434&uo=4",
         "trackViewUrl": "https://music.apple.com/il/album/%D7%90%D7%9C-%D7%AA%D7%A9%D7%92%D7%A2-%D7%90%D7%95%D7%AA%D7%99/1474523390?i=1474523434&uo=4",
-        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/25/92/1d/25921d50-a4af-0da7-a034-4536e3981170/mzaf_10354196363491493919.plus.aac.p.m4a",
-        "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/ae/9e/76/ae9e7676-5028-6bd7-9ffb-b1e526fac7b3/7290114184403.jpg/30x30bb.jpg",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/ae/9e/76/ae9e7676-5028-6bd7-9ffb-b1e526fac7b3/7290114184403.jpg/60x60bb.jpg",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/ae/9e/76/ae9e7676-5028-6bd7-9ffb-b1e526fac7b3/7290114184403.jpg/100x100bb.jpg",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0a/77/bf/0a77bf48-498e-3022-601b-53cce8eb59ae/mzaf_18404000531582785701.plus.aac.p.m4a",
+        "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e6/23/62/e62362b1-2b2f-c39d-5d74-20d8ec7b3635/7290114184403.png/30x30bb.jpg",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e6/23/62/e62362b1-2b2f-c39d-5d74-20d8ec7b3635/7290114184403.png/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e6/23/62/e62362b1-2b2f-c39d-5d74-20d8ec7b3635/7290114184403.png/100x100bb.jpg",
         "collectionPrice": 32.9,
         "trackPrice": 3.9,
         "releaseDate": "2019-03-18T12:00:00Z",
@@ -68019,21 +67934,21 @@
       {
         "wrapperType": "track",
         "kind": "song",
-        "artistId": 1472153170,
+        "artistId": 6825359406,
         "collectionId": 1473260245,
         "trackId": 1473260520,
-        "artistName": "ShrekDiMC & Tzukush",
-        "collectionName": "אל תשגע אותי - Single",
-        "trackName": "אל תשגע אותי",
-        "collectionCensoredName": "אל תשגע אותי - Single",
-        "trackCensoredName": "אל תשגע אותי",
-        "artistViewUrl": "https://music.apple.com/il/artist/shrekdimc/1472153170?uo=4",
-        "collectionViewUrl": "https://music.apple.com/il/album/%D7%90%D7%9C-%D7%AA%D7%A9%D7%92%D7%A2-%D7%90%D7%95%D7%AA%D7%99/1473260245?i=1473260520&uo=4",
-        "trackViewUrl": "https://music.apple.com/il/album/%D7%90%D7%9C-%D7%AA%D7%A9%D7%92%D7%A2-%D7%90%D7%95%D7%AA%D7%99/1473260245?i=1473260520&uo=4",
-        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/77/7e/73/777e7333-1943-0f51-550b-849e3c934aad/mzaf_1380080213002739933.plus.aac.p.m4a",
-        "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/ed/e3/67/ede36708-1ea7-c046-ef60-478ffa6a6dc8/7290114184137.jpg/30x30bb.jpg",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/ed/e3/67/ede36708-1ea7-c046-ef60-478ffa6a6dc8/7290114184137.jpg/60x60bb.jpg",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/ed/e3/67/ede36708-1ea7-c046-ef60-478ffa6a6dc8/7290114184137.jpg/100x100bb.jpg",
+        "artistName": "שרקי & Tzukush",
+        "collectionName": "אל תשגע אותי (feat. 9 MM, Draft, ליעד מאיר, T.O.B, Teddy Neguse & Vick) - Single",
+        "trackName": "אל תשגע אותי (feat. 9 MM, Draft, ליעד מאיר, T.O.B, Teddy Neguse & Vick)",
+        "collectionCensoredName": "אל תשגע אותי (feat. 9 MM, Draft, ליעד מאיר, T.O.B, Teddy Neguse & Vick) - Single",
+        "trackCensoredName": "אל תשגע אותי (feat. 9 MM, Draft, ליעד מאיר, T.O.B, Teddy Neguse & Vick)",
+        "artistViewUrl": "https://music.apple.com/il/artist/%D7%A9%D7%A8%D7%A7%D7%99/6825359406?uo=4",
+        "collectionViewUrl": "https://music.apple.com/il/album/%D7%90%D7%9C-%D7%AA%D7%A9%D7%92%D7%A2-%D7%90%D7%95%D7%AA%D7%99-feat-9-mm-draft-%D7%9C%D7%99%D7%A2%D7%93-%D7%9E%D7%90%D7%99%D7%A8-t-o-b-teddy-neguse-vick/1473260245?i=1473260520&uo=4",
+        "trackViewUrl": "https://music.apple.com/il/album/%D7%90%D7%9C-%D7%AA%D7%A9%D7%92%D7%A2-%D7%90%D7%95%D7%AA%D7%99-feat-9-mm-draft-%D7%9C%D7%99%D7%A2%D7%93-%D7%9E%D7%90%D7%99%D7%A8-t-o-b-teddy-neguse-vick/1473260245?i=1473260520&uo=4",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1b/83/9e/1b839eec-2673-a521-ba45-91e303e7053a/mzaf_6171822829689892990.plus.aac.p.m4a",
+        "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/36/08/89/3608894c-f740-40ac-af3a-1c9f219f4ba0/7290114184137.png/30x30bb.jpg",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/36/08/89/3608894c-f740-40ac-af3a-1c9f219f4ba0/7290114184137.png/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/36/08/89/3608894c-f740-40ac-af3a-1c9f219f4ba0/7290114184137.png/100x100bb.jpg",
         "collectionPrice": 3.9,
         "trackPrice": 3.9,
         "releaseDate": "2019-03-18T12:00:00Z",
@@ -68200,8 +68115,8 @@
         "collectionCensoredName": "בראש שלי",
         "artistViewUrl": "https://music.apple.com/il/artist/shrekdimc/1472153170?uo=4",
         "collectionViewUrl": "https://music.apple.com/il/album/%D7%91%D7%A8%D7%90%D7%A9-%D7%A9%D7%9C%D7%99/1474523390?uo=4",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/ae/9e/76/ae9e7676-5028-6bd7-9ffb-b1e526fac7b3/7290114184403.jpg/60x60bb.jpg",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/ae/9e/76/ae9e7676-5028-6bd7-9ffb-b1e526fac7b3/7290114184403.jpg/100x100bb.jpg",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e6/23/62/e62362b1-2b2f-c39d-5d74-20d8ec7b3635/7290114184403.png/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e6/23/62/e62362b1-2b2f-c39d-5d74-20d8ec7b3635/7290114184403.png/100x100bb.jpg",
         "collectionPrice": 32.9,
         "collectionExplicitness": "notExplicit",
         "trackCount": 19,
@@ -68214,22 +68129,22 @@
       {
         "wrapperType": "collection",
         "collectionType": "Album",
-        "artistId": 1472153170,
+        "artistId": 6825359406,
         "collectionId": 1473260245,
-        "artistName": "ShrekDiMC & Tzukush",
-        "collectionName": "אל תשגע אותי - Single",
-        "collectionCensoredName": "אל תשגע אותי - Single",
-        "artistViewUrl": "https://music.apple.com/il/artist/shrekdimc/1472153170?uo=4",
-        "collectionViewUrl": "https://music.apple.com/il/album/%D7%90%D7%9C-%D7%AA%D7%A9%D7%92%D7%A2-%D7%90%D7%95%D7%AA%D7%99-single/1473260245?uo=4",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/ed/e3/67/ede36708-1ea7-c046-ef60-478ffa6a6dc8/7290114184137.jpg/60x60bb.jpg",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/ed/e3/67/ede36708-1ea7-c046-ef60-478ffa6a6dc8/7290114184137.jpg/100x100bb.jpg",
+        "artistName": "שרקי & Tzukush",
+        "collectionName": "אל תשגע אותי (feat. 9 MM, Draft, ליעד מאיר, T.O.B, Teddy Neguse & Vick) - Single",
+        "collectionCensoredName": "אל תשגע אותי (feat. 9 MM, Draft, ליעד מאיר, T.O.B, Teddy Neguse & Vick) - Single",
+        "artistViewUrl": "https://music.apple.com/il/artist/%D7%A9%D7%A8%D7%A7%D7%99/6825359406?uo=4",
+        "collectionViewUrl": "https://music.apple.com/il/album/%D7%90%D7%9C-%D7%AA%D7%A9%D7%92%D7%A2-%D7%90%D7%95%D7%AA%D7%99-feat-9-mm-draft-%D7%9C%D7%99%D7%A2%D7%93-%D7%9E%D7%90%D7%99%D7%A8-t-o-b-teddy/1473260245?uo=4",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/36/08/89/3608894c-f740-40ac-af3a-1c9f219f4ba0/7290114184137.png/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/36/08/89/3608894c-f740-40ac-af3a-1c9f219f4ba0/7290114184137.png/100x100bb.jpg",
         "collectionPrice": 3.9,
         "collectionExplicitness": "notExplicit",
         "trackCount": 1,
-        "copyright": "℗ 2019 NMC United Entertainment Ltd.",
+        "copyright": "℗ 2019 Tact Records",
         "country": "ISR",
         "currency": "ILS",
-        "releaseDate": "2019-03-19T07:00:00Z",
+        "releaseDate": "2019-07-17T07:00:00Z",
         "primaryGenreName": "Hip-Hop/Rap"
       },
       {
@@ -68254,7 +68169,7 @@
         "primaryGenreName": "Hip-Hop"
       }
     ],
-    "expiresAt": 1793088378.320621
+    "expiresAt": 1793693818.9537623
   },
   "{\"aliases\": [\"אלחנן אלחדד\", \"Elhanan Elhadad\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"לצאת אל האור\"}": {
     "results": [
@@ -68313,7 +68228,7 @@
         "primaryGenreName": "Israeli"
       }
     ],
-    "expiresAt": 1793088386.8890128
+    "expiresAt": 1793693827.4751604
   },
   "{\"aliases\": [\"אלחנן ענבל\", \"Elhanan Inbal\", \"anbl\", \"anvl\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"תפילת חתן\"}": {
     "results": [
@@ -68398,7 +68313,7 @@
         "primaryGenreName": "Worldwide"
       }
     ],
-    "expiresAt": 1793088391.0998662
+    "expiresAt": 1793693831.6328888
   },
   "{\"aliases\": [\"אלי מרקוס\", \"Eli Marcus\", \"eli mrkos\", \"eli mrkus\", \"eli mrkvs\", \"eli mrkws\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Simchas HaTorah - שמחת התורה\"}": {
     "results": [
@@ -68425,7 +68340,7 @@
         "primaryGenreName": "Pop"
       }
     ],
-    "expiresAt": 1793088395.2555492
+    "expiresAt": 1793693835.7563221
   },
   "{\"aliases\": [\"אלי פרידמן\", \"Eli Friedman\", \"eli pridmn\", \"eli prydmn\", \"eli fridmn\", \"eli frydmn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"היה עם פיפיות 2\"}": {
     "results": [
@@ -68538,11 +68453,11 @@
         "primaryGenreName": "Pop"
       }
     ],
-    "expiresAt": 1793088399.4205987
+    "expiresAt": 1793693839.9426413
   },
   "{\"aliases\": [\"אלי שוובל\", \"Eli Shovel\", \"eli shoobl\", \"eli shoovl\", \"eli shoubl\", \"eli shouvl\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Ma Yona\"}": {
     "results": [],
-    "expiresAt": 1793024964.4033515
+    "expiresAt": 1793110644.1383965
   },
   "{\"aliases\": [\"אליה והב\", \"Elia and Heb\", \"ohb\", \"ohv\", \"ob\", \"ov\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"אבא סלח לי\"}": {
     "results": [
@@ -68714,7 +68629,7 @@
         "isStreamable": true
       }
     ],
-    "expiresAt": 1793088432.963304
+    "expiresAt": 1793693868.9076486
   },
   "{\"aliases\": [\"אליקם בוטה\", \"Elicam is blunt\", \"both\", \"bot\", \"buth\", \"but\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"השקט הגדול\"}": {
     "results": [
@@ -68773,7 +68688,7 @@
         "primaryGenreName": "Pop"
       }
     ],
-    "expiresAt": 1793088441.2956245
+    "expiresAt": 1793693877.3203065
   },
   "{\"aliases\": [\"אלירן אלבז\", \"Eliran Elbaz\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"שמע קולנו\"}": {
     "results": [
@@ -69058,7 +68973,7 @@
         "isStreamable": true
       }
     ],
-    "expiresAt": 1793088449.715046
+    "expiresAt": 1793693881.5349984
   },
   "{\"aliases\": [\"אלעד שער\", \"Elad Shaar\", \"shr\", \"shar\", \"sr\", \"sar\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"מי שאמר\"}": {
     "results": [
@@ -69117,7 +69032,7 @@
         "primaryGenreName": "Pop"
       }
     ],
-    "expiresAt": 1793088453.959391
+    "expiresAt": 1793693885.7311704
   },
   "{\"aliases\": [\"אהרון רזאל\", \"Aharon Razel\", \"rzl\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"עד אמצא מקום\"}": {
     "results": [
@@ -69171,11 +69086,11 @@
         "primaryGenreName": "Israeli"
       }
     ],
-    "expiresAt": 1793088269.5753472
+    "expiresAt": 1793693710.2547686
   },
   "{\"aliases\": [\"דובי מייזעלס\", \"Dobby Maysels\", \"dobi meizls\", \"dobi meizals\", \"dobi meyzls\", \"dobi meyzals\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Heartwarming Live Chuppah\"}": {
     "results": [],
-    "expiresAt": 1792505442.2952585
+    "expiresAt": 1793110918.7693682
   },
   "{\"aliases\": [\"דוד חזיזה\", \"David Haziza\", \"david chzizh\", \"david chziz\", \"david chzyzh\", \"david chzyz\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Tombe\"}": {
     "results": [],
@@ -69674,7 +69589,7 @@
   },
   "{\"aliases\": [\"אפרים מרקוביץ'\", \"Ephraim Markovich\", \"mrkobitz\", \"mrkobiz\", \"mrkobytz\", \"mrkobyz\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"הקפות שניות  דושינסקיא תשפ\\\"ו\"}": {
     "results": [],
-    "expiresAt": 1793021420.608615
+    "expiresAt": 1793107003.9353352
   },
   "{\"aliases\": [\"שוקי סלומון\", \"Salomon Markets\", \"shoki slomon\", \"shoki slomun\", \"shoki slomvn\", \"shoki slomwn\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"שיר המשאלות\"}": {
     "results": [
@@ -69963,7 +69878,7 @@
   },
   "{\"aliases\": [\"אריה קונסטלר\", \"Arya Kunstler\", \"konstlr\", \"kunstlr\", \"kvnstlr\", \"kwnstlr\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Yearning Soul\"}": {
     "results": [],
-    "expiresAt": 1793025057.654725
+    "expiresAt": 1793110748.1484609
   },
   "{\"aliases\": [\"מקהלת שירה\", \"A singing choir\", \"mkhlt shirh\", \"mkhlt shir\", \"mkhlt shyrh\", \"mkhlt shyr\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Tumim\"}": {
     "results": [],
@@ -70297,7 +70212,7 @@
   },
   "{\"aliases\": [\"אברומי ברקו\", \"Avromy Barko\", \"avrumi brko\", \"avrumi brku\", \"avrumi brkv\", \"avrumi brkw\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"6.9.26 with Berko Brothers & Lipa Schmeltzer\"}": {
     "results": [],
-    "expiresAt": 1793022660.7311797
+    "expiresAt": 1793108332.797367
   },
   "{\"aliases\": [\"Chaim Ghoori\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Moscheini 3\"}": {
     "results": [
@@ -70419,7 +70334,7 @@
   },
   "{\"aliases\": [\"יוסי קוגלר\", \"Yossi Kugler\", \"yossi koglr\", \"yossi kuglr\", \"yossi kvglr\", \"yossi kwglr\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Ein Kamocha\"}": {
     "results": [],
-    "expiresAt": 1793021934.8965771
+    "expiresAt": 1793107503.1785386
   },
   "{\"aliases\": [\"Yossi Rodal\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Dayenu!\"}": {
     "results": [],
@@ -70976,7 +70891,7 @@
   },
   "{\"aliases\": [\"יומי לואי\", \"Yomi Louie\", \"iomi loi\", \"iomi loy\", \"iomi lui\", \"iomi luy\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Yumi Lowy Kol Hatoiv\"}": {
     "results": [],
-    "expiresAt": 1793021853.5477192
+    "expiresAt": 1793107428.9247115
   },
   "{\"aliases\": [\"ברוך לוין\", \"Baruch Levin\", \"broch loyn\", \"broch loin\", \"broch luyn\", \"broch luin\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"#TheDanceAlbum\"}": {
     "results": [
@@ -71065,7 +70980,7 @@
   },
   "{\"aliases\": [\"אברומי ברקו\", \"Avromy Barko\", \"avrumi brko\", \"avrumi brku\", \"avrumi brkv\", \"avrumi brkw\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Wedding 8.20.26 with Simcha Jacoby\"}": {
     "results": [],
-    "expiresAt": 1793021284.586451
+    "expiresAt": 1793106858.157005
   },
   "{\"aliases\": [\"הרשי אייזנבך\", \"Hershey Eisenbach\", \"hrshi\", \"hrshy\", \"hrsi\", \"hrsy\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"מקדים שלום\"}": {
     "results": [
@@ -71693,7 +71608,7 @@
         "isStreamable": true
       }
     ],
-    "expiresAt": 1793084528.819422
+    "expiresAt": 1793690029.231238
   },
   "{\"aliases\": [\"ברוך ויזל\", \"Baruch Wiesel\", \"broch oyzl\", \"broch oizl\", \"broch uyzl\", \"broch uizl\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"מיין סוכה'לע\"}": {
     "results": [
@@ -71752,7 +71667,7 @@
         "isStreamable": true
       }
     ],
-    "expiresAt": 1793084802.0900342
+    "expiresAt": 1793690301.8857427
   },
   "{\"aliases\": [\"Elnatan Shalom\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"עד שהלב חוזר\"}": {
     "results": [
@@ -71811,73 +71726,10 @@
         "primaryGenreName": "Pop"
       }
     ],
-    "expiresAt": 1793086131.4286935
+    "expiresAt": 1793691618.107296
   },
   "{\"aliases\": [\"שמוליק סוכות\", \"Shmueli Sukkot\", \"Shmulik Sukkot\", \"shmueli sochot\", \"shmueli sochos\", \"shmueli sochut\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"אמת (Live)\"}": {
     "results": [
-      {
-        "wrapperType": "collection",
-        "collectionType": "Album",
-        "artistId": 1653646070,
-        "collectionId": 6821550599,
-        "artistName": "Shmulik Sukkot & Mordechai Ben David",
-        "collectionName": "אמת (Live) - Single",
-        "collectionCensoredName": "אמת (Live) - Single",
-        "artistViewUrl": "https://music.apple.com/il/artist/shmulik-sukkot/1653646070?uo=4",
-        "collectionViewUrl": "https://music.apple.com/il/album/%D7%90%D7%9E%D7%AA-live-single/6821550599?uo=4",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/3f/ff/a13ffff8-5e41-cd68-a002-f6323abb9f49/cover.jpg/60x60bb.jpg",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/3f/ff/a13ffff8-5e41-cd68-a002-f6323abb9f49/cover.jpg/100x100bb.jpg",
-        "collectionPrice": 3.9,
-        "collectionExplicitness": "notExplicit",
-        "trackCount": 1,
-        "copyright": "℗ 2026 Neta Levin",
-        "country": "ISR",
-        "currency": "ILS",
-        "releaseDate": "2026-10-11T07:00:00Z",
-        "primaryGenreName": "Israeli"
-      },
-      {
-        "wrapperType": "collection",
-        "collectionType": "Album",
-        "artistId": 1653646070,
-        "collectionId": 1838626860,
-        "artistName": "Shmulik Sukkot, בנצי שטיין & Choir Neshama",
-        "collectionName": "אמת - Single",
-        "collectionCensoredName": "אמת - Single",
-        "artistViewUrl": "https://music.apple.com/il/artist/shmulik-sukkot/1653646070?uo=4",
-        "collectionViewUrl": "https://music.apple.com/il/album/%D7%90%D7%9E%D7%AA-single/1838626860?uo=4",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e9/6f/be/e96fbea7-1ec4-ef5f-9f7c-e9fcbabe4f73/cover.jpg/60x60bb.jpg",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e9/6f/be/e96fbea7-1ec4-ef5f-9f7c-e9fcbabe4f73/cover.jpg/100x100bb.jpg",
-        "collectionPrice": 3.9,
-        "collectionExplicitness": "notExplicit",
-        "trackCount": 1,
-        "copyright": "℗ 2025 Neta Levin",
-        "country": "ISR",
-        "currency": "ILS",
-        "releaseDate": "2025-09-09T07:00:00Z",
-        "primaryGenreName": "Israeli"
-      },
-      {
-        "wrapperType": "collection",
-        "collectionType": "Album",
-        "artistId": 1653646070,
-        "collectionId": 6788090576,
-        "artistName": "Shmulik Sukkot",
-        "collectionName": "ווקאלי",
-        "collectionCensoredName": "ווקאלי",
-        "artistViewUrl": "https://music.apple.com/il/artist/shmulik-sukkot/1653646070?uo=4",
-        "collectionViewUrl": "https://music.apple.com/il/album/%D7%95%D7%95%D7%A7%D7%90%D7%9C%D7%99/6788090576?uo=4",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d6/2a/8c/d62a8c30-7031-b94d-0edd-35db3e530354/cover.jpg/60x60bb.jpg",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d6/2a/8c/d62a8c30-7031-b94d-0edd-35db3e530354/cover.jpg/100x100bb.jpg",
-        "collectionPrice": 34.9,
-        "collectionExplicitness": "notExplicit",
-        "trackCount": 13,
-        "copyright": "℗ 2026 Shmulik Sukkot",
-        "country": "ISR",
-        "currency": "ILS",
-        "releaseDate": "2026-07-01T07:00:00Z",
-        "primaryGenreName": "Israeli"
-      },
       {
         "wrapperType": "track",
         "kind": "song",
@@ -71977,9 +71829,72 @@
         "currency": "ILS",
         "primaryGenreName": "Israeli",
         "isStreamable": true
+      },
+      {
+        "wrapperType": "collection",
+        "collectionType": "Album",
+        "artistId": 1653646070,
+        "collectionId": 6821550599,
+        "artistName": "Shmulik Sukkot & Mordechai Ben David",
+        "collectionName": "אמת (Live) - Single",
+        "collectionCensoredName": "אמת (Live) - Single",
+        "artistViewUrl": "https://music.apple.com/il/artist/shmulik-sukkot/1653646070?uo=4",
+        "collectionViewUrl": "https://music.apple.com/il/album/%D7%90%D7%9E%D7%AA-live-single/6821550599?uo=4",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/3f/ff/a13ffff8-5e41-cd68-a002-f6323abb9f49/cover.jpg/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a1/3f/ff/a13ffff8-5e41-cd68-a002-f6323abb9f49/cover.jpg/100x100bb.jpg",
+        "collectionPrice": 3.9,
+        "collectionExplicitness": "notExplicit",
+        "trackCount": 1,
+        "copyright": "℗ 2026 Neta Levin",
+        "country": "ISR",
+        "currency": "ILS",
+        "releaseDate": "2026-10-11T07:00:00Z",
+        "primaryGenreName": "Israeli"
+      },
+      {
+        "wrapperType": "collection",
+        "collectionType": "Album",
+        "artistId": 1653646070,
+        "collectionId": 1838626860,
+        "artistName": "Shmulik Sukkot, בנצי שטיין & Choir Neshama",
+        "collectionName": "אמת - Single",
+        "collectionCensoredName": "אמת - Single",
+        "artistViewUrl": "https://music.apple.com/il/artist/shmulik-sukkot/1653646070?uo=4",
+        "collectionViewUrl": "https://music.apple.com/il/album/%D7%90%D7%9E%D7%AA-single/1838626860?uo=4",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e9/6f/be/e96fbea7-1ec4-ef5f-9f7c-e9fcbabe4f73/cover.jpg/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e9/6f/be/e96fbea7-1ec4-ef5f-9f7c-e9fcbabe4f73/cover.jpg/100x100bb.jpg",
+        "collectionPrice": 3.9,
+        "collectionExplicitness": "notExplicit",
+        "trackCount": 1,
+        "copyright": "℗ 2025 Neta Levin",
+        "country": "ISR",
+        "currency": "ILS",
+        "releaseDate": "2025-09-09T07:00:00Z",
+        "primaryGenreName": "Israeli"
+      },
+      {
+        "wrapperType": "collection",
+        "collectionType": "Album",
+        "artistId": 1653646070,
+        "collectionId": 6788090576,
+        "artistName": "Shmulik Sukkot",
+        "collectionName": "ווקאלי",
+        "collectionCensoredName": "ווקאלי",
+        "artistViewUrl": "https://music.apple.com/il/artist/shmulik-sukkot/1653646070?uo=4",
+        "collectionViewUrl": "https://music.apple.com/il/album/%D7%95%D7%95%D7%A7%D7%90%D7%9C%D7%99/6788090576?uo=4",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d6/2a/8c/d62a8c30-7031-b94d-0edd-35db3e530354/cover.jpg/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d6/2a/8c/d62a8c30-7031-b94d-0edd-35db3e530354/cover.jpg/100x100bb.jpg",
+        "collectionPrice": 34.9,
+        "collectionExplicitness": "notExplicit",
+        "trackCount": 13,
+        "copyright": "℗ 2026 Shmulik Sukkot",
+        "country": "ISR",
+        "currency": "ILS",
+        "releaseDate": "2026-07-01T07:00:00Z",
+        "primaryGenreName": "Israeli"
       }
     ],
-    "expiresAt": 1793088084.0057015
+    "expiresAt": 1793693535.1056454
   },
   "{\"aliases\": [\"אלחנן ענבל\", \"Elhanan Inbal\", \"anbl\", \"anvl\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"חופה\"}": {
     "results": [
@@ -72214,7 +72129,7 @@
   },
   "{\"aliases\": [\"שלומי דאקס\", \"Hello Dax\", \"shlomi dks\", \"shlomi dcs\", \"shlomy dks\", \"shlomy dcs\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Kumzits\"}": {
     "results": [],
-    "expiresAt": 1793021106.8116322
+    "expiresAt": 1793108181.0397496
   },
   "{\"aliases\": [\"להקת תזמורת פריילך\", \"Frailech Orchestra Band\", \"lhkt tzmort preilch\", \"lhkt tzmort preilk\", \"lhkt tzmort preilkh\", \"lhkt tzmort preylch\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Freilach On A High!\"}": {
     "results": [],
@@ -72268,7 +72183,7 @@
         "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9c/3f/78/9c3f7874-a630-a230-b935-f4c6953e47e1/cover.jpg/100x100bb.jpg",
         "collectionPrice": 3.9,
         "trackPrice": 3.9,
-        "releaseDate": "2026-10-18T07:00:00Z",
+        "releaseDate": "2026-10-18T12:00:00Z",
         "collectionExplicitness": "notExplicit",
         "trackExplicitness": "notExplicit",
         "discCount": 1,
@@ -72303,31 +72218,10 @@
         "primaryGenreName": "Israeli"
       }
     ],
-    "expiresAt": 1793084583.3638356
+    "expiresAt": 1793690083.094623
   },
   "{\"aliases\": [\"אלי הרצליך\", \"Eli Herzlich\", \"eli hrtzlich\", \"eli hrtzlik\", \"eli hrtzlikh\", \"eli hrtzlych\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"תזכה אותי\"}": {
     "results": [
-      {
-        "wrapperType": "collection",
-        "collectionType": "Album",
-        "artistId": 824458485,
-        "collectionId": 6824472016,
-        "artistName": "Eli Herzlich",
-        "collectionName": "תזכה אותי - Single",
-        "collectionCensoredName": "תזכה אותי - Single",
-        "artistViewUrl": "https://music.apple.com/il/artist/eli-herzlich/824458485?uo=4",
-        "collectionViewUrl": "https://music.apple.com/il/album/%D7%AA%D7%96%D7%9B%D7%94-%D7%90%D7%95%D7%AA%D7%99-single/6824472016?uo=4",
-        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/72/46/43/7246430d-c881-78bb-638c-30dafd789866/cover.jpg/60x60bb.jpg",
-        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/72/46/43/7246430d-c881-78bb-638c-30dafd789866/cover.jpg/100x100bb.jpg",
-        "collectionPrice": 3.9,
-        "collectionExplicitness": "notExplicit",
-        "trackCount": 1,
-        "copyright": "℗ 2026 Israel Lubin",
-        "country": "ISR",
-        "currency": "ILS",
-        "releaseDate": "2026-10-19T07:00:00Z",
-        "primaryGenreName": "Israeli"
-      },
       {
         "wrapperType": "track",
         "kind": "song",
@@ -72360,13 +72254,34 @@
         "currency": "ILS",
         "primaryGenreName": "Israeli",
         "isStreamable": true
+      },
+      {
+        "wrapperType": "collection",
+        "collectionType": "Album",
+        "artistId": 824458485,
+        "collectionId": 6824472016,
+        "artistName": "Eli Herzlich",
+        "collectionName": "תזכה אותי - Single",
+        "collectionCensoredName": "תזכה אותי - Single",
+        "artistViewUrl": "https://music.apple.com/il/artist/eli-herzlich/824458485?uo=4",
+        "collectionViewUrl": "https://music.apple.com/il/album/%D7%AA%D7%96%D7%9B%D7%94-%D7%90%D7%95%D7%AA%D7%99-single/6824472016?uo=4",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/72/46/43/7246430d-c881-78bb-638c-30dafd789866/cover.jpg/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/72/46/43/7246430d-c881-78bb-638c-30dafd789866/cover.jpg/100x100bb.jpg",
+        "collectionPrice": 3.9,
+        "collectionExplicitness": "notExplicit",
+        "trackCount": 1,
+        "copyright": "℗ 2026 Israel Lubin",
+        "country": "ISR",
+        "currency": "ILS",
+        "releaseDate": "2026-10-19T07:00:00Z",
+        "primaryGenreName": "Israeli"
       }
     ],
-    "expiresAt": 1793084642.8283334
+    "expiresAt": 1793690141.4271429
   },
   "{\"aliases\": [\"המכביטס\", \"The Maccabees\", \"hmchbits\", \"hmchbyts\", \"hmchvits\", \"hmchvyts\"], \"country\": \"IL\", \"expectedType\": \"ALBUM\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"A Maccabeats Hanukkah\"}": {
     "results": [],
-    "expiresAt": 1793022943.292376
+    "expiresAt": 1793108627.107563
   },
   "{\"aliases\": [\"לייבי וידר\", \"Lively Vader\", \"leibi oydr\", \"leibi oidr\", \"leibi uydr\", \"leibi uidr\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"Mameh Rochel - מאמע רחל\"}": {
     "results": [
@@ -73434,5 +73349,123 @@
       }
     ],
     "expiresAt": 1793521069.9505057
+  },
+  "{\"aliases\": [\"אליה והב\", \"Elia and Heb\", \"ohb\", \"ohv\", \"ob\", \"ov\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"אחשלי\"}": {
+    "results": [
+      {
+        "wrapperType": "collection",
+        "collectionType": "Album",
+        "artistId": 1683190116,
+        "collectionId": 6827202680,
+        "artistName": "Elchanan Mishmarti & Elia Vahav",
+        "collectionName": "אחשלי - Single",
+        "collectionCensoredName": "אחשלי - Single",
+        "artistViewUrl": "https://music.apple.com/il/artist/elchanan-mishmarti/1683190116?uo=4",
+        "collectionViewUrl": "https://music.apple.com/il/album/%D7%90%D7%97%D7%A9%D7%9C%D7%99-single/6827202680?uo=4",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9e/9e/6b/9e9e6b01-b9bf-e269-5538-904474521dce/711641094364.jpg/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9e/9e/6b/9e9e6b01-b9bf-e269-5538-904474521dce/711641094364.jpg/100x100bb.jpg",
+        "collectionPrice": 3.9,
+        "collectionExplicitness": "notExplicit",
+        "trackCount": 1,
+        "copyright": "℗ 2026 Elchanan Mishmarti BY PIL LTD",
+        "country": "ISR",
+        "currency": "ILS",
+        "releaseDate": "2026-10-26T07:00:00Z",
+        "primaryGenreName": "Pop"
+      },
+      {
+        "wrapperType": "track",
+        "kind": "song",
+        "artistId": 1683190116,
+        "collectionId": 6827202680,
+        "trackId": 6827202683,
+        "artistName": "Elchanan Mishmarti & Elia Vahav",
+        "collectionName": "אחשלי - Single",
+        "trackName": "אחשלי",
+        "collectionCensoredName": "אחשלי - Single",
+        "trackCensoredName": "אחשלי",
+        "artistViewUrl": "https://music.apple.com/il/artist/elchanan-mishmarti/1683190116?uo=4",
+        "collectionViewUrl": "https://music.apple.com/il/album/%D7%90%D7%97%D7%A9%D7%9C%D7%99/6827202680?i=6827202683&uo=4",
+        "trackViewUrl": "https://music.apple.com/il/album/%D7%90%D7%97%D7%A9%D7%9C%D7%99/6827202680?i=6827202683&uo=4",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/24/e4/cb/24e4cb35-b2d3-48cb-f246-8a83416d289f/mzaf_18117910424934086609.plus.aac.p.m4a",
+        "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9e/9e/6b/9e9e6b01-b9bf-e269-5538-904474521dce/711641094364.jpg/30x30bb.jpg",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9e/9e/6b/9e9e6b01-b9bf-e269-5538-904474521dce/711641094364.jpg/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9e/9e/6b/9e9e6b01-b9bf-e269-5538-904474521dce/711641094364.jpg/100x100bb.jpg",
+        "collectionPrice": 3.9,
+        "trackPrice": 3.9,
+        "releaseDate": "2026-10-26T07:00:00Z",
+        "collectionExplicitness": "notExplicit",
+        "trackExplicitness": "notExplicit",
+        "discCount": 1,
+        "discNumber": 1,
+        "trackCount": 1,
+        "trackNumber": 1,
+        "trackTimeMillis": 268520,
+        "country": "ISR",
+        "currency": "ILS",
+        "primaryGenreName": "Pop",
+        "isStreamable": true
+      }
+    ],
+    "expiresAt": 1793690170.4660182
+  },
+  "{\"aliases\": [\"אלירן אלבז\", \"Eliran Elbaz\"], \"country\": \"IL\", \"expectedType\": \"SINGLE\", \"scriptVersion\": \"itunes_hebrew_transliteration_rapidfuzz_v4_popular\", \"title\": \"עם מיוחד\"}": {
+    "results": [
+      {
+        "wrapperType": "collection",
+        "collectionType": "Album",
+        "artistId": 879634967,
+        "collectionId": 6827207633,
+        "artistName": "Eliran Elbaz",
+        "collectionName": "עם מיוחד - Single",
+        "collectionCensoredName": "עם מיוחד - Single",
+        "artistViewUrl": "https://music.apple.com/il/artist/eliran-elbaz/879634967?uo=4",
+        "collectionViewUrl": "https://music.apple.com/il/album/%D7%A2%D7%9D-%D7%9E%D7%99%D7%95%D7%97%D7%93-single/6827207633?uo=4",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8f/ee/0a/8fee0ae0-a436-da06-7b2c-7fcace0e1e34/711641088059.jpg/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8f/ee/0a/8fee0ae0-a436-da06-7b2c-7fcace0e1e34/711641088059.jpg/100x100bb.jpg",
+        "collectionPrice": 3.9,
+        "collectionExplicitness": "notExplicit",
+        "trackCount": 1,
+        "copyright": "℗ 2026 Eliran Elbaz BY PIL LTD",
+        "country": "ISR",
+        "currency": "ILS",
+        "releaseDate": "2026-10-26T07:00:00Z",
+        "primaryGenreName": "Pop"
+      },
+      {
+        "wrapperType": "track",
+        "kind": "song",
+        "artistId": 879634967,
+        "collectionId": 6827207633,
+        "trackId": 6827207637,
+        "artistName": "Eliran Elbaz",
+        "collectionName": "עם מיוחד - Single",
+        "trackName": "עם מיוחד",
+        "collectionCensoredName": "עם מיוחד - Single",
+        "trackCensoredName": "עם מיוחד",
+        "artistViewUrl": "https://music.apple.com/il/artist/eliran-elbaz/879634967?uo=4",
+        "collectionViewUrl": "https://music.apple.com/il/album/%D7%A2%D7%9D-%D7%9E%D7%99%D7%95%D7%97%D7%93/6827207633?i=6827207637&uo=4",
+        "trackViewUrl": "https://music.apple.com/il/album/%D7%A2%D7%9D-%D7%9E%D7%99%D7%95%D7%97%D7%93/6827207633?i=6827207637&uo=4",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2d/c1/f5/2dc1f55c-2ba6-99cd-b930-7e48fe5b2713/mzaf_8472149692691126367.plus.aac.p.m4a",
+        "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8f/ee/0a/8fee0ae0-a436-da06-7b2c-7fcace0e1e34/711641088059.jpg/30x30bb.jpg",
+        "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8f/ee/0a/8fee0ae0-a436-da06-7b2c-7fcace0e1e34/711641088059.jpg/60x60bb.jpg",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/8f/ee/0a/8fee0ae0-a436-da06-7b2c-7fcace0e1e34/711641088059.jpg/100x100bb.jpg",
+        "collectionPrice": 3.9,
+        "trackPrice": 3.9,
+        "releaseDate": "2026-10-26T07:00:00Z",
+        "collectionExplicitness": "notExplicit",
+        "trackExplicitness": "notExplicit",
+        "discCount": 1,
+        "discNumber": 1,
+        "trackCount": 1,
+        "trackNumber": 1,
+        "trackTimeMillis": 210519,
+        "country": "ISR",
+        "currency": "ILS",
+        "primaryGenreName": "Pop",
+        "isStreamable": true
+      }
+    ],
+    "expiresAt": 1793691612.9952993
   }
 }
