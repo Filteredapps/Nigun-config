@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T08:59:35.630377+00:00",
+  "generatedAt": "2026-11-11T08:40:06.182249+00:00",
   "strategy": "itunes_metadata_with_youtube_playback_ids_and_hebrew_transliteration",
   "scriptVersion": "itunes_hebrew_transliteration_rapidfuzz_v4_popular",
   "allowedArtistsCount": 288,
@@ -28,8 +28,8 @@
   "artistReadErrors": 8,
   "youtubeExpandErrors": 0,
   "youtubeAlbumSourceItems": 530,
-  "youtubeSingleSourceItems": 876,
-  "youtubePopularSongSourceItems": 1178,
+  "youtubeSingleSourceItems": 875,
+  "youtubePopularSongSourceItems": 1181,
   "popularArtistsGenerated": 20,
   "popularSongsGenerated": 20,
   "artistGenreShelvesGenerated": 5,
@@ -44,132 +44,20 @@
   "youtubeAlbumDrilldownReads": 0,
   "youtubeAlbumDrilldownErrors": 0,
   "itunesNetworkReads": 1000,
-  "itunesCacheHits": 706,
+  "itunesCacheHits": 471,
   "itunes429Count": 0,
   "itunesRequestErrors": 0,
-  "itunesLookupsSkippedByLimit": 482,
+  "itunesLookupsSkippedByLimit": 538,
   "itemsSkippedMissingBrowseIdOrTitle": 0,
-  "itemsSkippedNoItunesCandidate": 638,
+  "itemsSkippedNoItunesCandidate": 641,
   "itemsSkippedWeakItunesCandidate": 29,
   "itemsSkippedMissingItunesReleaseDate": 0,
-  "itemsSkippedOldRelease": 630,
+  "itemsSkippedOldRelease": 627,
   "itemsGeneratedBeforeDedupe": 146,
   "itemsGeneratedAfterDedupe": 141,
   "albumsGeneratedAfterDedupe": 19,
   "singlesGeneratedAfterDedupe": 122,
   "artistsWithAutoAliases": [
-    {
-      "artistName": "שמעון סיבוני",
-      "youtubeChannelId": "UCN_A9Q1yloXbjbp0-mweDCw",
-      "autoAliases": [
-        "shmon siboni",
-        "shmon sibony",
-        "shmon sibuni",
-        "shmon sibuny",
-        "shmon sibvni",
-        "shmon sibvny",
-        "shmun siboni",
-        "shmun sibony"
-      ]
-    },
-    {
-      "artistName": "שרגי גשטטנר",
-      "youtubeChannelId": "UCJPbzKH6CqVj-_ofxBHMYsg",
-      "autoAliases": [
-        "shrgi gshttnr",
-        "shrgi gsttnr",
-        "shrgy gshttnr",
-        "shrgy gsttnr",
-        "srgi gshttnr",
-        "srgi gsttnr",
-        "srgy gshttnr",
-        "srgy gsttnr"
-      ]
-    },
-    {
-      "artistName": "שרולי גרין",
-      "youtubeChannelId": "UCEjcKdpkZkvgT5ISMGV5DCg",
-      "autoAliases": [
-        "shroli grin",
-        "shroli gryn",
-        "shroly grin",
-        "shroly gryn",
-        "shruli grin",
-        "shruli gryn",
-        "shruly grin",
-        "shruly gryn"
-      ]
-    },
-    {
-      "artistName": "שרולי ליפשיץ",
-      "youtubeChannelId": "UCUeaVzUToUL4xcz8ny3peew",
-      "autoAliases": [
-        "shroli lipshitz",
-        "shroli lipshiz",
-        "shroli lipshytz",
-        "shroli lipshyz",
-        "shroli lipsitz",
-        "shroli lipsiz",
-        "shroly lipshitz",
-        "shroly lipshiz"
-      ]
-    },
-    {
-      "artistName": "שרוליק מנדלסון",
-      "youtubeChannelId": "UCfScwFxzDsy7Y777_P648sw",
-      "autoAliases": [
-        "shrolik mndlson",
-        "shrolik mndlsun",
-        "shrolik mndlsvn",
-        "shrolik mndlswn",
-        "shrolic mndlson",
-        "shrolic mndlsun",
-        "shrolic mndlsvn",
-        "shrolic mndlswn"
-      ]
-    },
-    {
-      "artistName": "שרוליק קלצקין",
-      "youtubeChannelId": "UCv4zIkEX_dhm6E7WSULMowQ",
-      "autoAliases": [
-        "shrolik kltzkin",
-        "shrolik kltzkyn",
-        "shrolik kltzcin",
-        "shrolik kltzcyn",
-        "shrolik klzkin",
-        "shrolik klzkyn",
-        "shrolic kltzkin",
-        "shrolic kltzkyn"
-      ]
-    },
-    {
-      "artistName": "תומר חתוכה",
-      "youtubeChannelId": "UCZ5hRU-wbaQZ0vFSGJrdHLQ",
-      "autoAliases": [
-        "tomr chtochh",
-        "tomr chtoch",
-        "tomr chtokh",
-        "tomr chtok",
-        "tomr chtokhh",
-        "tomr chtuchh",
-        "tomer chtochh",
-        "tomer chtoch"
-      ]
-    },
-    {
-      "artistName": "תזמורת המנגנים",
-      "youtubeChannelId": "UCYj7tMFZRtn7ch4OV8fBf0Q",
-      "autoAliases": [
-        "tzmort hmngnim",
-        "tzmort hmngnym",
-        "tzmors hmngnim",
-        "tzmors hmngnym",
-        "tzmurt hmngnim",
-        "tzmurt hmngnym",
-        "tzmurs hmngnim",
-        "tzmurs hmngnym"
-      ]
-    },
     {
       "artistName": "אבי אילסון",
       "youtubeChannelId": "UClhlH-uzEKhMTlJQWbD2nrA",
@@ -3240,97 +3128,121 @@
         "shmun tobol",
         "shmun tobul"
       ]
-    }
-  ],
-  "autoAliasExamples": [
+    },
     {
       "artistName": "שמעון סיבוני",
-      "aliasesUsed": [
-        "שמעון סיבוני",
-        "Shimon Siboni",
+      "youtubeChannelId": "UCN_A9Q1yloXbjbp0-mweDCw",
+      "autoAliases": [
         "shmon siboni",
         "shmon sibony",
         "shmon sibuni",
-        "shmon sibuny"
+        "shmon sibuny",
+        "shmon sibvni",
+        "shmon sibvny",
+        "shmun siboni",
+        "shmun sibony"
       ]
     },
     {
       "artistName": "שרגי גשטטנר",
-      "aliasesUsed": [
-        "שרגי גשטטנר",
-        "Shregi Gesttner",
+      "youtubeChannelId": "UCJPbzKH6CqVj-_ofxBHMYsg",
+      "autoAliases": [
         "shrgi gshttnr",
         "shrgi gsttnr",
         "shrgy gshttnr",
-        "shrgy gsttnr"
+        "shrgy gsttnr",
+        "srgi gshttnr",
+        "srgi gsttnr",
+        "srgy gshttnr",
+        "srgy gsttnr"
       ]
     },
     {
       "artistName": "שרולי גרין",
-      "aliasesUsed": [
-        "שרולי גרין",
-        "Charoli Green",
+      "youtubeChannelId": "UCEjcKdpkZkvgT5ISMGV5DCg",
+      "autoAliases": [
         "shroli grin",
         "shroli gryn",
         "shroly grin",
-        "shroly gryn"
+        "shroly gryn",
+        "shruli grin",
+        "shruli gryn",
+        "shruly grin",
+        "shruly gryn"
       ]
     },
     {
       "artistName": "שרולי ליפשיץ",
-      "aliasesUsed": [
-        "שרולי ליפשיץ",
-        "Sharoli Lifshitz",
+      "youtubeChannelId": "UCUeaVzUToUL4xcz8ny3peew",
+      "autoAliases": [
         "shroli lipshitz",
         "shroli lipshiz",
         "shroli lipshytz",
-        "shroli lipshyz"
+        "shroli lipshyz",
+        "shroli lipsitz",
+        "shroli lipsiz",
+        "shroly lipshitz",
+        "shroly lipshiz"
       ]
     },
     {
       "artistName": "שרוליק מנדלסון",
-      "aliasesUsed": [
-        "שרוליק מנדלסון",
-        "Shrolik Mendelssohn",
+      "youtubeChannelId": "UCfScwFxzDsy7Y777_P648sw",
+      "autoAliases": [
         "shrolik mndlson",
         "shrolik mndlsun",
         "shrolik mndlsvn",
-        "shrolik mndlswn"
+        "shrolik mndlswn",
+        "shrolic mndlson",
+        "shrolic mndlsun",
+        "shrolic mndlsvn",
+        "shrolic mndlswn"
       ]
     },
     {
       "artistName": "שרוליק קלצקין",
-      "aliasesUsed": [
-        "שרוליק קלצקין",
-        "Shrolik Klatskin",
+      "youtubeChannelId": "UCv4zIkEX_dhm6E7WSULMowQ",
+      "autoAliases": [
         "shrolik kltzkin",
         "shrolik kltzkyn",
         "shrolik kltzcin",
-        "shrolik kltzcyn"
+        "shrolik kltzcyn",
+        "shrolik klzkin",
+        "shrolik klzkyn",
+        "shrolic kltzkin",
+        "shrolic kltzkyn"
       ]
     },
     {
       "artistName": "תומר חתוכה",
-      "aliasesUsed": [
-        "תומר חתוכה",
-        "Tomer is cut",
+      "youtubeChannelId": "UCZ5hRU-wbaQZ0vFSGJrdHLQ",
+      "autoAliases": [
         "tomr chtochh",
         "tomr chtoch",
         "tomr chtokh",
-        "tomr chtok"
+        "tomr chtok",
+        "tomr chtokhh",
+        "tomr chtuchh",
+        "tomer chtochh",
+        "tomer chtoch"
       ]
     },
     {
       "artistName": "תזמורת המנגנים",
-      "aliasesUsed": [
-        "תזמורת המנגנים",
-        "The musicians' orchestra",
+      "youtubeChannelId": "UCYj7tMFZRtn7ch4OV8fBf0Q",
+      "autoAliases": [
         "tzmort hmngnim",
         "tzmort hmngnym",
         "tzmors hmngnim",
-        "tzmors hmngnym"
+        "tzmors hmngnym",
+        "tzmurt hmngnim",
+        "tzmurt hmngnym",
+        "tzmurs hmngnim",
+        "tzmurs hmngnym"
       ]
-    },
+    }
+  ],
+  "autoAliasExamples": [
     {
       "artistName": "אבי אילסון",
       "aliasesUsed": [
@@ -3453,30 +3365,92 @@
         "avraham shlvm",
         "avraham shlwm"
       ]
+    },
+    {
+      "artistName": "אברומי ברקו",
+      "aliasesUsed": [
+        "אברומי ברקו",
+        "Avromy Barko",
+        "avrumi brko",
+        "avrumi brku",
+        "avrumi brkv",
+        "avrumi brkw"
+      ]
+    },
+    {
+      "artistName": "אברומי וינברג",
+      "aliasesUsed": [
+        "אברומי וינברג",
+        "Avromy Weinberg",
+        "avrumi oynbrg",
+        "avrumi oynvrg",
+        "avrumi oinbrg",
+        "avrumi oinvrg"
+      ]
+    },
+    {
+      "artistName": "אברומי פלאם",
+      "aliasesUsed": [
+        "אברומי פלאם",
+        "Avromy Flam",
+        "avrumi plm",
+        "avrumi flm",
+        "avromi plm",
+        "avromi flm"
+      ]
+    },
+    {
+      "artistName": "אברימי לונגר",
+      "aliasesUsed": [
+        "אברימי לונגר",
+        "Avrami Longer",
+        "longr",
+        "lungr",
+        "lvngr",
+        "lwngr"
+      ]
+    },
+    {
+      "artistName": "אברימי רוט",
+      "aliasesUsed": [
+        "אברימי רוט",
+        "Avrami Roth",
+        "rot",
+        "rut",
+        "rvt",
+        "rwt"
+      ]
+    },
+    {
+      "artistName": "אהרון רזאל",
+      "aliasesUsed": [
+        "אהרון רזאל",
+        "Aharon Razel",
+        "rzl"
+      ]
+    },
+    {
+      "artistName": "אהרן רזאל",
+      "aliasesUsed": [
+        "אהרן רזאל",
+        "Aharon Razel",
+        "aharon rzl",
+        "aaron rzl"
+      ]
+    },
+    {
+      "artistName": "אודי דוידי",
+      "aliasesUsed": [
+        "אודי דוידי",
+        "Odi Davidi",
+        "odi doydi",
+        "odi doydy",
+        "odi doidi",
+        "odi doidy"
+      ]
     }
   ],
   "weakMatches": [
-    {
-      "artistName": "Dov Levine",
-      "artistChannelId": "UCZc121O8NJKWS3cVCMLuPEQ",
-      "aliasesUsed": [
-        "Dov Levine"
-      ],
-      "title": "The Greatest Wedding Album, Vol. 3 - starring Dov Levine",
-      "expectedType": "ALBUM",
-      "bestScore": 66,
-      "details": {
-        "titleScore": 60,
-        "artistScore": 0,
-        "artistGatePassed": false,
-        "titleGatePassed": true,
-        "candidateTitle": "The Greatest Wedding Album - Volume 3 - starring Dov Levine",
-        "candidateArtist": "Various Artists",
-        "wrapperType": "collection",
-        "kind": null,
-        "rapidfuzzEnabled": true
-      }
-    },
     {
       "artistName": "אלי שוובל",
       "artistChannelId": "UCE2CVHIJgSAEjN5bCzsE6kA",
@@ -3634,23 +3608,23 @@
       }
     },
     {
-      "artistName": "MUNCH",
-      "artistChannelId": "UCionG5jvTEAeh8l_H3ldlgw",
+      "artistName": "Dov Levine",
+      "artistChannelId": "UCZc121O8NJKWS3cVCMLuPEQ",
       "aliasesUsed": [
-        "MUNCH"
+        "Dov Levine"
       ],
-      "title": "Run It Up (feat. Sly Vincent)",
-      "expectedType": "SINGLE",
-      "bestScore": 6,
+      "title": "The Greatest Wedding Album, Vol. 3 - starring Dov Levine",
+      "expectedType": "ALBUM",
+      "bestScore": 66,
       "details": {
-        "titleScore": 0,
+        "titleScore": 60,
         "artistScore": 0,
         "artistGatePassed": false,
-        "titleGatePassed": false,
-        "candidateTitle": "Through the Season - Single",
-        "candidateArtist": "Dkupe",
-        "wrapperType": "track",
-        "kind": "song",
+        "titleGatePassed": true,
+        "candidateTitle": "The Greatest Wedding Album - Volume 3 - starring Dov Levine",
+        "candidateArtist": "Various Artists",
+        "wrapperType": "collection",
+        "kind": null,
         "rapidfuzzEnabled": true
       }
     },
@@ -3941,6 +3915,27 @@
       }
     },
     {
+      "artistName": "MUNCH",
+      "artistChannelId": "UCionG5jvTEAeh8l_H3ldlgw",
+      "aliasesUsed": [
+        "MUNCH"
+      ],
+      "title": "Run It Up (feat. Sly Vincent)",
+      "expectedType": "SINGLE",
+      "bestScore": 6,
+      "details": {
+        "titleScore": 0,
+        "artistScore": 0,
+        "artistGatePassed": false,
+        "titleGatePassed": false,
+        "candidateTitle": "Through the Season - Single",
+        "candidateArtist": "Dkupe",
+        "wrapperType": "track",
+        "kind": "song",
+        "rapidfuzzEnabled": true
+      }
+    },
+    {
       "artistName": "טל ועקנין",
       "artistChannelId": "UCGgyx4Qm9_UB8URmvU6Ynfg",
       "aliasesUsed": [
@@ -4204,24 +4199,6 @@
   "warnings": [
     {
       "type": "artist_read_failed",
-      "artistName": "DJ Farbreng",
-      "artistChannelId": "UCfWRyQLkrtC0G3sG001vq8A",
-      "message": "\"Unable to find 'header' using path ['musicCarouselShelfRenderer', 'header', 'musicCarouselShelfBasicHeaderRenderer', 'title', 'runs', 0] on {'contents': [{'musicTwoRowItemRenderer': {'thumbnailRenderer': {'musicThumbnailRenderer': {'thumbnail': {'thumbnails': [{'url': 'https://i.ytimg.com/vi/pjZQNE"
-    },
-    {
-      "type": "artist_read_failed",
-      "artistName": "TYH Boys",
-      "artistChannelId": "UCtQiRYkrvrMlTmqEQy78vAA",
-      "message": "\"Unable to find 'header' using path ['musicCarouselShelfRenderer', 'header', 'musicCarouselShelfBasicHeaderRenderer', 'title', 'runs', 0] on {'contents': [{'musicTwoRowItemRenderer': {'thumbnailRenderer': {'musicThumbnailRenderer': {'thumbnail': {'thumbnails': [{'url': 'https://i.ytimg.com/vi/pjZQNE"
-    },
-    {
-      "type": "artist_read_failed",
-      "artistName": "Thank You Hashem",
-      "artistChannelId": "UCHBST5NBv-gZeXkJjjP74Kw",
-      "message": "\"Unable to find 'header' using path ['musicCarouselShelfRenderer', 'header', 'musicCarouselShelfBasicHeaderRenderer', 'title', 'runs', 0] on {'contents': [{'musicTwoRowItemRenderer': {'thumbnailRenderer': {'musicThumbnailRenderer': {'thumbnail': {'thumbnails': [{'url': 'https://i.ytimg.com/vi/pjZQNE"
-    },
-    {
-      "type": "artist_read_failed",
       "artistName": "אודי דמארי",
       "artistChannelId": "UCiOSnSRl9lEN-gVIX7ZIpTg",
       "message": "\"Unable to find 'header' using path ['musicCarouselShelfRenderer', 'header', 'musicCarouselShelfBasicHeaderRenderer', 'title', 'runs', 0] on {'contents': [{'musicTwoRowItemRenderer': {'thumbnailRenderer': {'musicThumbnailRenderer': {'thumbnail': {'thumbnails': [{'url': 'https://i.ytimg.com/vi/rAGWuy"
@@ -4248,10 +4225,28 @@
       "type": "artist_read_failed",
       "artistName": "מאיר אדלר",
       "artistChannelId": "UCnjvomNC0hBYdspNrimD3eA",
-      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CAoQ8JMBGAEiEwif"
+      "message": "\"Unable to find 'twoColumnBrowseResultsRenderer' using path ['contents', 'twoColumnBrowseResultsRenderer', 'tabs', 0, 'tabRenderer', 'content', 'sectionListRenderer', 'contents'] on {'singleColumnBrowseResultsRenderer': {'tabs': [{'tabRenderer': {'endpoint': {'clickTrackingParams': 'CAoQ8JMBGAEiEwio"
+    },
+    {
+      "type": "artist_read_failed",
+      "artistName": "DJ Farbreng",
+      "artistChannelId": "UCfWRyQLkrtC0G3sG001vq8A",
+      "message": "\"Unable to find 'header' using path ['musicCarouselShelfRenderer', 'header', 'musicCarouselShelfBasicHeaderRenderer', 'title', 'runs', 0] on {'contents': [{'musicTwoRowItemRenderer': {'thumbnailRenderer': {'musicThumbnailRenderer': {'thumbnail': {'thumbnails': [{'url': 'https://i.ytimg.com/vi/pjZQNE"
+    },
+    {
+      "type": "artist_read_failed",
+      "artistName": "TYH Boys",
+      "artistChannelId": "UCtQiRYkrvrMlTmqEQy78vAA",
+      "message": "\"Unable to find 'header' using path ['musicCarouselShelfRenderer', 'header', 'musicCarouselShelfBasicHeaderRenderer', 'title', 'runs', 0] on {'contents': [{'musicTwoRowItemRenderer': {'thumbnailRenderer': {'musicThumbnailRenderer': {'thumbnail': {'thumbnails': [{'url': 'https://i.ytimg.com/vi/pjZQNE"
+    },
+    {
+      "type": "artist_read_failed",
+      "artistName": "Thank You Hashem",
+      "artistChannelId": "UCHBST5NBv-gZeXkJjjP74Kw",
+      "message": "\"Unable to find 'header' using path ['musicCarouselShelfRenderer', 'header', 'musicCarouselShelfBasicHeaderRenderer', 'title', 'runs', 0] on {'contents': [{'musicTwoRowItemRenderer': {'thumbnailRenderer': {'musicThumbnailRenderer': {'thumbnail': {'thumbnails': [{'url': 'https://i.ytimg.com/vi/pjZQNE"
     }
   ],
-  "nextArtistOffset": 33,
-  "itemsRetainedFromPreviousFeed": 37,
-  "completedAt": "2026-11-10T10:16:50.537969+00:00"
+  "nextArtistOffset": 74,
+  "itemsRetainedFromPreviousFeed": 38,
+  "completedAt": "2026-11-11T09:57:00.517832+00:00"
 }
